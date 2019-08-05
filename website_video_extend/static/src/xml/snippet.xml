@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<template>
+    <t t-name="website_video_extend.background_video_setting">
+    <div class="modal" contenteditable="False" contentEditable="false" backdrop="false" tabindex="1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="z-index:2001">
+        <div class="modal-dialog">
+            <div id="s_media_block_modal" class="modal-content">
+                <div class="modal-header">
+                    <h4>Video Setting</h4>
+                </div>
+                <div class="modal-body" contenteditable="false">
+                    <div id="tab_html5" class="videoTabs">
+                        <form class="container-fluid" role="form">
+                            <div class="row">
+				<div class="col-sm-6">
+				    <div class="checkbox">
+				        <label for="hide_bg_controlles" class="control-label"><input type="checkbox" id="hide_bg_controlles" t-att-checked="controlles=='true' or None"/> Hide Controls</label>
+				    
+				    </div> 
+				</div>
+                                <div class="col-sm-6">
+                                    <div class="checkbox">
+                                        <label for="bg_mute" class="control-label"><input type="checkbox" id="bg_mute" t-att-checked="mute=='true' or None"/> Mute</label>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="checkbox">
+                                        <label for="bg_loop" class="control-label"><input type="checkbox" id="bg_loop" t-att-checked="loop=='true' or None"/> Loop</label>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="checkbox">
+                                        <label for="bg_auto_play" class="control-label"><input type="checkbox" id="bg_auto_play" t-att-checked="auto_play=='true' or None"/> Auto Play</label>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button id="cancel" data-dismiss="modal" class="btn btn-primary">Cancel</button>
+                    <button id="sub_data" data-dismiss="modal" class="btn btn-danger">Apply</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    </t>
+
+</template>
+

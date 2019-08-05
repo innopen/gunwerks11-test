@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="gunwerks_blog_post_short" inherit_id="website_blog.blog_post_short" name="Blog Posts">
+        <xpath expr="//div[@name='blog_post']" position="replace">
+            <div t-foreach="blog_posts" t-as="blog_post" class="mb32" name="blog_post">
+                <div class="col-md-4">
+                    <div class="blog-item">
+                        <a class="link-overlay" t-attf-href="/blog/#{ slug(blog_post.blog_id) }/post/#{ slug(blog_post) }"/>
+                        <t t-call="website_blog.blog_cover">
+                            <t t-set="cover_properties" t-value="blog_posts_cover_properties[blog_post_index]"/>
+                            <t t-set="additionnal_classes" t-value="'o_list_cover mt16 mb32'"/>
+                        </t>
+                        <div class="blog-content">
+                            <span t-field="blog_post.post_date" t-options="{'format': 'MMMM d, y'}"/>
+                            <h4 t-field="blog_post.name"/>
+                            <h5 t-esc="blog_post.subtitle and blog_post.subtitle[:150]"/><h5 t-if="blog_post.subtitle and len(blog_post.subtitle) > 150">...</h5>
+                            <div class="blog-link">
+                                <a class="gn-link" t-attf-href="/blog/#{ slug(blog_post.blog_id) }/post/#{ slug(blog_post) }">READ MORE <i class="fa fa-angle-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </xpath>
+        <xpath expr="//div[hasclass('oe_structure')][2]" position="replace"/>
+        <xpath expr="//div[hasclass('oe_structure')][1]" position="after">
+            <section class="banner-heading-section bh-small oe_snippet_body blog-page-top-post" t-if="featured_blog">
+                <div class="container-fluid">
+                    <div class="row row-b4">
+                        <div class="col-md-6 post-img" t-attf-style="background-image: #{ featured_blog_cover_properties.get('background-image')};">
+                        </div>
+                        <div class="col-md-6">
+                            <div class="post-content">
+                                <span class="post-date" t-field="featured_blog.post_date" t-options="{'format': 'MMMM d, y'}"/>
+                                <div class="post-title">
+                                    <a t-attf-href="/blog/#{ slug(featured_blog.blog_id) }/post/#{ slug(featured_blog) }">
+                                        <t t-esc="featured_blog.name"/>
+                                    </a>
+                                </div>
+                                <div class="post-desc">
+                                    <p t-esc="featured_blog.subtitle and featured_blog.subtitle[:150]"/><p t-if="featured_blog.subtitle and len(featured_blog.subtitle) > 150">...</p>
+                                    <a class="gn-link" t-attf-href="/blog/#{ slug(featured_blog.blog_id) }/post/#{ slug(featured_blog) }">READ MORE <i class="fa fa-angle-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container top-up">
+                    <div class="inner-bottom-title">
+                        <h1 t-field="blog.name"/>
+                    </div>
+                </div>
+            </section>
+        </xpath>
+    </template>
+
+    <template id="gunwerks_blog_filter" inherit_id="website_blog.blog_post_short" name="Blog Filters">
+        <xpath expr="//div[@id='main_column']" position="before">
+            <form class="js_event_filter" method="get">
+                <div class="event-filter-scn" t-if="len(authors) or len(tags) or len(dates)">
+                    <div class="event-filter-main">
+                        <div class="ef-title">
+                            <strong class="mob" t-esc="'FILTER BY'"/>
+                            <strong t-esc="'FILTER BY'"/>
+                            <span id="filterClear" style="display: none;">
+                                <a class="event-clear-btn" itemprop="url" t-attf-href="/blog/#{ slug(blog) }">
+                                    <i class="fa fa-close"/>
+                                    <span itemprop="name" t-esc="'Reset Filter'"/>
+                                </a>
+                            </span>
+                        </div>
+                        <div class="event-filter-select">
+                            <select class="form-control gn-selectbox" name="type" t-if="len(types)">
+                                <option class="first-option" value="">By Type</option>
+                                <t t-as="type" t-foreach="types">
+                                    <option t-att-value="'%s' % (type.id)" t-esc="type.name" t-att-selected="type.id == selected['type']"/>
+                                </t>
+                            </select>
+                            <select class="form-control gn-selectbox" name="tags" t-if="len(tags)">
+                                <option class="first-option" value="">By Tag</option>
+                                <t t-as="tag" t-foreach="tags">
+                                    <option t-att-value="'%s' % (tag.id)" t-esc="tag.name" t-att-selected="tag.id == selected['tags']"/>
+                                </t>
+                            </select>
+                            <select class="form-control gn-selectbox" name="author" t-if="len(authors)">
+                                <option class="first-option" value="">By Author</option>
+                                <t t-as="author" t-foreach="authors">
+                                    <option t-att-value="'%s' % (author.sudo().id)" t-esc="author.sudo().name" t-att-selected="author.sudo().id == selected['author']"/>
+                                </t>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </xpath>
+    </template>
+
+    <template id="website_blog.opt_blog_post_grid_layout" name="Grid view" customize_show="False" active="True" inherit_id="website_blog.blog_post_short"/>
+    <template id="website_blog.opt_blog_rc_tags" name="Tags" inherit_id="website_blog.index_right" active="False" customize_show="False"/>
+    <template id="website_blog.opt_blog_rc_history" name="Archives" inherit_id="website_blog.index_right" active="False" customize_show="False"/>
+    <template id="website_blog.opt_blog_post_cover_image" name="Cover image" customize_show="False" active="True" inherit_id="website_blog.blog_post_short"/> 
+</odoo>
+

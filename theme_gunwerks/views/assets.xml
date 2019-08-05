@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <template id="assets_gunwerks" name="Gunwerks Assets" inherit_id="website.assets_frontend">
+        <xpath expr="." position="inside">
+            <!-- CSS -->
+            <link rel="stylesheet" href="/theme_gunwerks/static/lib/css/owl.carousel.min.css"/>
+            <link rel="stylesheet" href="/theme_gunwerks/static/lib/css/magnific-popup.css"/>
+
+            <!-- LESS -->
+            <link rel="stylesheet" href="/theme_gunwerks/static/src/less/variable.less"/>
+            <link rel="stylesheet" href="/theme_gunwerks/static/src/less/mixin.less"/>
+            <link rel="stylesheet" href="/theme_gunwerks/static/src/less/button.less"/>
+            <link rel="stylesheet" href="/theme_gunwerks/static/src/less/base.less"/>
+            <link rel="stylesheet" href="/theme_gunwerks/static/src/less/header.less"/>
+            <link rel="stylesheet" href="/theme_gunwerks/static/src/less/footer.less"/>
+            <link rel="stylesheet" href="/theme_gunwerks/static/src/less/product-detail.less"/>
+            <link rel="stylesheet" href="/theme_gunwerks/static/src/less/product.less"/>
+            <link rel="stylesheet" href="/theme_gunwerks/static/src/less/gunwerks-product-detail.less"/>
+            <link rel="stylesheet" href="/theme_gunwerks/static/src/less/snippets.less"/>
+            <link rel="stylesheet" href="/theme_gunwerks/static/src/less/custom.less"/>
+            <link rel="stylesheet" href="/theme_gunwerks/static/src/less/event.less"/>
+            <link rel="stylesheet" href="/theme_gunwerks/static/src/less/cart.less"/>
+            <link rel="stylesheet" href="/theme_gunwerks/static/src/less/blog.less"/>
+            <!--  -->
+
+            <!-- JS -->
+            <script type="text/javascript" src="/theme_gunwerks/static/lib/js/owl.carousel.min.js"/>
+            <script type="text/javascript" src="/theme_gunwerks/static/lib/js/jquery.magnific-popup.min.js"/>
+            <script type="text/javascript" src="/theme_gunwerks/static/src/js/custom.js"/>
+            <script type="text/javascript" src="/theme_gunwerks/static/src/js/menu_scroll.js"/>
+            <script type="text/javascript" src="/theme_gunwerks/static/src/js/web_event.js"/>
+            <script type="text/javascript" src="/theme_gunwerks/static/src/js/product.js"/>
+            <!--  -->
+        </xpath>
+    </template>
+</odoo>

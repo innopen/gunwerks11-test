@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templates xml-space="preserve">
+    <t t-name="theme_gunwerks.global_popup_data">
+        <div class="global-form-left">
+            <div class="form-group form-field o_website_form_required_custom">
+                <input class="form-control o_website_form_input" placeholder="YOUR NAME" name="name" required="" type="text"/>
+            </div>
+            <div class="form-group form-field">
+                <input class="form-control o_website_form_input" placeholder="PHONE NUMBER" name="phone" type="text"/>
+            </div>
+            <div class="form-group form-field o_website_form_required_custom">
+                <input class="form-control o_website_form_input" placeholder="EMAIL ADDRESS" name="email_from" required="" type="email"/>
+            </div>
+        </div>
+    </t>
+</templates>

@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="custom_event_review" inherit_id="theme_gunwerks.gunwerks_event_details" active="True" name="Event Advanced Reviews" customize_show="False">
+        <xpath expr="//div[@id='event_details']//h1" position="before">
+            <t t-set="avg_val" t-value="request.env['event.event'].get_published_review_average(event.id, event.event_type_id.id)"/>
+            <t t-set="total_event_review" t-value="len(request.env['event.event'].get_published_review(event.id, event.event_type_id.id))"/>
+            <div class="average_rating_header">
+                <div>
+                    <div class="average_product_class" id="rate_comment">
+                        <div class="review_header">
+                            <label><a href="#read_review">Read Reviews</a></label>
+                            <span class="product-rating">
+                                <t t-set="i" t-value="1"/>
+                                <t t-foreach="range(1, 6)" t-as="rate_star">
+                                    <span t-att-class="'fa fa-star%s' %(' checked' if i &lt;= int(round(avg_val)) else '')"/>
+                                    <t t-set="i" t-value="i + 1"/>
+                                </t>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </xpath>
+        <xpath expr="//div[hasclass('gn-event-details-page')]" position="inside">
+            <t t-set="featured_review" t-value="request.env['event.event'].get_featured_review(event.id, event.event_type_id.id)"/>
+            <t t-set="comments" t-value="event.get_published_review(event.id, event.event_type_id.id)"/>
+
+            <section class="eil-review-title" id="read_review" t-if="featured_review or comments">
+                <div class="container">
+                    <div class="sub-title">
+                        <h5>REVIEWS</h5>
+                    </div>
+                </div>
+            </section>
+            
+            <section class="full-width-imgtext-scn" style="background-image:url('/theme_gunwerks/static/src/img/full-screen-bg.jpg');" t-if="featured_review">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-md-5 col-md-offset-7 mt64 mb128">
+                            <div class="full-width-cont">
+                                <span class="arrow"></span>
+                                <h3><t t-esc="featured_review.name" /></h3>
+                                <p><t t-esc="featured_review.rev_message" /></p>
+                                <div class="custom-name customer-rating">
+                                    <span t-if="featured_review.customer_name">- <t t-esc="featured_review.customer_name"/></span>
+                                    <div class="add_ratings">
+                                        <t t-set="i" t-value="1"/>
+                                        <t t-foreach="range(1, 6)" t-as="rate_star">
+                                            <span t-att-class="'fa fa-star%s' %(' checked' if i &lt;= int(featured_review.rev_rating) else '')"/>
+                                            <t t-set="i" t-value="i + 1"/>
+                                        </t>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="eil-testimonial-section" t-if="len(comments)">
+                <div class="container-fluid">
+                    <div id="event_testimonial" class="owl-carousel">
+                        <div class="gn-testimonials" t-foreach="comments" t-as="comment">
+                            <div class="add_ratings">
+                                <t t-set="i" t-value="1"/>
+                                <t t-foreach="range(1, 6)" t-as="rate_star">
+                                    <span t-att-class="'fa fa-star%s' %(' checked' if i &lt;= int(comment.rev_rating) else '')"/>
+                                    <t t-set="i" t-value="i + 1"/>
+                                </t>
+                            </div>
+                            <h6><t t-esc="comment.name" /></h6>
+                            <p><t t-esc="comment.rev_message" /></p>
+                            <label t-if="comment.customer_name">- <t t-esc="comment.customer_name"/></label>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-8 col-md-offset-2">
+                            <div id="all_review_section" class="cs-review-section">
+                                <t t-if="website.user_id.id == user_id.id">
+                                    <div id="req_sign_in" class="review-signin-req">
+                                        <p class='sign-in-text'> Please <a t-attf-href="/web/login?redirect=/event/#{slug(event)}">Sign in</a> to add review for this Product
+                                        </p>
+                                    </div>
+                                </t>
+                                <div id="error"/>
+                                <t t-if="website.user_id.id != user_id.id">
+                                    <div id= "post-review" class="cs-review-form">
+                                        <div class="csrf-title" id="review-msg">
+                                            <h4>Submit Your Review</h4>
+                                        </div>
+                                        <form action="/event/post-review" method="post">
+                                            <div id="submit_review_section">
+                                                <input type="hidden" name="csrf_token" t-att-value="request.csrf_token()"/>
+                                                <input type="hidden" id="event_id" name="event_id" t-attf-value="#{event.id}" />
+                                                <div id="error" class="input-text"></div>
+                                                <div class="form-group">
+                                                    <input class="hidden" type="number" name="rating_number" value="1" min="1" max="5"/>
+                                                    <label class="textbox-label">Your Rating<em>*</em></label>
+                                                    <div class="add_ratings">
+                                                        <span class="fa fa-star"/>
+                                                        <span class="fa fa-star"/>
+                                                        <span class="fa fa-star"/>
+                                                        <span class="fa fa-star"/>
+                                                        <span class="fa fa-star"/>
+                                                    </div>
+                                                </div>
+                                                <div class="form-group">
+                                                    <label class="textbox-label">Title<em>*</em></label>
+                                                    <input id="name" type="text" class="form-control" name="name" t-attf-value="#{name or ''}" maxlength="200" required="required" placeholder="Review Title"/>
+                                                </div>
+                                                <div class="form-group">
+                                                    <label class="textbox-label">Write Your Review<em>*</em></label>
+                                                    <textarea id="review_message" rows="4" name="message" class="form-control" required="required" placeholder="Review Message"/>
+                                                </div>
+                                                <button id="btnsave" class="btn btn-primary btn-lg add-button-label">Add Review</button>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </t>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </xpath>
+    </template>
+</odoo>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <record id="res_config_settings_view_inherit_gunwerks" model="ir.ui.view">
+        <field name="name">res.config.settings.inherit.gunwerks</field>
+        <field name="model">res.config.settings</field>
+        <field name="inherit_id" ref="website.res_config_settings_view_form"/>
+        <field name="arch" type="xml">
+            <xpath expr="//div[@id='webmaster_settings']" position="after">
+                <h2>Gunwerks Settings</h2>
+                <div id="gunwerks_settings" class="row mt16 o_settings_container">
+                    <div class="col-xs-12 col-md-6 o_setting_box" id="header_setting" title="Gunwerks Header Settings">
+                        <div class="o_setting_left_pane"/>
+                        <div class="o_setting_right_pane">
+                            <label for="service_contact_number"/>
+                            <div class="text-muted">
+                                Set Service Contact Number to be displayed in Header
+                            </div>
+                            <div class="content-group">
+                                <field name="service_contact_number"/>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </xpath>
+        </field>
+    </record>
+
+    <record id="gunwerks_product_template_form_view" model="ir.ui.view">
+        <field name="name">Add description</field>
+        <field name="model">product.template</field>
+        <field name="inherit_id" ref="product.product_template_form_view"/>
+        <field name="arch" type="xml">
+            <xpath expr="//notebook//page[@name='notes']" position="inside">
+                <group string="Long Description">
+                    <field name="long_description" nolabel="1" placeholder="This is a description for the website."/>
+                </group>
+                <group string="Short Description">
+                    <field name="short_description" nolabel="1" placeholder="This is a description for the website."/>
+                </group>
+            </xpath>
+        </field>
+    </record>
+
+    <record id="gunwerks_res_partner_form_view" model="ir.ui.view">
+        <field name="name">Author Profile</field>
+        <field name="model">res.partner</field>
+        <field name="inherit_id" ref="base.view_partner_form"/>
+        <field name="arch" type="xml">
+            <xpath expr="//notebook//page[@name='sales_purchases']//group[@name='container_row_2']//group[last()]" position="inside">
+                <field name="author"/>
+                <field name="instructor"/>
+            </xpath>
+            <xpath expr="//notebook//page[last()]" position="after">
+                <page name='author' string="Author Information" attrs="{'invisible': [('author','=', False)]}">
+                    <label for="author_profile"/>
+                    <field name="author_profile" nolabel="1"/>
+                </page>
+            </xpath>
+            <xpath expr="//notebook//page[last()]" position="after">
+                <page name='instructor' string="Instructor Information" attrs="{'invisible': [('instructor','=', False)]}">
+                    <label for="instructor_profile"/>
+                    <field name="instructor_profile" nolabel="1"/>
+                </page>
+            </xpath>
+        </field>
+    </record>
+
+    <record id="gunwerks_view_blog_post_form" model="ir.ui.view">
+        <field name="name">Author Selection</field>
+        <field name="model">blog.post</field>
+        <field name="inherit_id" ref="website_blog.view_blog_post_form"/>
+        <field name="arch" type="xml">
+            <xpath expr="//field[@name='author_id']" position="attributes">
+                <attribute name="domain">[('author','=',True)]</attribute>
+            </xpath>
+        </field>
+    </record>
+</odoo>

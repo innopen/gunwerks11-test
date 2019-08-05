@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="assets_backend" inherit_id="web_editor.assets_editor" name="Web Editor Backend Assets">
+        <xpath expr="script[last()]" position="after">
+            <script type="text/javascript" src="/website_video_extend/static/src/js/widget/isInViewport.min.js" />
+            <script type="text/javascript" src="/website_video_extend/static/src/js/widget/widget.js" />
+            <script type="text/javascript" src="/website_video_extend/static/src/js/widget/editor.js" />
+        </xpath>
+        <xpath expr="." position="inside">
+            <link rel="stylesheet" href="/website_video_extend/static/src/css/editor.css"/>
+        </xpath>
+    </template>
+    <template id="snippet_options" inherit_id="website.snippet_options">
+        <xpath expr="." position="inside">
+            <div data-js="WebsiteVideo"
+         data-selector="."
+         data-no-check="true"/>
+        </xpath>
+    </template>
+</odoo>

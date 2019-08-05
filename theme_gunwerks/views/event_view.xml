@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <record id="view_event_type_form" model="ir.ui.view">
+        <field name="name">Add description</field>
+        <field name="model">event.type</field>
+        <field name="inherit_id" ref="event.view_event_type_form"/>
+        <field name="arch" type="xml">
+            <xpath expr="/form/sheet/div[hasclass('oe_title')]" position="before">
+                <group>
+                    <field name="event_icon" nolabel="1" widget="image" 
+                        class="oe_avatar" 
+                        options="{'size': [180, 180]}"/>
+                </group>
+            </xpath>
+        </field>
+    </record>
+
+    <record model="ir.ui.view" id="view_event_image_form">
+        <field name="name">event.image.form</field>
+        <field name="model">event.image</field>
+        <field name="arch" type="xml">
+            <form string="Event Images">
+                <field name="image" widget="image" class="oe_avatar"/>
+                <div class="oe_title">
+                    <label class="small text-muted" for="name" string="Image Name"/>
+                    <h2><field name="name" placeholder="Image Name" required="True"/></h2>
+                    <field name="event_id" invisible="1"/>
+                </div>
+            </form>
+        </field>
+    </record>
+
+    <record model="ir.ui.view" id="view_event_location_image_form">
+        <field name="name">event.location.image.form</field>
+        <field name="model">event.location.image</field>
+        <field name="arch" type="xml">
+            <form string="Location Images">
+                <field name="image" widget="image" class="oe_avatar"/>
+                <div class="oe_title">
+                    <label class="small text-muted" for="name" string="Location Name"/>
+                    <h2><field name="name" placeholder="Location Name" required="True"/></h2>
+                    <field name="event_id" invisible="1"/>
+                </div>
+            </form>
+        </field>
+    </record>
+
+    <record id="view_event_form" model="ir.ui.view">
+        <field name="name">view_event_form</field>
+        <field name="model">event.event</field>
+        <field name="inherit_id" ref="event.view_event_form"/>
+        <field name="arch" type="xml">
+            <xpath expr="//div[hasclass('oe_title')]" position="before">
+                <field name="image" widget="image" class="oe_avatar"/>
+            </xpath>
+            <xpath expr="//notebook" position="inside">
+                <page string="Event Details"> 
+                    <label for="event_desc"/> 
+                    <field name="event_desc" colspan="4" nolabel="1"/>
+
+                    <label for="training_overview"/> 
+                    <field name="training_overview" colspan="4" nolabel="1"/>
+
+                    <label for="faq"/> 
+                    <field name="faq" colspan="4" nolabel="1"/>
+
+                    <label for="location_description"/> 
+                    <field name="location_description" colspan="4" nolabel="1"/>
+
+                    <label for="event_stay_travel"/> 
+                    <field name="event_stay_travel" colspan="4" nolabel="1"/>
+
+                    <label for="event_travel"/> 
+                    <field name="event_travel" colspan="4" nolabel="1"/>
+
+                    <label for="event_thing"/> 
+                    <field name="event_thing" colspan="4" nolabel="1"/>
+
+                    <label for="event_arrival"/> 
+                    <field name="event_arrival" colspan="4" nolabel="1"/>
+
+                    <label for="event_itr"/> 
+                    <field name="event_itr" colspan="4" nolabel="1"/>
+
+                    <label for="event_direction"/> 
+                    <field name="event_direction" colspan="4" nolabel="1"/>
+
+                    <label for="question"/> 
+                    <field name="question" colspan="4" nolabel="1"/>
+
+                    <label for="cancellation_policy"/> 
+                    <field name="cancellation_policy" colspan="4" nolabel="1"/>
+                </page>
+                <page string="Images"> 
+                    <field name="event_image_ids" class="o_website_sale_image_list" context="{'default_name': name, 'default_event_id': active_id}" nolabel="1">
+                        <kanban string="Event Images" class="o_attachments_previews">
+                            <field name="id"/>
+                            <field name="name"/>
+                            <field name="image"/>
+                            <templates>
+                                <t t-name="kanban-box">
+                                    <div class="oe_kanban_global_click">
+                                        <a t-if="!read_only_mode" type="delete" class="fa fa-times pull-right"/>
+                                        <div class="o_kanban_image">
+                                            <img t-att-src="kanban_image('event.image', 'image', record.id.raw_value)" alt="Event"/>
+                                        </div>
+                                        <div class="oe_kanban_details">
+                                            <strong class="o_kanban_record_title">
+                                                <field name="name"/>
+                                            </strong>
+                                        </div>
+                                    </div>
+                                </t>
+                            </templates>
+                        </kanban>
+                    </field>
+                </page>
+                <page string="Location Images"> 
+                    <field name="location_image_ids" class="o_website_sale_image_list" context="{'default_event_id': active_id}" nolabel="1">
+                        <kanban string="Location Images" class="o_attachments_previews">
+                            <field name="id"/>
+                            <field name="name"/>
+                            <field name="image"/>
+                            <templates>
+                                <t t-name="kanban-box">
+                                    <div class="oe_kanban_global_click">
+                                        <a t-if="!read_only_mode" type="delete" class="fa fa-times pull-right"/>
+                                        <div class="o_kanban_image">
+                                            <img t-att-src="kanban_image('event.location.image', 'image', record.id.raw_value)" alt="Event"/>
+                                        </div>
+                                        <div class="oe_kanban_details">
+                                            <strong class="o_kanban_record_title">
+                                                <field name="name"/>
+                                            </strong>
+                                        </div>
+                                    </div>
+                                </t>
+                            </templates>
+                        </kanban>
+                    </field>
+                </page>
+            </xpath>
+            <!-- <xpath expr="//field[@name='date_begin']" position="attributes">
+                <attribute name="attrs">{'readonly': [('date_begin', '!=', False)]}</attribute>
+            </xpath>
+            <xpath expr="//field[@name='date_end']" position="attributes">
+                <attribute name="attrs">{'readonly': [('date_end', '!=', False)]}</attribute>
+            </xpath> -->
+        </field>
+    </record>
+
+    <record id="lead_product_category_view" model="ir.ui.view">
+        <field name="name">CRM Lead</field>
+        <field name="model">crm.lead</field>
+        <field name="inherit_id" ref="crm.crm_case_form_view_leads"/>
+        <field name="arch" type="xml">
+             <xpath expr="//field[@name='tag_ids']" position="after">
+                <field name="lead_source"/>
+                <field name="event_lead_id" attrs="{'invisible':[('lead_source', '!=', 'event')]}"/>
+                <field name="page_lead_id" attrs="{'invisible':[('lead_source', '!=', 'page')]}"/>
+                <field name="product_lead_id" attrs="{'invisible':[('lead_source', '!=', 'product')]}"/>
+            </xpath>
+        </field>
+    </record>
+
+    <record id="gunwersk_view_event_form_inherit_ticket" model="ir.ui.view">
+        <field name="name">event.form.inherit</field>
+        <field name="model">event.event</field>
+        <field name="inherit_id" ref="event_sale.view_event_form_inherit_ticket"/>
+        <field name="arch" type="xml">
+            <xpath expr="//field[@name='event_ticket_ids']//tree//field[@name='deadline']" position="before">
+                <field name="event_start"/>
+                <field name="event_ends"/>
+            </xpath>
+        </field>
+    </record>
+
+    <record id="gunwersk_event_ticket_form_view" model="ir.ui.view">
+        <field name="name">event.event.ticket.form.inherit</field>
+        <field name="model">event.event.ticket</field>
+        <field name="inherit_id" ref="event_sale.event_ticket_form_view"/>
+        <field name="arch" type="xml">
+            <xpath expr="//field[@name='deadline']" position="before">
+                <field name="event_start"/>
+                <field name="event_ends"/>
+            </xpath>
+        </field>
+    </record>
+
+</odoo>

@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="website_blog.blog_post_complete" name="Blog Post">
+        <t t-call="website_blog.index">
+            <div id="title" class="blog_header" t-ignore="True">
+                <t t-call="website_blog.blog_cover">
+                    <t t-set="cover_properties" t-value="blog_post_cover_properties"/>
+
+                    <div class="blog_title"></div>
+                </t>
+                <div class="blog-breadcrumb">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-9">
+                                <ol class="breadcrumb">
+                                    <li><a t-attf-href="#{blog_url(tag=None, date_begin=None, date_end=None)}"><span t-field="blog.name"/></a></li>
+                                    <li t-if="tag"><a t-attf-href="#{blog_url(date_begin=None, date_end=None)}"><span t-field="tag.name"/></a></li>
+                                    <li t-if="date"><a t-attf-href="#{blog_url(tag=None)}" t-esc="date"/></li>
+                                    <li class="active"><span t-field="blog_post.name"/></li>
+                                </ol>
+                            </div>
+                            <div class="col-sm-3"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container container-sm">
+                    <div class="blog-heading">
+                        <div class="blog-date">
+                            <span t-field="blog_post.post_date" t-options="{'format': 'MMMM d, y'}"/>
+                            <div class="o_blog_post_complete o_sharing_links">
+                                <button type="button" class="share-story"><i class="fa fa-share"></i></button>
+                                <div class="dropdown-media">
+                                    <a class="fa fa-twitter-square o_twitter_complete" id="o_twitter_complete"></a>
+                                    <a class="fa fa-facebook-square o_facebook_complete" id="o_facebook_complete"></a>
+                                    <a class="fa fa-linkedin-square o_linkedin_complete" id="o_linkedin_complete"></a>
+                                    <a class="fa fa-google-plus-square o_google_complete" id="o_google_complete"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <h1 t-field="blog_post.name" id="blog_post_name" t-att-data-blog-id="blog_post.id" placeholder="Blog Post Title"/>
+                        <!-- <h2 t-field="blog_post.subtitle" placeholder="Subtitle"/> -->
+                        <p class="post-meta text-muted text-center" name="blog_post_data"/>
+                        <p class="post-meta post-meta-tag text-muted text-center" t-if="len(blog_post.tag_ids)">
+                            <span class="fa fa-tags"/>
+                            <t t-foreach="blog_post.tag_ids" t-as="one_tag">
+                                <a class="label label-primary mr8" t-attf-href="#{blog_url(tag=one_tag.id)}" t-esc="one_tag.name"/>
+                            </t>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div id="blog_content" t-field="blog_post.content" class="blog_content gn-blog-content"/>
+
+            <div class="o_blog_post_complete o_sharing_links">
+                <button type="button" class="share-story">
+                    Share this story <i class="fa fa-share"></i>
+                </button>
+                <div class="dropdown-media">
+                    <a class="fa fa-twitter-square o_twitter_complete" id="o_twitter_complete"></a>
+                    <a class="fa fa-facebook-square o_facebook_complete" id="o_facebook_complete"></a>
+                    <a class="fa fa-linkedin-square o_linkedin_complete" id="o_linkedin_complete"></a>
+                    <a class="fa fa-google-plus-square o_google_complete" id="o_google_complete"></a>
+                </div>
+            </div>
+
+            <section class="more-from-author">
+                <div class="container container-sm">
+                    <div class="blog-author">
+                        <div class="author-img">
+                            <t t-if="blog_post.author_avatar">
+                                <div t-field="blog_post.author_avatar" class="img o_not_editable" t-field-options='{"widget": "image", "style":"display:inline"}' ></div>
+                            </t>
+                        </div>
+                        <div class="author-info">
+                            <div class="ai-title">
+                                <a class="gn-link" t-attf-href="#{blog_url(author=blog_post.sudo().author_id.id)}">MORE FROM THIS AUTHOR <i class="fa fa-angle-right"></i></a>
+                                <h5>ABOUT THE AUTHOR</h5>
+                                <span t-field="blog_post.author_id" style="display: inline-block;" class="author-name" t-field-options='{
+                                "widget": "contact",
+                                "fields": ["name"]
+                                }'/>
+                            </div>
+                            <div class="ai-desc">
+                                <t t-raw="blog_post.sudo().author_id.author_profile"/>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="featured-blog-section" t-if="featured_blogs">
+                <div class="container container-large">
+                    <div class="sub-title"><h5>MORE FEATURED ARTICLES</h5></div>
+                    <div class="row row-b4 justify-content-center">
+                        <t t-foreach="featured_blogs" t-as="post">
+                            <t t-set="cover_properties" t-value="blog_posts_cover_properties[post_index]"/>
+                            <div class="col-md-4">
+                                <div class="blog-item">
+                                    <a class="link-overlay" t-attf-href="#{blog_url('', ['blog', 'post'], blog=post.blog_id, post=post)}"/>
+                                    <t t-set="blog_image" t-value="cover_properties.get('background-image')"/>
+                                    <div class="blog-img" t-attf-style="background-image: #{blog_image if blog_image != 'none' else 'url(/web/image/theme_gunwerks.gunwerks_blog_post_cover)'};"/>
+                                    <div class="blog-content">
+                                        <span t-field="post.post_date" t-options="{'format': 'MMMM d, y'}"/>
+                                        <h4 t-field="post.name"/>
+                                        <div class="blog-link">
+                                            <a class="gn-link" t-attf-href="#{blog_url('', ['blog', 'post'], blog=post.blog_id, post=post)}">READ MORE <i class="fa fa-angle-right"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </t>
+                    </div>
+                </div>
+            </section>
+
+            <t t-set='head'>
+                <t t-raw='head or ""'/>
+                <!-- Facebook and linkedin sharing data -->
+                <meta property="og:type" content="website" />
+                <meta property="og:url" t-att-content="request.httprequest.url" />
+                <meta property="og:image" t-attf-content="#{request.httprequest.url_root+blog_post_cover_properties.get('background-image', 'none')[5:-1]}"/>
+                <meta property="og:description" t-att-content="blog_post.subtitle" />
+                <!--  Twitter sharing data -->
+                <meta name="twitter:card" content="summary_large_image" />
+                <meta name="twitter:site" t-attf-content="@#{res_company.name}" />
+                <meta name="twitter:title" t-att-content="blog_post.name" />
+                <meta name="twitter:description" t-att-content="blog_post.subtitle" />
+                <meta name="twitter:image" t-attf-content="#{request.httprequest.url_root+blog_post_cover_properties.get('background-image', 'none')[5:-1]}" />
+            </t>
+        </t>
+    </template>
+
+    <!-- Options: Blog Post: user can reply -->
+    <template id="gunwerks_opt_blog_post_complete_comment" name="Allow blog post comment" inherit_id="website_blog.blog_post_complete" active="False" customize_show="True">
+        <xpath expr="//section[hasclass('more-from-author')]" position="after">
+            <section id="comments" class="read_width">
+                <t t-call="portal.message_thread">
+                  <t t-set="object" t-value="blog_post"/>
+                </t>
+            </section>
+        </xpath>
+    </template>
+
+    <template id="website_blog.opt_blog_post_author_avatar_display" name="Author Avatar" inherit_id="website_blog.blog_post_complete" active="False" customize_show="True">
+        <xpath expr="//p[@name='blog_post_data']" position="after">
+            <div class="gn-author">
+                <t t-if="blog_post.author_avatar">
+                    <span t-field="blog_post.author_avatar" class="o_not_editable" t-field-options='{"widget": "image", "class": "img-circle", "style":"width: 30px; margin-right: 10px; display:inline"}' />
+                </t>
+                <span t-field="blog_post.author_id" style="display: inline-block;" t-field-options='{
+                    "widget": "contact",
+                    "fields": ["name"]
+                }'/>
+            </div>
+        </xpath>
+    </template>
+
+    <template id="website_blog.blog_breadcrumb" name="Breadcrumb" inherit_id="website_blog.blog_post_complete" active="False" customize_show="False"/>
+
+    <template id="website_blog.opt_blog_post_complete_comment" name="Allow blog post comment" inherit_id="website_blog.blog_post_complete" active="False" customize_show="False"/>
+
+    <template id="website_blog.opt_blog_post_author_avatar" name="Author avatar" customize_show="True" active="True" inherit_id="website_blog.blog_post_short"/>
+
+    <template id="website_blog.opt_blog_post_complete_read_next" name="Read next article" inherit_id="website_blog.blog_post_complete" active="False" customize_show="True"/>
+</odoo>

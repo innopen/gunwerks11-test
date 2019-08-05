@@ -1,0 +1,12 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_megamenu_content,megamenu.content,model_megamenu_content,,1,1,1,1
+access_blog_configure,blog.configure,model_blog_configure,,1,1,1,1
+access_multitab_configure,multitab.configure,model_multitab_configure,,1,1,1,1
+access_event_image,access_event_image,model_event_image,,1,1,1,1
+access_event_location_image,access_event_location_image,model_event_location_image,,1,1,1,1
+access_product_filter_public,access_product_filter_public,model_product_filter,,1,0,0,0
+access_product_filter_value_public,access_product_filter_value_public,model_product_filter_value,,1,0,0,0
+access_product_filter,access_product_filter,model_product_filter,website.group_website_designer,1,1,1,1
+access_product_filter_value,access_product_filter_value,model_product_filter_value,website.group_website_designer,1,1,1,1
+access_product_filter_lines,access_product_filter_lines,model_product_filter_lines,,1,0,0,0
+access_blog_post_type,access_blog_post_type,model_blog_post_type,,1,0,0,0

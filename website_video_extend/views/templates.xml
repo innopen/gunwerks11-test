@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+    <template id="snippet_options" inherit_id="website.snippet_options">
+        <xpath expr="." position="inside">
+            <div data-js='WebsiteVideo' data-selector=".media_attachment_video">
+                <li data-video_backgroud="" data-no-preview="true">
+                    <a class="js_change_video_backgroud"> Video Content</a>
+                </li>
+            </div>
+            <div data-js='WebsiteVideo' data-selector="section, .parallax, :not(.o_gallery > .container) > .carousel" 
+                 data-exclude=".s_hr, .s_image_gallery">
+                <li data-video_backgroud_content="" data-no-preview="true">
+                    <a class="js_change_video_backgroud_content"> Video Background</a>
+                </li>
+                <li data-video_backgroud_setting="" data-no-preview="true">
+                    <a class="js_change_video_backgroud_setting"> Video Settings</a>
+                </li>
+            </div>
+            <div data-js='WebsiteVideo' data-selector="video">
+                <li data-video_setting="" data-no-preview="true">
+                    <a class="js_change_video_backgroud_setting"> Video Settings</a>
+                </li>
+            </div>
+        </xpath>
+    </template>
+    <template id="assent_front" inherit_id="website.assets_frontend">
+        <xpath expr="script[last()]" position="after">
+            <script type="text/javascript" src="/website_video_extend/static/src/js/website.front.js" />
+            <link type="text/css" rel="stylesheet" href="/website_video_extend/static/src/css/website-video.css" />
+            <script type="text/javascript" src="/website_video_extend/static/src/js/lib/jquery.videoBG.js" />
+        </xpath>
+    </template>
+</odoo>

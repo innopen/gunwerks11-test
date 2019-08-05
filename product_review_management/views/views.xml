@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <!-- Advanced Product Review Cron for Verifying Advanced Product Reviews -->
+    <!-- <record id="review_verify_scheduler" model="ir.cron" forcecreate="True">
+        <field name="name">Advanced Product Review: Verify Scheduler</field>
+        <field name="model_id" ref="model_product_review"/>
+        <field name="state">code</field>
+        <field name="code">model.set_verified_reviews()</field>
+        <field name="user_id" ref="base.user_root"/>
+        <field name="interval_number">1</field>
+        <field name="interval_type">days</field>
+        <field name="numbercall">-1</field>
+        <field name="doall" eval="True"/>
+    </record> -->
+
+    <!-- Website Configuration Setting for Advanced Product Review -->
+    <record id="res_config_settings_review_form" model="ir.ui.view">
+        <field name="name">res.config.settings.product.review</field>
+        <field name="model">res.config.settings</field>
+        <field name="inherit_id" ref="website.res_config_settings_view_form"/>
+        <field name="arch" type="xml">
+            <div id="webmaster_settings" position="after">
+                <h2>Advanced Product Reviews</h2>
+                <div class="row mt16 o_settings_container" id="product_review_settings">
+                    <div class="col-xs-12 col-md-6 o_setting_box" title="These reviews will be shown to users of your website based on configuration.">
+                        <div class="o_setting_right_pane">
+                            <label string='Auto Published Review'/>
+                            <div class="text-muted">
+                                If it is checked then review will published automatically.
+                            </div>
+                            <div class="content-group">
+                                <div class="mt16">
+                                    <field name="direct_review_publishing_option"/>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </field>
+    </record>
+
+    <!-- Categories -->
+    <record id="view_product_category_form" model="ir.ui.view">
+        <field name="name">Product Review Tags</field>
+        <field name="model">product.review.category</field>
+        <field name="arch" type="xml">
+            <form string="Event Review Tag">
+                <group col="4">
+                    <field name="name"/>
+                    <field name="active"/>
+                </group>
+            </form>
+        </field>
+    </record>
+    <record id="view_product_category_list" model="ir.ui.view">
+        <field name="name">Product Review Tags</field>
+        <field name="model">product.review.category</field>
+        <field eval="6" name="priority"/>
+        <field name="arch" type="xml">
+            <tree string="Event Review Tags">
+                <field name="name"/>
+            </tree>
+        </field>
+    </record>
+    <record id="action_product_category_form" model="ir.actions.act_window">
+        <field name="name">Product Review Tags</field>
+        <field name="type">ir.actions.act_window</field>
+        <field name="res_model">product.review.category</field>
+        <field name="view_type">form</field>
+        <field name="help" type="html">
+            <p class="oe_view_nocontent_create">
+                Click to create a new review tag.
+            </p>
+            <p>
+                Manage review tags to better classify them for tracking and analysis purposes. A review may have several categories.
+            </p>
+        </field>
+    </record>
+
+    <!-- Show Advanced Product Reviews in Product Template -->
+    <record id="product_template_product_review_form_view" model="ir.ui.view">
+        <field name="name">product.template.form.review.inherit</field>
+        <field name="model">product.template</field>
+        <field name="inherit_id" ref="product.product_template_form_view"/>
+        <field name="arch" type="xml">
+            <xpath expr="//page[@name='inventory']" position="before">
+                <page name="advanced_product_reviews" string="Advanced Product Reviews">
+                    <field name="reviews" context="{'default_product_template_id': active_id}" nolabel="1">
+                        <tree>
+                            <field name="name"/>
+                            <field name="customer_name"/>
+                            <field name="rev_rating"/>
+                            <field name="is_published"/>
+                            <!-- <field name="admin_review"/> -->
+                        </tree>
+                        <form string="Reviews">
+                            <sheet string="Advanced Product Review">
+                                <div name="button_box" class="oe_button_box">
+                                    <button type="object" name="website_publish_unpublish_button" class="oe_stat_button"
+                                        icon="fa-globe">
+                                        <field name="is_published" widget="website_button"/>
+                                    </button>
+                                </div>
+                                <div class="oe_title">
+                                    <h1><field name="name" placeholder="Review Title" required="1"/></h1>
+                                </div>
+                                <group colspan="4" col="4">
+                                    <field name="product_tmpl_id" required="1" domain="[('id','=',context.get('default_product_template_id'))]"/>
+                                    <field name="rev_rating" required="1"/>
+                                </group>
+                                <group>
+                                    <field name="rev_message" required="1"/>
+                                </group>
+                                <group colspan="4" col="4">
+                                    <field name="customer_id"/>
+                                    <field name="customer_name" required="1"/>
+                                </group>
+                                <!-- <group>
+                                    <field name="admin_review"/>
+                                    <field name="admin_comment" attrs="{'invisible':[('admin_review','=',False)]}"/>
+                                </group> -->
+                                <group>
+                                    <field name="category_id" widget="many2many_tags" domain="[('active','=',True)]"/>
+                                </group>
+                            </sheet>
+                        </form>
+                    </field>
+                </page>
+            </xpath>
+        </field>
+    </record>
+
+    <!-- Advanced Product Review Tree-->
+    <record id="product_review_tree" model="ir.ui.view">
+        <field name="name">product.review.tree</field>
+        <field name="model">product.review</field>
+        <field name="arch" type="xml">
+            <tree string="Advanced Product Reviews">
+                <field name="product_tmpl_id"/>
+                <field name="name"/>
+                <field name="customer_id"/>
+                <field name="rev_rating"/>
+                <field name="crt_date"/>
+                <field name="is_published"/>
+                <!-- <field name="admin_review"/> -->
+            </tree>
+        </field>
+    </record>
+
+    <!-- Advanced Product Review Form -->
+    <record id="product_review_form" model="ir.ui.view">
+        <field name="name">product.review.form</field>
+        <field name="model">product.review</field>
+        <field name="arch" type="xml">
+            <form string="Advanced Product Reviews">
+                <sheet string="Advanced Product Reviews">
+                    <div name="button_box" class="oe_button_box">
+                        <button class="oe_stat_button" name="website_publish_unpublish_button"
+                            type="object" icon="fa-globe">
+                            <field name="is_published" widget="website_button"/>
+                        </button>
+                    </div>
+                    <div class="oe_title">
+                        <h1><field name="name" required="1" placeholder="Review Title"/></h1>
+                    </div>
+                    <group colspan="4" col="4">
+                        <field name="product_tmpl_id" required="1"/>
+                        <field name="rev_rating" required="1"/>
+                    </group>
+                    <group>
+                        <field name="rev_message" required="1"/>
+                    </group>
+                    <group colspan="4" col="4">
+                        <field name="customer_id"/>
+                        <field name="customer_name" required="1"/>
+                    </group>
+                   <!--  <group>
+                        <field name="admin_review"/>
+                        <field name="admin_comment" attrs="{'invisible':[('admin_review','=',False)]}"/>
+                    </group> -->
+                    <group>
+                        <field name="category_id" widget="many2many_tags" domain="[('active','=',True)]"/>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <!-- Advanced Product Review Action -->
+    <record id="product_review_action" model="ir.actions.act_window">
+        <field name="name">Advanced Product Reviews</field>
+        <field name="res_model">product.review</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+
+    <!-- Advanced Product Review Menus -->
+    <menuitem id="product_review_in_website" parent="website_sale.menu_catalog" action="product_review_action" sequence="5"/>
+    <menuitem id="product_review_menu" parent="sale.product_menu_catalog" action="product_review_action" sequence="6"/>
+    <menuitem id="product_review_tags" parent="sale.product_menu_catalog" action="action_product_category_form" sequence="7"/>    
+</odoo>

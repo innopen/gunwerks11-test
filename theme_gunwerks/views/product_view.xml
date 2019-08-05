@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="product_template_form_view" model="ir.ui.view">
+        <field name="name">product.template.product.form</field>
+        <field name="model">product.template</field>
+        <field name="inherit_id" ref="website_sale.product_template_form_view"/>
+        <field name="arch" type="xml">
+            <field name="website_style_ids" position="after">
+                <field name="is_gunwerks_template"/>
+            </field>
+        </field>
+    </record>
+
+    <record id="product.variants_action" model="ir.actions.act_window">
+        <field name="view_mode">tree,form</field>
+    </record>
+
+    <record id="product.attribute_action" model="ir.actions.act_window">
+        <field name="view_mode">tree,form</field>
+    </record>
+
+    <record id="product_attribute_tree_view" model="ir.ui.view">
+        <field name="name">product.gunwerks.product.attribute.tree</field>
+        <field name="model">product.attribute</field>
+        <field name="inherit_id" ref="product.attribute_tree_view"/>
+        <field name="arch" type="xml">
+            <xpath expr="//tree" position="attributes">
+                <attribute name="editable"/>
+            </xpath>
+        </field>
+    </record>
+
+    <record model="ir.ui.view" id="product_attribute_form_view">
+        <field name="name">product.attribute.form.view</field>
+        <field name="model">product.attribute</field>
+        <field name="inherit_id" ref="product.product_attribute_view_form"/>
+        <field name="arch" type="xml">
+            <xpath expr="//form/group" position="before">
+                <div class="oe_left" style="width: 500px;">
+                    <field name="image" widget="image" class="oe_avatar oe_left"/>
+                </div>
+            </xpath>
+            <xpath expr="//form/group" position="after">
+                <group>
+                    <field name="tooltip_notes"/>
+                </group>
+            </xpath>
+        </field>
+    </record>
+
+    <!-- Product Attribute Value -->
+
+    <record id="product_attribute_value_tree_view" model="ir.ui.view">
+        <field name="name">product.gunwerks.attribute.value.tree</field>
+        <field name="model">product.attribute.value</field>
+        <field name="inherit_id" ref="product.variants_tree_view"/>
+        <field name="arch" type="xml">
+            <xpath expr="//tree" position="attributes">
+                <attribute name="editable"/>
+            </xpath>
+        </field>
+    </record>
+
+    <record model="ir.ui.view" id="product_attribute_value_form_view">
+        <field name="name">product.config.product.attribute.value.form.view</field>
+        <field name="model">product.attribute.value</field>
+        <field name="arch" type="xml">
+            <form string="Product Attribute Values">
+                <div class="oe_left" style="width: 500px;">
+                    <field name="image" widget="image" class="oe_avatar oe_left"/>
+                    <div class="oe_title" style="width: 390px;">
+                        <label class="oe_edit_only" for="name" string="Value"/>
+                        <h1><field name="name" class="oe_inline"/></h1>
+                    </div>
+                </div>
+                <group>
+                    <group>
+                        <field name="attribute_id"/>
+                    </group>
+                </group>
+                <group>
+                    <group>
+                        <field name="tooltip_notes"/>
+                    </group>
+                </group>
+            </form>
+        </field>
+    </record>
+
+    <record id="gunwerks_product_public_category_form_view" model="ir.ui.view">
+        <field name="name">product.public.category.form.inherit</field>
+        <field name="model">product.public.category</field>
+        <field name="inherit_id" ref="website_sale.product_public_category_form_view"/>
+        <field name="arch" type="xml">
+            <xpath expr="//form/sheet/div[hasclass('oe_left')]/group" position="inside">
+                <field name="header_image" widget="image" class="oe_avatar" options='{"size": [400, 300]}"}' />
+            </xpath>
+        </field>
+    </record>
+
+    <record id="filter_tree_view" model="ir.ui.view">
+        <field name="name">product.filter.tree</field>
+        <field name="model">product.filter</field>
+        <field name="arch" type="xml">
+            <tree string="Filter Values">
+                <field name="sequence" widget="handle"/>
+                <field name="name"/>
+            </tree>
+        </field>
+    </record>
+
+    <record id="product_filter_view_form" model="ir.ui.view">
+        <field name="name">product.filter.form</field>
+        <field name="model">product.filter</field>
+        <field name="arch" type="xml">
+            <form string="Product Filter">
+                <group>
+                    <group name="main_fields">
+                        <label for="name" string="Filter Name"/>
+                        <field name="name" nolabel="1"/>
+                    </group>
+                </group>
+                <group name="values_ids">
+                    <label for="value_ids" string="Filter Values"/>
+                    <field name="value_ids" widget="one2many_list" nolabel="1">
+                        <tree string="Values" editable="bottom">
+                            <field name="name"/>
+                        </tree>
+                        <form string="Values">
+                            <field name="name"/>
+                        </form>
+                    </field>
+                </group>
+            </form>
+        </field>
+    </record>
+
+    <record id="filter_values_tree_view" model="ir.ui.view">
+        <field name="name">product.filter.value.tree</field>
+        <field name="model">product.filter.value</field>
+        <field name="arch" type="xml">
+            <form string="Product Filter">
+                <group>
+                    <group name="main_fields">
+                        <label for="name" string="Value"/>
+                        <field name="name" nolabel="1"/>
+                    </group>
+                    <group>
+                        <field name="filter_id"/>
+                    </group>
+                </group>
+            </form>
+        </field>
+    </record>
+
+    <record id="filter_values_form_view" model="ir.ui.view">
+        <field name="name">product.filter.value.form</field>
+        <field name="model">product.filter.value</field>
+        <field name="arch" type="xml">
+            <tree string="Filter Values">
+                <field name="sequence" widget="handle"/>
+                <field name="filter_id"/>
+                <field name="name"/>
+            </tree>
+        </field>
+    </record>
+
+    <record id="menu_product_filters_action" model="ir.actions.act_window">
+        <field name="name">Filters</field>
+        <field name="type">ir.actions.act_window</field>
+        <field name="res_model">product.filter</field>
+        <field name="view_mode">tree,form</field>
+        <field name="view_type">form</field>
+    </record>
+
+    <record id="menu_filters_value_action" model="ir.actions.act_window">
+        <field name="name">Filter Values</field>
+        <field name="type">ir.actions.act_window</field>
+        <field name="res_model">product.filter.value</field>
+        <field name="view_mode">tree,form</field>
+        <field name="view_type">form</field>
+    </record>
+
+    <menuitem id="gunwerks_menu_product_filter"
+        action="theme_gunwerks.menu_product_filters_action"
+        parent="website_sale.menu_product_settings"  sequence="4"/>
+    <menuitem id="gunwerks_menu_filter_value"
+        action="theme_gunwerks.menu_filters_value_action"
+        parent="website_sale.menu_product_settings"  sequence="5"/>
+
+    <record id="inherit_product_public_category_form_view" model="ir.ui.view">
+        <field name="name">product.public.category.form</field>
+        <field name="model">product.public.category</field>
+        <field name="inherit_id" ref="website_sale.product_public_category_form_view"/>
+        <field name="arch" type="xml">
+            <xpath expr="//form/sheet/div[hasclass('oe_left')]" position="after">
+                <div name="filter_ids">
+                    <group>
+                        <label for="filter_ids" string="Filters"/>
+                        <field name="filter_ids" widget="many2many_list" nolabel="1">
+                            <tree string="Filters" editable="bottom">
+                                <field name="sequence" widget="handle"/>
+                                <field name="name"/>
+                            </tree>
+                            <form string="Filters">
+                                <field name="name"/>
+                            </form>
+                        </field>
+                    </group>
+                </div>
+            </xpath>
+        </field>
+    </record>
+
+    <record id="filter_product_template_form_view" model="ir.ui.view">
+        <field name="name">product.template.gunwerks.form</field>
+        <field name="model">product.template</field>
+        <field name="inherit_id" ref="website_sale.product_template_form_view"/>
+        <field name="arch" type="xml">
+            <field name="public_categ_ids" position="replace"/>
+            <xpath expr="//notebook[last()]" position="inside">
+                <page string="Filters">
+                    <group>
+                        <group colspan="3" col="3">
+                            <field name="public_categ_ids" widget="many2many_tags" string="eCommerce Categories"/>
+                            <button class="btn-primary" name="fill_product_filters" type="object" string="Update"/>
+                        </group>
+                    </group>
+                    <group>
+                        <field name="filter_line_ids" widget="one2many_list" context="{'default_public_categ_ids': public_categ_ids}" order="sequence">
+                            <tree string="Filters" editable="bottom" create="false">
+                                <field name="filter_id"/>
+                                <field name="value_ids" widget="many2many_tags" options="{'no_create_edit': True}" domain="[('filter_id', '=', filter_id)]" context="{'default_filter_id': filter_id}"/>
+                            </tree>
+                        </field>
+                    </group>
+                </page>
+            </xpath>
+        </field>
+    </record>
+</odoo>
