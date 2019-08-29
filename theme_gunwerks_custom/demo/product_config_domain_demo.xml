@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+   <!--  <record id="product_config_domain_1" model="product.config.domain">
+        <field name="name">G4 Barrel Contour Restrictions</field>
+    </record>
+ -->
+    <!-- <record id="product_config_domain_2" model="product.config.domain">
+        <field name="name">No Rifle Scope - Not In</field>
+    </record> -->
+
+    <!-- <record id="product_config_domain_3" model="product.config.domain">
+        <field name="name">G4 Barrel Contour Restrictions</field>
+    </record> -->
+
+    <record id="product_config_domain_4" model="product.config.domain">
+        <field name="name">Carbon Fiber Stock</field>
+    </record>
+
+    <record id="product_config_domain_5" model="product.config.domain">
+        <field name="name">Fiberglass Stock</field>
+    </record>
+
+    <record id="product_config_domain_6" model="product.config.domain">
+        <field name="name">Data Card Only</field>
+    </record>
+
+    <!-- <record id="product_config_domain_7" model="product.config.domain">
+        <field name="name">Data Card Onl</field>
+    </record> -->
+
+    <record id="product_config_domain_8" model="product.config.domain">
+        <field name="name">No 2nd Data Package</field>
+    </record>
+
+    <record id="product_config_domain_9" model="product.config.domain">
+        <field name="name">2nd Data Package</field>
+    </record>
+
+    <record id="product_config_domain_10" model="product.config.domain">
+        <field name="name">CF Barrel Material Restrictions</field>
+    </record>
+
+    <record id="product_config_domain_11" model="product.config.domain">
+        <field name="name">Unity Scope Rings</field>
+    </record>
+
+    <record id="product_config_domain_12" model="product.config.domain">
+        <field name="name">No Rifle Scope - Not In</field>
+    </record>
+
+    <!-- <record id="product_config_domain_13" model="product.config.domain">
+        <field name="name">No Rifle Scope - Not In</field>
+    </record> -->
+
+    <record id="product_config_domain_14" model="product.config.domain">
+        <field name="name">33 Caliber</field>
+    </record>
+
+    <record id="product_config_domain_15" model="product.config.domain">
+        <field name="name">375 Caliber</field>
+    </record>
+
+    <record id="product_config_domain_16" model="product.config.domain">
+        <field name="name">SS Barrel Material Restrictions</field>
+    </record>
+
+    <record id="product_config_domain_17" model="product.config.domain">
+        <field name="name">No Rifle Scope</field>
+    </record>
+
+    <record id="product_config_domain_18" model="product.config.domain">
+        <field name="name">No Data Package</field>
+    </record>
+
+    <!-- <record id="product_config_domain_19" model="product.config.domain">
+        <field name="name">No Data Package</field>
+    </record> -->
+
+    <!-- <record id="product_config_domain_20" model="product.config.domain">
+        <field name="name">CF Barrel Material Restrictions</field>
+    </record> -->
+
+    <record id="product_config_domain_21" model="product.config.domain">
+        <field name="name">G1 Barrel Contour Restrictions</field>
+    </record>
+
+    <record id="product_config_domain_22" model="product.config.domain">
+        <field name="name">G2 Barrel Contour Restrictions</field>
+    </record>
+
+    <record id="product_config_domain_23" model="product.config.domain">
+        <field name="name">G4 Barrel Contour Restrictions</field>
+    </record>
+
+     <record id="product_config_domain_24" model="product.config.domain">
+        <field name="name">Picatinny Scope Rings</field>
+    </record>
+
+     <record id="product_config_domain_25" model="product.config.domain">
+        <field name="name">Stainless Steel Action Material</field>
+    </record>
+</odoo>

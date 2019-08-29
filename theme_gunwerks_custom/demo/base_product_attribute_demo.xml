@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+	<record id="product_configurator.product_attribute_line_2_series_options" model="product.attribute.line">
+        <field name="multi">False</field>
+    </record>
+</odoo>

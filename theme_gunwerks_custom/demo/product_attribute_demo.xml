@@ -1,0 +1,641 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    
+    <record id="product_attribute_1" model="product.attribute">
+        <field name="type">select</field>
+        <field name="search_ok">False</field>
+        <field name="required">True</field>
+        <field name="name">Customer Rifle Cartridge</field>
+        <field name="multi">False</field>
+        <field name="min_val">0</field>
+        <field name="max_val">0</field>
+        <field name="val_custom">False</field>
+        <field name="create_variant">True</field>
+    </record>
+
+    <record id="product_attribute_2" model="product.attribute">
+        <field name="type">select</field>
+        <field name="search_ok">False</field>
+        <field name="required">True</field>
+        <field name="name">Action Hand</field>
+        <field name="multi">False</field>
+        <field name="min_val">0</field>
+        <field name="max_val">0</field>
+        <field name="val_custom">False</field>
+        <field name="create_variant">True</field>
+    </record>
+
+    <record id="product_attribute_3" model="product.attribute">
+        <field name="type">select</field>
+        <field name="search_ok">False</field>
+        <field name="required">True</field>
+        <field name="name">Barrel Fluting</field>
+        <field name="multi">False</field>
+        <field name="min_val">0</field>
+        <field name="max_val">0</field>
+        <field name="val_custom">False</field>
+        <field name="create_variant">True</field>
+    </record>
+
+    <record id="product_attribute_4" model="product.attribute">
+        <field name="type">select</field>
+        <field name="search_ok">False</field>
+        <field name="required">True</field>
+        <field name="name">Action Material</field>
+        <field name="multi">False</field>
+        <field name="min_val">0</field>
+        <field name="max_val">0</field>
+        <field name="val_custom">False</field>
+        <field name="create_variant">True</field>
+    </record>
+
+    <record id="product_attribute_5" model="product.attribute">
+        <field name="type">select</field>
+        <field name="search_ok">False</field>
+        <field name="required">True</field>
+        <field name="name">Barrel Material</field>
+        <field name="multi">False</field>
+        <field name="min_val">0</field>
+        <field name="max_val">0</field>
+        <field name="val_custom">False</field>
+        <field name="create_variant">True</field>
+    </record>
+
+    <record id="product_attribute_6" model="product.attribute">
+        <field name="type">select</field>
+        <field name="search_ok">False</field>
+        <field name="required">True</field>
+        <field name="name">Barrel Length</field>
+        <field name="multi">False</field>
+        <field name="min_val">0</field>
+        <field name="max_val">0</field>
+        <field name="val_custom">False</field>
+        <field name="create_variant">True</field>
+    </record>
+
+    <record id="product_attribute_7" model="product.attribute">
+        <field name="type">select</field>
+        <field name="search_ok">False</field>
+        <field name="required">True</field>
+        <field name="name">Muzzle Brake</field>
+        <field name="multi">False</field>
+        <field name="min_val">0</field>
+        <field name="max_val">0</field>
+        <field name="val_custom">False</field>
+        <field name="create_variant">True</field>
+    </record>
+
+    <record id="product_attribute_8" model="product.attribute">
+        <field name="type">select</field>
+        <field name="search_ok">False</field>
+        <field name="required">True</field>
+        <field name="name">Longrange Package</field>
+        <field name="multi">False</field>
+        <field name="min_val">0</field>
+        <field name="max_val">0</field>
+        <field name="val_custom">False</field>
+        <field name="create_variant">True</field>
+    </record>
+
+    <record id="product_attribute_9" model="product.attribute">
+        <field name="type">select</field>
+        <field name="search_ok">False</field>
+        <field name="required">True</field>
+        <field name="name">Action Model</field>
+        <field name="multi">False</field>
+        <field name="min_val">0</field>
+        <field name="max_val">0</field>
+        <field name="val_custom">False</field>
+        <field name="create_variant">True</field>
+    </record>
+
+    <record id="product_attribute_10" model="product.attribute">
+        <field name="type">select</field>
+        <field name="search_ok">False</field>
+        <field name="required">True</field>
+        <field name="name">Grip</field>
+        <field name="multi">False</field>
+        <field name="min_val">0</field>
+        <field name="max_val">0</field>
+        <field name="val_custom">False</field>
+        <field name="create_variant">True</field>
+    </record>
+
+    <record id="product_attribute_11" model="product.attribute">
+        <field name="type">select</field>
+        <field name="search_ok">False</field>
+        <field name="required">True</field>
+        <field name="name">Length of Pull</field>
+        <field name="multi">False</field>
+        <field name="min_val">0</field>
+        <field name="max_val">0</field>
+        <field name="val_custom">False</field>
+        <field name="create_variant">True</field>
+    </record>
+
+    <record id="product_attribute_12" model="product.attribute">
+        <field name="type">select</field>
+        <field name="search_ok">False</field>
+        <field name="required">True</field>
+        <field name="name">Shooting Support Mounting System</field>
+        <field name="multi">False</field>
+        <field name="min_val">0</field>
+        <field name="max_val">0</field>
+        <field name="val_custom">False</field>
+        <field name="create_variant">True</field>
+    </record>
+
+    <record id="product_attribute_13" model="product.attribute">
+        <field name="type">select</field>
+        <field name="search_ok">False</field>
+        <field name="required">True</field>
+        <field name="name">Temperature</field>
+        <field name="multi">False</field>
+        <field name="min_val">0</field>
+        <field name="max_val">0</field>
+        <field name="val_custom">False</field>
+        <field name="create_variant">True</field>
+    </record>
+
+    <record id="product_attribute_14" model="product.attribute">
+        <field name="type">select</field>
+        <field name="search_ok">False</field>
+        <field name="required">True</field>
+        <field name="name">Elevation</field>
+        <field name="multi">False</field>
+        <field name="min_val">0</field>
+        <field name="max_val">0</field>
+        <field name="val_custom">False</field>
+        <field name="create_variant">True</field>
+    </record>
+
+    <record id="product_attribute_15" model="product.attribute">
+        <field name="type">select</field>
+        <field name="search_ok">False</field>
+        <field name="required">True</field>
+        <field name="name">Customer Rifle Make and Model</field>
+        <field name="multi">False</field>
+        <field name="min_val">0</field>
+        <field name="max_val">0</field>
+        <field name="val_custom">False</field>
+        <field name="create_variant">True</field>
+    </record>
+
+    <record id="product_attribute_16" model="product.attribute">
+        <field name="type">radio</field>
+        <field name="search_ok">False</field>
+        <field name="required">True</field>
+        <field name="name">Rifle Preparation</field>
+        <field name="multi">False</field>
+        <field name="min_val">0</field>
+        <field name="max_val">0</field>
+        <field name="val_custom">False</field>
+        <field name="create_variant">True</field>
+    </record>
+
+    <record id="product_attribute_17" model="product.attribute">
+        <field name="type">select</field>
+        <field name="search_ok">False</field>
+        <field name="required">True</field>
+        <field name="name">Package Options</field>
+        <field name="multi">False</field>
+        <field name="min_val">0</field>
+        <field name="max_val">0</field>
+        <field name="val_custom">False</field>
+        <field name="create_variant">True</field>
+    </record>
+
+    <record id="product_attribute_18" model="product.attribute">
+        <field name="type">select</field>
+        <field name="search_ok">False</field>
+        <field name="required">True</field>
+        <field name="name">Release Lever</field>
+        <field name="multi">False</field>
+        <field name="min_val">0</field>
+        <field name="max_val">0</field>
+        <field name="val_custom">False</field>
+        <field name="create_variant">True</field>
+    </record>
+
+    <record id="product_attribute_19" model="product.attribute">
+        <field name="type">select</field>
+        <field name="search_ok">False</field>
+        <field name="required">True</field>
+        <field name="name">Barrel Contour</field>
+        <field name="multi">False</field>
+        <field name="min_val">0</field>
+        <field name="max_val">0</field>
+        <field name="val_custom">False</field>
+        <field name="create_variant">True</field>
+    </record>
+
+    <record id="product_attribute_20" model="product.attribute">
+        <field name="type">select</field>
+        <field name="search_ok">False</field>
+        <field name="required">True</field>
+        <field name="name">Anti-Cant Level</field>
+        <field name="multi">False</field>
+        <field name="min_val">0</field>
+        <field name="max_val">0</field>
+        <field name="val_custom">False</field>
+        <field name="create_variant">True</field>
+    </record>
+
+    <record id="product_attribute_21" model="product.attribute">
+        <field name="type">select</field>
+        <field name="search_ok">False</field>
+        <field name="required">True</field>
+        <field name="name">Bullet</field>
+        <field name="multi">False</field>
+        <field name="min_val">0</field>
+        <field name="max_val">0</field>
+        <field name="val_custom">False</field>
+        <field name="create_variant">True</field>
+    </record>
+
+    <record id="product_attribute_22" model="product.attribute">
+        <field name="type">select</field>
+        <field name="search_ok">False</field>
+        <field name="required">True</field>
+        <field name="name">Metal Finish</field>
+        <field name="multi">False</field>
+        <field name="min_val">0</field>
+        <field name="max_val">0</field>
+        <field name="val_custom">False</field>
+        <field name="create_variant">True</field>
+    </record>
+
+    <record id="product_attribute_23" model="product.attribute">
+        <field name="type">select</field>
+        <field name="search_ok">False</field>
+        <field name="required">True</field>
+        <field name="name">Length of Pull 2</field>
+        <field name="multi">False</field>
+        <field name="min_val">0</field>
+        <field name="max_val">0</field>
+        <field name="val_custom">False</field>
+        <field name="create_variant">True</field>
+    </record>
+
+    <record id="product_attribute_24" model="product.attribute">
+        <field name="type">select</field>
+        <field name="search_ok">False</field>
+        <field name="required">True</field>
+        <field name="name">Scope Rings</field>
+        <field name="multi">False</field>
+        <field name="min_val">0</field>
+        <field name="max_val">0</field>
+        <field name="val_custom">False</field>
+        <field name="create_variant">True</field>
+    </record>
+
+    <record id="product_attribute_25" model="product.attribute">
+        <field name="type">select</field>
+        <field name="search_ok">False</field>
+        <field name="required">True</field>
+        <field name="name">Trigger</field>
+        <field name="multi">False</field>
+        <field name="min_val">0</field>
+        <field name="max_val">0</field>
+        <field name="val_custom">False</field>
+        <field name="create_variant">True</field>
+    </record>
+
+    <record id="product_attribute_26" model="product.attribute">
+        <field name="type">radio</field>
+        <field name="search_ok">False</field>
+        <field name="required">True</field>
+        <field name="name">Package Level</field>
+        <field name="multi">False</field>
+        <field name="min_val">0</field>
+        <field name="max_val">0</field>
+        <field name="val_custom">False</field>
+        <field name="create_variant">True</field>
+    </record>
+
+    <record id="product_attribute_27" model="product.attribute">
+        <field name="type">select</field>
+        <field name="search_ok">False</field>
+        <field name="required">True</field>
+        <field name="name">Stock Material</field>
+        <field name="multi">False</field>
+        <field name="min_val">0</field>
+        <field name="max_val">0</field>
+        <field name="val_custom">False</field>
+        <field name="create_variant">True</field>
+    </record>
+
+    <record id="product_attribute_28" model="product.attribute">
+        <field name="type">radio</field>
+        <field name="search_ok">False</field>
+        <field name="required">True</field>
+        <field name="name">Stock Fill</field>
+        <field name="multi">False</field>
+        <field name="min_val">0</field>
+        <field name="max_val">0</field>
+        <field name="val_custom">False</field>
+        <field name="create_variant">True</field>
+    </record>
+
+    <record id="product_attribute_29" model="product.attribute">
+        <field name="type">radio</field>
+        <field name="search_ok">False</field>
+        <field name="required">True</field>
+        <field name="name">Action Inlet</field>
+        <field name="multi">False</field>
+        <field name="min_val">0</field>
+        <field name="max_val">0</field>
+        <field name="val_custom">False</field>
+        <field name="create_variant">True</field>
+    </record>
+
+    <record id="product_attribute_30" model="product.attribute">
+        <field name="type">radio</field>
+        <field name="search_ok">False</field>
+        <field name="required">True</field>
+        <field name="name">Recoil Lug Thickness</field>
+        <field name="multi">False</field>
+        <field name="min_val">0</field>
+        <field name="max_val">0</field>
+        <field name="val_custom">False</field>
+        <field name="create_variant">True</field>
+    </record>
+
+    <record id="product_attribute_31" model="product.attribute">
+        <field name="type">radio</field>
+        <field name="search_ok">False</field>
+        <field name="required">True</field>
+        <field name="name">Installation</field>
+        <field name="multi">False</field>
+        <field name="min_val">0</field>
+        <field name="max_val">0</field>
+        <field name="val_custom">False</field>
+        <field name="create_variant">True</field>
+    </record>
+
+    <record id="product_attribute_32" model="product.attribute">
+        <field name="type">radio</field>
+        <field name="search_ok">False</field>
+        <field name="required">True</field>
+        <field name="name">Barrel Inlet Contour</field>
+        <field name="multi">False</field>
+        <field name="min_val">0</field>
+        <field name="max_val">0</field>
+        <field name="val_custom">False</field>
+        <field name="create_variant">True</field>
+    </record>
+
+    <record id="product_attribute_33" model="product.attribute">
+        <field name="type">select</field>
+        <field name="search_ok">False</field>
+        <field name="required">True</field>
+        <field name="name">Barrel Brand</field>
+        <field name="multi">False</field>
+        <field name="min_val">0</field>
+        <field name="max_val">0</field>
+        <field name="val_custom">False</field>
+        <field name="create_variant">True</field>
+    </record>
+
+    <record id="product_attribute_34" model="product.attribute">
+        <field name="type">select</field>
+        <field name="search_ok">False</field>
+        <field name="required">True</field>
+        <field name="name">Scope Bases</field>
+        <field name="multi">False</field>
+        <field name="min_val">0</field>
+        <field name="max_val">0</field>
+        <field name="val_custom">False</field>
+        <field name="create_variant">True</field>
+    </record>
+
+    <record id="product_attribute_35" model="product.attribute">
+        <field name="type">select</field>
+        <field name="search_ok">False</field>
+        <field name="required">True</field>
+        <field name="name">Cartridge</field>
+        <field name="multi">False</field>
+        <field name="min_val">0</field>
+        <field name="max_val">0</field>
+        <field name="val_custom">False</field>
+        <field name="create_variant">True</field>
+    </record>
+
+    <record id="product_attribute_36" model="product.attribute">
+        <field name="type">radio</field>
+        <field name="search_ok">False</field>
+        <field name="required">True</field>
+        <field name="name">2nd Data Package</field>
+        <field name="multi">False</field>
+        <field name="min_val">0</field>
+        <field name="max_val">0</field>
+        <field name="val_custom">False</field>
+        <field name="create_variant">True</field>
+    </record>
+
+    <record id="product_attribute_37" model="product.attribute">
+        <field name="type">radio</field>
+        <field name="search_ok">False</field>
+        <field name="required">True</field>
+        <field name="name">2nd Bullet</field>
+        <field name="multi">False</field>
+        <field name="min_val">0</field>
+        <field name="max_val">0</field>
+        <field name="val_custom">False</field>
+        <field name="create_variant">True</field>
+    </record>
+
+    <record id="product_attribute_38" model="product.attribute">
+        <field name="type">select</field>
+        <field name="search_ok">False</field>
+        <field name="required">True</field>
+        <field name="name">Ammunition</field>
+        <field name="multi">False</field>
+        <field name="min_val">0</field>
+        <field name="max_val">0</field>
+        <field name="val_custom">False</field>
+        <field name="create_variant">True</field>
+    </record>
+
+    <record id="product_attribute_39" model="product.attribute">
+        <field name="type">radio</field>
+        <field name="search_ok">False</field>
+        <field name="required">True</field>
+        <field name="name">Adjustability Options</field>
+        <field name="multi">False</field>
+        <field name="min_val">0</field>
+        <field name="max_val">0</field>
+        <field name="val_custom">False</field>
+        <field name="create_variant">True</field>
+    </record>
+
+    <record id="product_attribute_40" model="product.attribute">
+        <field name="type">select</field>
+        <field name="search_ok">False</field>
+        <field name="required">True</field>
+        <field name="name">Forend Hardware</field>
+        <field name="multi">False</field>
+        <field name="min_val">0</field>
+        <field name="max_val">0</field>
+        <field name="val_custom">False</field>
+        <field name="create_variant">True</field>
+    </record>
+
+    <record id="product_attribute_41" model="product.attribute">
+        <field name="type">radio</field>
+        <field name="search_ok">False</field>
+        <field name="required">True</field>
+        <field name="name">Muzzle Velocity</field>
+        <field name="multi">False</field>
+        <field name="min_val">0</field>
+        <field name="max_val">4000</field>
+        <field name="custom_type">int</field>
+        <field name="val_custom">True</field>
+        <field name="create_variant">True</field>
+    </record>
+
+    <record id="product_attribute_42" model="product.attribute">
+        <field name="type">radio</field>
+        <field name="search_ok">False</field>
+        <field name="required">True</field>
+        <field name="name">Ballistic Coefficient</field>
+        <field name="multi">False</field>
+        <field name="min_val">0</field>
+        <field name="max_val">1</field>
+        <field name="custom_type">float</field>
+        <field name="val_custom">True</field>
+        <field name="create_variant">True</field>
+    </record>
+    <record id="product_attribute_43" model="product.attribute">
+        <field name="type">radio</field>
+        <field name="search_ok">False</field>
+        <field name="required">True</field>
+        <field name="name">Load Description</field>
+        <field name="multi">False</field>
+        <field name="min_val">0</field>
+        <field name="max_val">0</field>
+        <field name="custom_type">char</field>
+        <field name="val_custom">True</field>
+        <field name="create_variant">True</field>
+    </record>
+
+    <record id="product_attribute_44" model="product.attribute">
+        <field name="type">radio</field>
+        <field name="search_ok">False</field>
+        <field name="required">True</field>
+        <field name="name">Drag Standard</field>
+        <field name="multi">False</field>
+        <field name="min_val">0</field>
+        <field name="max_val">0</field>
+        <field name="val_custom">False</field>
+        <field name="create_variant">True</field>
+    </record>
+
+    <record id="product_attribute_45" model="product.attribute">
+        <field name="type">radio</field>
+        <field name="search_ok">False</field>
+        <field name="required">True</field>
+        <field name="name">Action Length</field>
+        <field name="multi">False</field>
+        <field name="min_val">0</field>
+        <field name="max_val">0</field>
+        <field name="val_custom">False</field>
+        <field name="create_variant">True</field>
+    </record>
+
+    <record id="product_attribute_46" model="product.attribute">
+        <field name="type">radio</field>
+        <field name="search_ok">False</field>
+        <field name="required">True</field>
+        <field name="name">Unit</field>
+        <field name="multi">False</field>
+        <field name="min_val">0</field>
+        <field name="max_val">0</field>
+        <field name="val_custom">False</field>
+        <field name="create_variant">True</field>
+    </record>
+
+    <record id="product_attribute_47" model="product.attribute">
+        <field name="type">select</field>
+        <field name="search_ok">False</field>
+        <field name="required">True</field>
+        <field name="name">Rifle Scope</field>
+        <field name="multi">False</field>
+        <field name="min_val">0</field>
+        <field name="max_val">0</field>
+        <field name="val_custom">False</field>
+        <field name="create_variant">True</field>
+    </record>
+
+    <record id="product_attribute_48" model="product.attribute">
+        <field name="type">select</field>
+        <field name="search_ok">False</field>
+        <field name="required">True</field>
+        <field name="name">Stock Finish</field>
+        <field name="multi">False</field>
+        <field name="min_val">0</field>
+        <field name="max_val">0</field>
+        <field name="val_custom">False</field>
+        <field name="create_variant">True</field>
+    </record>
+
+    <record id="product_attribute_49" model="product.attribute">
+        <field name="type">select</field>
+        <field name="search_ok">False</field>
+        <field name="required">True</field>
+        <field name="name">Magazine</field>
+        <field name="multi">False</field>
+        <field name="min_val">0</field>
+        <field name="max_val">0</field>
+        <field name="val_custom">False</field>
+        <field name="create_variant">True</field>
+    </record>
+
+    <record id="product_attribute_50" model="product.attribute">
+        <field name="type">select</field>
+        <field name="search_ok">False</field>
+        <field name="required">True</field>
+        <field name="name">Shirt Size</field>
+        <field name="multi">False</field>
+        <field name="min_val">0</field>
+        <field name="max_val">0</field>
+        <field name="val_custom">False</field>
+        <field name="create_variant">True</field>
+    </record>
+
+    <record id="product_attribute_51" model="product.attribute">
+        <field name="type">radio</field>
+        <field name="search_ok">False</field>
+        <field name="required">True</field>
+        <field name="name">Sight Height</field>
+        <field name="multi">False</field>
+        <field name="min_val">0</field>
+        <field name="max_val">0</field>
+        <field name="val_custom">False</field>
+        <field name="create_variant">True</field>
+    </record>
+
+    <record id="product_attribute_52" model="product.attribute">
+        <field name="type">select</field>
+        <field name="search_ok">False</field>
+        <field name="required">True</field>
+        <field name="name">Stock Model</field>
+        <field name="multi">False</field>
+        <field name="min_val">0</field>
+        <field name="max_val">0</field>
+        <field name="val_custom">False</field>
+        <field name="create_variant">True</field>
+    </record>
+
+    <record id="product_attribute_53" model="product.attribute">
+        <field name="type">select</field>
+        <field name="search_ok">False</field>
+        <field name="required">True</field>
+        <field name="name">Barrel Shank Length</field>
+        <field name="multi">False</field>
+        <field name="min_val">0</field>
+        <field name="max_val">0</field>
+        <field name="val_custom">False</field>
+        <field name="create_variant">True</field>
+    </record>
+</odoo>

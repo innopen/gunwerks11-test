@@ -1,0 +1,1108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <record id="product_attribute_value_1" model="product.attribute.value">
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_48"></field>
+        <field name="price_extra">0</field>
+        <field name="weight_extra">0</field>
+        <field name="sequence">0</field>
+        <field name="name">Carbon Orange</field>
+    </record>
+
+    <record id="product_attribute_value_2" model="product.attribute.value">
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_35"></field>
+        <field name="price_extra">0</field>
+        <field name="weight_extra">0</field>
+        <field name="sequence">0</field>
+        <field name="name">22 Creedmoor</field>
+    </record>
+
+    <record id="product_attribute_value_3" model="product.attribute.value">
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_47"></field>
+        <field name="price_extra">3299</field>
+        <field name="weight_extra">0</field>
+        <field name="sequence">0</field>
+        <field name="name">Kahles K525i MOAK</field>
+    </record>
+
+    <record id="product_attribute_value_4" model="product.attribute.value">
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_13"></field>
+        <field name="price_extra">0</field>
+        <field name="weight_extra">0</field>
+        <field name="sequence">0</field>
+        <field name="name">30</field>
+    </record>
+
+    <record id="product_attribute_value_5" model="product.attribute.value">
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_48"></field>
+        <field name="price_extra">0</field>
+        <field name="weight_extra">0</field>
+        <field name="sequence">1</field>
+        <field name="name">Carbon Forest</field>
+    </record>
+
+    <record id="product_attribute_value_6" model="product.attribute.value">
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_35"></field>
+        <field name="price_extra">0</field>
+        <field name="weight_extra">0</field>
+        <field name="sequence">1</field>
+        <field name="name">6 Creedmoor</field>
+    </record>
+
+    <record id="product_attribute_value_7" model="product.attribute.value">
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_47"></field>
+        <field name="price_extra">3199</field>
+        <field name="weight_extra">0</field>
+        <field name="sequence">1</field>
+        <field name="name">Kahles K318i MOAK</field>
+    </record>
+
+    <record id="product_attribute_value_8" model="product.attribute.value">
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_13"></field>
+        <field name="price_extra">0</field>
+        <field name="weight_extra">0</field>
+        <field name="sequence">1</field>
+        <field name="name">40</field>
+    </record>
+
+    <record id="product_attribute_value_9" model="product.attribute.value">
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_48"></field>
+        <field name="price_extra">0</field>
+        <field name="weight_extra">0</field>
+        <field name="sequence">2</field>
+        <field name="name">Carbon Black</field>
+    </record>
+
+    <record id="product_attribute_value_10" model="product.attribute.value">
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_35"></field>
+        <field name="price_extra">0</field>
+        <field name="weight_extra">0</field>
+        <field name="sequence">2</field>
+        <field name="name">65 Creedmoor</field>
+    </record>
+
+    <record id="product_attribute_value_11" model="product.attribute.value">
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_47"></field>
+        <field name="price_extra">0</field>
+        <field name="weight_extra">0</field>
+        <field name="sequence">2</field>
+        <field name="name">No Rifle Scope</field>
+    </record>
+
+    <record id="product_attribute_value_12" model="product.attribute.value">
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_13"></field>
+        <field name="price_extra">0</field>
+        <field name="weight_extra">0</field>
+        <field name="sequence">2</field>
+        <field name="name">50</field>
+    </record>
+
+    <record id="product_attribute_value_13" model="product.attribute.value">
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_48"></field>
+        <field name="price_extra">0</field>
+        <field name="weight_extra">0</field>
+        <field name="sequence">3</field>
+        <field name="name">Carbon Tan</field>
+    </record>
+
+    <record id="product_attribute_value_14" model="product.attribute.value">
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_35"></field>
+        <field name="price_extra">0</field>
+        <field name="weight_extra">0</field>
+        <field name="sequence">3</field>
+        <field name="name">65-284 Norma</field>
+    </record>
+
+    <record id="product_attribute_value_15" model="product.attribute.value">
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_13"></field>
+        <field name="price_extra">0</field>
+        <field name="weight_extra">0</field>
+        <field name="sequence">3</field>
+        <field name="name">60</field>
+    </record>
+
+    <record id="product_attribute_value_16" model="product.attribute.value">
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_35"></field>
+        <field name="price_extra">0</field>
+        <field name="weight_extra">0</field>
+        <field name="sequence">4</field>
+        <field name="name">65 PRC</field>
+    </record>
+
+    <record id="product_attribute_value_17" model="product.attribute.value">
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_47"></field>
+        <field name="price_extra">2089.99</field>
+        <field name="weight_extra">0</field>
+        <field name="sequence">4</field>
+        <field name="name">Leupold 3.6-18X44 RH1 MOA non-Ill</field>
+    </record>
+
+    <record id="product_attribute_value_18" model="product.attribute.value">
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_13"></field>
+        <field name="price_extra">2089.99</field>
+        <field name="weight_extra">0</field>
+        <field name="sequence">4</field>
+        <field name="name">70</field>
+    </record>
+
+    <record id="product_attribute_value_19" model="product.attribute.value">
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_48"></field>
+        <field name="price_extra">50</field>
+        <field name="weight_extra">0</field>
+        <field name="sequence">4</field>
+        <field name="name">Halo Brown</field>
+    </record>
+
+    <record id="product_attribute_value_20" model="product.attribute.value">
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_35"></field>
+        <field name="price_extra">50</field>
+        <field name="weight_extra">0</field>
+        <field name="sequence">5</field>
+        <field name="name">7 Rem Mag</field>
+    </record>
+
+    <record id="product_attribute_value_21" model="product.attribute.value">
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_47"></field>
+        <field name="price_extra">2289.99</field>
+        <field name="weight_extra">0</field>
+        <field name="sequence">5</field>
+        <field name="name">Leupold 5-25X56 RH1 MOA non-Ill</field>
+    </record>
+
+    <record id="product_attribute_value_22" model="product.attribute.value">
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_13"></field>
+        <field name="price_extra">0</field>
+        <field name="weight_extra">0</field>
+        <field name="sequence">5</field>
+        <field name="name">0</field>
+    </record>
+
+    <record id="product_attribute_value_23" model="product.attribute.value">
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_48"></field>
+        <field name="price_extra">50</field>
+        <field name="weight_extra">0</field>
+        <field name="sequence">5</field>
+        <field name="name">Halo Green</field>
+    </record>
+
+    <record id="product_attribute_value_24" model="product.attribute.value">
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_48"></field>
+        <field name="price_extra">0</field>
+        <field name="weight_extra">0</field>
+        <field name="sequence">6</field>
+        <field name="name">Carbon Dark Grey</field>
+    </record>
+
+    <record id="product_attribute_value_25" model="product.attribute.value">
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_35"></field>
+        <field name="price_extra">0</field>
+        <field name="weight_extra">0</field>
+        <field name="sequence">6</field>
+        <field name="name">28 Nosler</field>
+    </record>
+
+    <record id="product_attribute_value_26" model="product.attribute.value">
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_13"></field>
+        <field name="price_extra">0</field>
+        <field name="weight_extra">0</field>
+        <field name="sequence">6</field>
+        <field name="name">10</field>
+    </record>
+
+    <record id="product_attribute_value_27" model="product.attribute.value">
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_35"></field>
+        <field name="price_extra">0</field>
+        <field name="weight_extra">0</field>
+        <field name="sequence">7</field>
+        <field name="name">7 SAUM</field>
+    </record>
+
+    <record id="product_attribute_value_28" model="product.attribute.value">
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_13"></field>
+        <field name="price_extra">0</field>
+        <field name="weight_extra">0</field>
+        <field name="sequence">7</field>
+        <field name="name">20</field>
+    </record>
+
+    <record id="product_attribute_value_29" model="product.attribute.value">
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_48"></field>
+        <field name="price_extra">50</field>
+        <field name="weight_extra">0</field>
+        <field name="sequence">7</field>
+        <field name="name">Halo Grey</field>
+    </record>
+
+    <record id="product_attribute_value_30" model="product.attribute.value">
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_48"></field>
+        <field name="price_extra">350</field>
+        <field name="weight_extra">0</field>
+        <field name="sequence">8</field>
+        <field name="name">Bright Carbon</field>
+    </record>
+
+    <record id="product_attribute_value_31" model="product.attribute.value">
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_35"></field>
+        <field name="price_extra">0</field>
+        <field name="weight_extra">0</field>
+        <field name="sequence">8</field>
+        <field name="name">7 LRM</field>
+    </record>
+
+    <record id="product_attribute_value_32" model="product.attribute.value">
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_47"></field>
+        <field name="price_extra">2425</field>
+        <field name="weight_extra">0</field>
+        <field name="sequence">8</field>
+        <field name="name">Nightforce ATACR F1 4-16X44 MOAR</field>
+    </record>
+
+    <record id="product_attribute_value_33" model="product.attribute.value">
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_13"></field>
+        <field name="price_extra">0</field>
+        <field name="weight_extra">0</field>
+        <field name="sequence">8</field>
+        <field name="name">80</field>
+    </record>
+
+    <record id="product_attribute_value_34" model="product.attribute.value">
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_48"></field>
+        <field name="price_extra">0</field>
+        <field name="weight_extra">0</field>
+        <field name="sequence">9</field>
+        <field name="name">Custom Stock Finish</field>
+    </record>
+
+    <record id="product_attribute_value_35" model="product.attribute.value">
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_35"></field>
+        <field name="price_extra">0</field>
+        <field name="weight_extra">0</field>
+        <field name="sequence">9</field>
+        <field name="name">300 Win Mag</field>
+    </record>
+
+    <record id="product_attribute_value_36" model="product.attribute.value">
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_13"></field>
+        <field name="price_extra">0</field>
+        <field name="weight_extra">0</field>
+        <field name="sequence">9</field>
+        <field name="name">90</field>
+    </record>
+
+    <record id="product_attribute_value_37" model="product.attribute.value">
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_47"></field>
+        <field name="price_extra">2675</field>
+        <field name="weight_extra">0</field>
+        <field name="sequence">9</field>
+        <field name="name">Leupold 3.6-18X44 RH1 MOA Illum</field>
+    </record>
+
+    <record id="product_attribute_value_38" model="product.attribute.value">
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_35"></field>
+        <field name="price_extra">0</field>
+        <field name="weight_extra">0</field>
+        <field name="sequence">10</field>
+        <field name="name">300 PRC</field>
+    </record>
+
+    <record id="product_attribute_value_39" model="product.attribute.value">
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_13"></field>
+        <field name="price_extra">0</field>
+        <field name="weight_extra">0</field>
+        <field name="sequence">10</field>
+        <field name="name">100</field>
+    </record>
+
+    <record id="product_attribute_value_40" model="product.attribute.value">
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_47"></field>
+        <field name="price_extra">2910</field>
+        <field name="weight_extra">0</field>
+        <field name="sequence">10</field>
+        <field name="name">Leupold 5-25X56 RH1 MOA Illum</field>
+    </record>
+
+    <record id="product_attribute_value_41" model="product.attribute.value">
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_35"></field>
+        <field name="price_extra">0</field>
+        <field name="weight_extra">0</field>
+        <field name="sequence">11</field>
+        <field name="name">30 Nosler</field>
+    </record>
+
+    <record id="product_attribute_value_42" model="product.attribute.value">
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_47"></field>
+        <field name="price_extra">1099.99</field>
+        <field name="weight_extra">0</field>
+        <field name="sequence">11</field>
+        <field name="name">Vortex PST Gen 2 5-25X50 MOA</field>
+    </record>
+
+    <record id="product_attribute_value_43" model="product.attribute.value">
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_13"></field>
+        <field name="price_extra">0</field>
+        <field name="weight_extra">0</field>
+        <field name="sequence">11</field>
+        <field name="name">NA</field>
+    </record>
+
+    <record id="product_attribute_value_44" model="product.attribute.value">
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_47"></field>
+        <field name="price_extra">999.99</field>
+        <field name="weight_extra">0</field>
+        <field name="sequence">12</field>
+        <field name="name">Vortex PST Gen 2 3-15X45</field>
+    </record>
+
+    <record id="product_attribute_value_45" model="product.attribute.value">
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_35"></field>
+        <field name="price_extra">0</field>
+        <field name="weight_extra">0</field>
+        <field name="sequence">15</field>
+        <field name="name">22-250 Rem</field>
+    </record>
+
+    <record id="product_attribute_value_46" model="product.attribute.value">
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_27"></field>
+        <field name="price_extra">500</field>
+        <field name="weight_extra">0</field>
+        <field name="sequence">0</field>
+        <field name="name">Carbon Fiber Stock</field>
+    </record>
+
+    <record id="product_attribute_value_47" model="product.attribute.value">
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_27"></field>
+        <field name="price_extra">0</field>
+        <field name="weight_extra">0</field>
+        <field name="sequence">0</field>
+        <field name="name">Fiberglass Stock</field>
+    </record>
+
+    <record id="product_attribute_value_48" model="product.attribute.value">
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_48"></field>
+        <field name="price_extra">0</field>
+        <field name="weight_extra">0</field>
+        <field name="sequence">0</field>
+        <field name="name">Grey Camo</field>
+    </record>
+
+    <record id="product_attribute_value_49" model="product.attribute.value">
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_48"></field>
+        <field name="price_extra">0</field>
+        <field name="weight_extra">0</field>
+        <field name="sequence">0</field>
+        <field name="name">Dark Grey Camo</field>
+    </record>
+
+    <record id="product_attribute_value_50" model="product.attribute.value">
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_48"></field>
+        <field name="price_extra">0</field>
+        <field name="weight_extra">0</field>
+        <field name="sequence">0</field>
+        <field name="name">Forest Camo</field>
+    </record>
+
+    <record id="product_attribute_value_51" model="product.attribute.value">
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_48"></field>
+        <field name="price_extra">0</field>
+        <field name="weight_extra">0</field>
+        <field name="sequence">0</field>
+        <field name="name">Earth Camo</field>
+    </record>
+
+    <record id="product_attribute_value_52" model="product.attribute.value">
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_48"></field>
+        <field name="price_extra">0</field>
+        <field name="weight_extra">0</field>
+        <field name="sequence">0</field>
+        <field name="name">Orange Camo</field>
+    </record>
+
+    <record id="product_attribute_value_53" model="product.attribute.value">
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_9"></field>
+        <field name="price_extra">0</field>
+        <field name="weight_extra">0</field>
+        <field name="sequence">0</field>
+        <field name="name">GRB Action</field>
+    </record>
+
+    <record id="product_attribute_value_54" model="product.attribute.value">
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_9"></field>
+        <field name="price_extra">500</field>
+        <field name="weight_extra">0</field>
+        <field name="sequence">0</field>
+        <field name="name">GLR Action</field>
+    </record>
+
+    <record id="product_attribute_value_55" model="product.attribute.value">
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_4"></field>
+        <field name="price_extra">750</field>
+        <field name="weight_extra">0</field>
+        <field name="sequence">0</field>
+        <field name="name">Titanium</field>
+    </record>
+
+    <record id="product_attribute_value_56" model="product.attribute.value">
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_4"></field>
+        <field name="price_extra">750</field>
+        <field name="weight_extra">0</field>
+        <field name="sequence">0</field>
+        <field name="name">Stainless Steel</field>
+    </record>
+
+    <record id="product_attribute_value_57" model="product.attribute.value">
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_2"></field>
+        <field name="price_extra">0</field>
+        <field name="weight_extra">0</field>
+        <field name="sequence">0</field>
+        <field name="name">Right Hand</field>
+    </record>
+
+    <record id="product_attribute_value_58" model="product.attribute.value">
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_2"></field>
+        <field name="price_extra">0</field>
+        <field name="weight_extra">0</field>
+        <field name="sequence">0</field>
+        <field name="name">Left Hand</field>
+    </record>
+
+    <record id="product_attribute_value_59" model="product.attribute.value">
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_25"></field>
+        <field name="price_extra">0</field>
+        <field name="weight_extra">0</field>
+        <field name="sequence">0</field>
+        <field name="name">TT Primary 1.5-4 lbs</field>
+    </record>
+
+    <record id="product_attribute_value_60" model="product.attribute.value">
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_49"></field>
+        <field name="price_extra">0</field>
+        <field name="weight_extra">0</field>
+        <field name="sequence">0</field>
+        <field name="name">GW Hinged Floorplate Bottom Metal 2019</field>
+    </record>
+
+    <record id="product_attribute_value_61" model="product.attribute.value">
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_5"></field>
+        <field name="price_extra">750</field>
+        <field name="weight_extra">0</field>
+        <field name="sequence">0</field>
+        <field name="name">Carbon Wrap Barrel</field>
+    </record>
+
+    <record id="product_attribute_value_62" model="product.attribute.value">
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_5"></field>
+        <field name="price_extra">0</field>
+        <field name="weight_extra">0</field>
+        <field name="sequence">0</field>
+        <field name="name">Stainless Steel Barrel</field>
+    </record>
+
+    <record id="product_attribute_value_63" model="product.attribute.value">
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_19"></field>
+        <field name="price_extra">0</field>
+        <field name="weight_extra">0</field>
+        <field name="sequence">0</field>
+        <field name="name">G1</field>
+    </record>
+
+    <record id="product_attribute_value_64" model="product.attribute.value">
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_19"></field>
+        <field name="price_extra">0</field>
+        <field name="weight_extra">0</field>
+        <field name="sequence">0</field>
+        <field name="name">G2</field>
+    </record>
+
+    <record id="product_attribute_value_65" model="product.attribute.value">
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_19"></field>
+        <field name="price_extra">0</field>
+        <field name="weight_extra">0</field>
+        <field name="sequence">0</field>
+        <field name="name">G4</field>
+    </record>
+
+    <record id="product_attribute_value_66" model="product.attribute.value">
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_6"></field>
+        <field name="price_extra">50</field>
+        <field name="weight_extra">0</field>
+        <field name="sequence">0</field>
+        <field name="name">18 Inches</field>
+    </record>
+
+    <record id="product_attribute_value_67" model="product.attribute.value">
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_6"></field>
+        <field name="price_extra">0</field>
+        <field name="weight_extra">0</field>
+        <field name="sequence">0</field>
+        <field name="name">20 Inches</field>
+    </record>
+
+    <record id="product_attribute_value_68" model="product.attribute.value">
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_6"></field>
+        <field name="price_extra">0</field>
+        <field name="weight_extra">0</field>
+        <field name="sequence">0</field>
+        <field name="name">21 Inches</field>
+    </record>
+
+    <record id="product_attribute_value_69" model="product.attribute.value">
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_6"></field>
+        <field name="price_extra">0</field>
+        <field name="weight_extra">0</field>
+        <field name="sequence">0</field>
+        <field name="name">22 Inches</field>
+    </record>
+
+    <record id="product_attribute_value_70" model="product.attribute.value">
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_6"></field>
+        <field name="price_extra">0</field>
+        <field name="weight_extra">0</field>
+        <field name="sequence">0</field>
+        <field name="name">23 Inches</field>
+    </record>
+
+    <record id="product_attribute_value_71" model="product.attribute.value">
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_3"></field>
+        <field name="price_extra">0</field>
+        <field name="weight_extra">0</field>
+        <field name="sequence">0</field>
+        <field name="name">No Barrel Fluting</field>
+    </record>
+
+    <record id="product_attribute_value_72" model="product.attribute.value">
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_3"></field>
+        <field name="price_extra">150</field>
+        <field name="weight_extra">0</field>
+        <field name="sequence">0</field>
+        <field name="name">Straight Fluting</field>
+    </record>
+
+    <record id="product_attribute_value_73" model="product.attribute.value">
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_3"></field>
+        <field name="price_extra">250</field>
+        <field name="weight_extra">0</field>
+        <field name="sequence">0</field>
+        <field name="name">HelX Fluting</field>
+    </record>
+
+    <record id="product_attribute_value_74" model="product.attribute.value">
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_22"></field>
+        <field name="price_extra">0</field>
+        <field name="weight_extra">0</field>
+        <field name="sequence">0</field>
+        <field name="name">Titanium Finish</field>
+    </record>
+
+    <record id="product_attribute_value_75" model="product.attribute.value">
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_22"></field>
+        <field name="price_extra">0</field>
+        <field name="weight_extra">0</field>
+        <field name="sequence">0</field>
+        <field name="name">Tungsten Finish</field>
+    </record>
+
+    <record id="product_attribute_value_76" model="product.attribute.value">
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_22"></field>
+        <field name="price_extra">0</field>
+        <field name="weight_extra">0</field>
+        <field name="sequence">0</field>
+        <field name="name">Graphite Finish</field>
+    </record>
+
+    <record id="product_attribute_value_77" model="product.attribute.value">
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_22"></field>
+        <field name="price_extra">0</field>
+        <field name="weight_extra">0</field>
+        <field name="sequence">0</field>
+        <field name="name">Brown Sand Finish</field>
+    </record>
+
+    <record id="product_attribute_value_78" model="product.attribute.value">
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_22"></field>
+        <field name="price_extra">0</field>
+        <field name="weight_extra">0</field>
+        <field name="sequence">0</field>
+        <field name="name">OD Green Finish</field>
+    </record>
+
+    <record id="product_attribute_value_79" model="product.attribute.value">
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_22"></field>
+        <field name="price_extra">500</field>
+        <field name="weight_extra">0</field>
+        <field name="sequence">0</field>
+        <field name="name">Custom Finish</field>
+    </record>
+
+    <record id="product_attribute_value_80" model="product.attribute.value">
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_7"></field>
+        <field name="price_extra">0</field>
+        <field name="weight_extra">0</field>
+        <field name="sequence">0</field>
+        <field name="name">Thread Cap</field>
+    </record>
+
+    <record id="product_attribute_value_81" model="product.attribute.value">
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_7"></field>
+        <field name="price_extra">100</field>
+        <field name="weight_extra">0</field>
+        <field name="sequence">0</field>
+        <field name="name">Radial Brake</field>
+    </record>
+
+    <record id="product_attribute_value_82" model="product.attribute.value">
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_7"></field>
+        <field name="price_extra">250</field>
+        <field name="weight_extra">0</field>
+        <field name="sequence">0</field>
+        <field name="name">Directional Brake</field>
+    </record>
+
+    <record id="product_attribute_value_83" model="product.attribute.value">
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_24"></field>
+        <field name="price_extra">0</field>
+        <field name="weight_extra">0</field>
+        <field name="sequence">0</field>
+        <field name="name">No Rings</field>
+    </record>
+
+    <record id="product_attribute_value_84" model="product.attribute.value">
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_24"></field>
+        <field name="price_extra">250</field>
+        <field name="weight_extra">0</field>
+        <field name="sequence">0</field>
+        <field name="name">Gunwerks Unity</field>
+    </record>
+
+    <record id="product_attribute_value_85" model="product.attribute.value">
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_24"></field>
+        <field name="price_extra">350</field>
+        <field name="weight_extra">0</field>
+        <field name="sequence">0</field>
+        <field name="name">Gunwerks Picatinny</field>
+    </record>
+
+    <record id="product_attribute_value_86" model="product.attribute.value">
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_34"></field>
+        <field name="price_extra">0</field>
+        <field name="weight_extra">0</field>
+        <field name="sequence">0</field>
+        <field name="name">No Bases Required</field>
+    </record>
+
+    <record id="product_attribute_value_87" model="product.attribute.value">
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_34"></field>
+        <field name="price_extra">50</field>
+        <field name="weight_extra">0</field>
+        <field name="sequence">0</field>
+        <field name="name">Low Pro 2pc 20 MOA</field>
+    </record>
+
+    <record id="product_attribute_value_88" model="product.attribute.value">
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_8"></field>
+        <field name="price_extra">0</field>
+        <field name="weight_extra">0</field>
+        <field name="sequence">0</field>
+        <field name="name">No Data Package</field>
+    </record>
+
+    <record id="product_attribute_value_89" model="product.attribute.value">
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_8"></field>
+        <field name="price_extra">525</field>
+        <field name="weight_extra">0</field>
+        <field name="sequence">0</field>
+        <field name="name">Data Card Only</field>
+    </record>
+
+    <record id="product_attribute_value_90" model="product.attribute.value">
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_8"></field>
+        <field name="price_extra">550</field>
+        <field name="weight_extra">0</field>
+        <field name="sequence">0</field>
+        <field name="name">With Custom Turret Label</field>
+    </record>
+
+    <record id="product_attribute_value_91" model="product.attribute.value">
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_8"></field>
+        <field name="price_extra">650</field>
+        <field name="weight_extra">0</field>
+        <field name="sequence">0</field>
+        <field name="name">With Laser Etched Turret</field>
+    </record>
+
+    <record id="product_attribute_value_92" model="product.attribute.value">
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_14"></field>
+        <field name="price_extra">0</field>
+        <field name="weight_extra">0</field>
+        <field name="sequence">0</field>
+        <field name="name">0</field>
+    </record>
+
+    <record id="product_attribute_value_93" model="product.attribute.value">
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_14"></field>
+        <field name="price_extra">0</field>
+        <field name="weight_extra">0</field>
+        <field name="sequence">0</field>
+        <field name="name">1000</field>
+    </record>
+
+    <record id="product_attribute_value_94" model="product.attribute.value">
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_14"></field>
+        <field name="price_extra">0</field>
+        <field name="weight_extra">0</field>
+        <field name="sequence">0</field>
+        <field name="name">2000</field>
+    </record>
+
+    <record id="product_attribute_value_95" model="product.attribute.value">
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_14"></field>
+        <field name="price_extra">0</field>
+        <field name="weight_extra">0</field>
+        <field name="sequence">0</field>
+        <field name="name">3000</field>
+    </record>
+
+    <record id="product_attribute_value_96" model="product.attribute.value">
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_14"></field>
+        <field name="price_extra">0</field>
+        <field name="weight_extra">0</field>
+        <field name="sequence">0</field>
+        <field name="name">4000</field>
+    </record>
+
+    <record id="product_attribute_value_97" model="product.attribute.value">
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_14"></field>
+        <field name="price_extra">0</field>
+        <field name="weight_extra">0</field>
+        <field name="sequence">0</field>
+        <field name="name">5000</field>
+    </record>
+
+    <record id="product_attribute_value_98" model="product.attribute.value">
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_14"></field>
+        <field name="price_extra">0</field>
+        <field name="weight_extra">0</field>
+        <field name="sequence">0</field>
+        <field name="name">6000</field>
+    </record>
+
+    <record id="product_attribute_value_99" model="product.attribute.value">
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_14"></field>
+        <field name="price_extra">0</field>
+        <field name="weight_extra">0</field>
+        <field name="sequence">0</field>
+        <field name="name">7000</field>
+    </record>
+
+    <record id="product_attribute_value_100" model="product.attribute.value">
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_14"></field>
+        <field name="price_extra">0</field>
+        <field name="weight_extra">0</field>
+        <field name="sequence">0</field>
+        <field name="name">8000</field>
+    </record>
+
+    <record id="product_attribute_value_101" model="product.attribute.value">
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_14"></field>
+        <field name="price_extra">0</field>
+        <field name="weight_extra">0</field>
+        <field name="sequence">0</field>
+        <field name="name">9000</field>
+    </record>
+
+    <record id="product_attribute_value_102" model="product.attribute.value">
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_14"></field>
+        <field name="price_extra">0</field>
+        <field name="weight_extra">0</field>
+        <field name="sequence">0</field>
+        <field name="name">10000</field>
+    </record>
+
+    <record id="product_attribute_value_103" model="product.attribute.value">
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_14"></field>
+        <field name="price_extra">0</field>
+        <field name="weight_extra">0</field>
+        <field name="sequence">0</field>
+        <field name="name">12000</field>
+    </record>
+
+    <record id="product_attribute_value_104" model="product.attribute.value">
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_14"></field>
+        <field name="price_extra">0</field>
+        <field name="weight_extra">0</field>
+        <field name="sequence">0</field>
+        <field name="name">14000</field>
+    </record>
+
+    <record id="product_attribute_value_105" model="product.attribute.value">
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_14"></field>
+        <field name="price_extra">0</field>
+        <field name="weight_extra">0</field>
+        <field name="sequence">0</field>
+        <field name="name">16000</field>
+    </record>
+
+    <record id="product_attribute_value_106" model="product.attribute.value">
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_11"></field>
+        <field name="price_extra">150</field>
+        <field name="weight_extra">0</field>
+        <field name="sequence">0</field>
+        <field name="name">12.5</field>
+    </record>
+
+    <record id="product_attribute_value_107" model="product.attribute.value">
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_11"></field>
+        <field name="price_extra">150</field>
+        <field name="weight_extra">0</field>
+        <field name="sequence">0</field>
+        <field name="name">12.75</field>
+    </record>
+
+    <record id="product_attribute_value_108" model="product.attribute.value">
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_11"></field>
+        <field name="price_extra">150</field>
+        <field name="weight_extra">0</field>
+        <field name="sequence">0</field>
+        <field name="name">13</field>
+    </record>
+
+    <record id="product_attribute_value_109" model="product.attribute.value">
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_11"></field>
+        <field name="price_extra">150</field>
+        <field name="weight_extra">0</field>
+        <field name="sequence">0</field>
+        <field name="name">13.25</field>
+    </record>
+
+    <record id="product_attribute_value_110" model="product.attribute.value">
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_11"></field>
+        <field name="price_extra">150</field>
+        <field name="weight_extra">0</field>
+        <field name="sequence">0</field>
+        <field name="name">13.5</field>
+    </record>
+
+    <record id="product_attribute_value_111" model="product.attribute.value">
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_11"></field>
+        <field name="price_extra">0</field>
+        <field name="weight_extra">0</field>
+        <field name="sequence">0</field>
+        <field name="name">13.75</field>
+    </record>
+
+    <record id="product_attribute_value_112" model="product.attribute.value">
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_11"></field>
+        <field name="price_extra">25</field>
+        <field name="weight_extra">0</field>
+        <field name="sequence">0</field>
+        <field name="name">14</field>
+    </record>
+
+    <record id="product_attribute_value_113" model="product.attribute.value">
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_11"></field>
+        <field name="price_extra">50</field>
+        <field name="weight_extra">0</field>
+        <field name="sequence">0</field>
+        <field name="name">14.25</field>
+    </record>
+
+    <record id="product_attribute_value_114" model="product.attribute.value">
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_11"></field>
+        <field name="price_extra">75</field>
+        <field name="weight_extra">0</field>
+        <field name="sequence">0</field>
+        <field name="name">14.5</field>
+    </record>
+
+    <record id="product_attribute_value_115" model="product.attribute.value">
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_22"></field>
+        <field name="price_extra">0</field>
+        <field name="weight_extra">0</field>
+        <field name="sequence">0</field>
+        <field name="name">Crushed Silver Finish</field>
+    </record>
+
+    <record id="product_attribute_value_116" model="product.attribute.value">
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_22"></field>
+        <field name="price_extra">0</field>
+        <field name="weight_extra">0</field>
+        <field name="sequence">0</field>
+        <field name="name">Barrett Brown Finish</field>
+    </record>
+
+    <record id="product_attribute_value_117" model="product.attribute.value">
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_22"></field>
+        <field name="price_extra">0</field>
+        <field name="weight_extra">0</field>
+        <field name="sequence">0</field>
+        <field name="name">Vortex Bronze Finish</field>
+    </record>
+
+    <record id="product_attribute_value_118" model="product.attribute.value">
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_22"></field>
+        <field name="price_extra">0</field>
+        <field name="weight_extra">0</field>
+        <field name="sequence">0</field>
+        <field name="name">Desert Verde Finish</field>
+    </record>
+
+    <record id="product_attribute_value_119" model="product.attribute.value">
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_22"></field>
+        <field name="price_extra">0</field>
+        <field name="weight_extra">0</field>
+        <field name="sequence">0</field>
+        <field name="name">Forrest Green Finish</field>
+    </record>
+
+    <record id="product_attribute_value_120" model="product.attribute.value">
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_14"></field>
+        <field name="price_extra">0</field>
+        <field name="weight_extra">0</field>
+        <field name="sequence">0</field>
+        <field name="name">NA</field>
+    </record>
+
+    <record id="product_attribute_value_121" model="product.attribute.value">
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_17"></field>
+        <field name="price_extra">0</field>
+        <field name="weight_extra">0</field>
+        <field name="sequence">0</field>
+        <field name="name">None</field>
+    </record>
+
+    <record id="product_attribute_value_122" model="product.attribute.value">
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_17"></field>
+        <field name="price_extra">150</field>
+        <field name="weight_extra">0</field>
+        <field name="sequence">0</field>
+        <field name="name">Anti-Cant Level</field>
+    </record>
+
+    <record id="product_attribute_value_123" model="product.attribute.value">
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_21"></field>
+        <field name="price_extra">0</field>
+        <field name="weight_extra">0</field>
+        <field name="sequence">0</field>
+        <field name="name">Berger VLD/HYB</field>
+    </record>
+
+    <record id="product_attribute_value_124" model="product.attribute.value">
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_21"></field>
+        <field name="price_extra">0</field>
+        <field name="weight_extra">0</field>
+        <field name="sequence">0</field>
+        <field name="name">Hornady ELD-M</field>
+    </record>
+
+    <record id="product_attribute_value_125" model="product.attribute.value">
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_21"></field>
+        <field name="price_extra">0</field>
+        <field name="weight_extra">0</field>
+        <field name="sequence">0</field>
+        <field name="name">Barnes LRX</field>
+    </record>
+
+    <record id="product_attribute_value_126" model="product.attribute.value">
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_21"></field>
+        <field name="price_extra">0</field>
+        <field name="weight_extra">0</field>
+        <field name="sequence">0</field>
+        <field name="name">NA</field>
+    </record>
+
+    <record id="product_attribute_value_127" model="product.attribute.value">
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_35"></field>
+        <field name="price_extra">0</field>
+        <field name="weight_extra">0</field>
+        <field name="sequence">0</field>
+        <field name="name">308 Win</field>
+    </record>
+
+    <record id="product_attribute_value_128" model="product.attribute.value">
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_25"></field>
+        <field name="price_extra">0</field>
+        <field name="weight_extra">0</field>
+        <field name="sequence">0</field>
+        <field name="name">TT Special 1-3.5 lbs</field>
+    </record>
+
+    <record id="product_attribute_value_129" model="product.attribute.value">
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_36"></field>
+        <field name="price_extra">0</field>
+        <field name="weight_extra">0</field>
+        <field name="sequence">0</field>
+        <field name="name">None</field>
+    </record>
+
+    <record id="product_attribute_value_130" model="product.attribute.value">
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_36"></field>
+        <field name="price_extra">500</field>
+        <field name="weight_extra">0</field>
+        <field name="sequence">0</field>
+        <field name="name">Add 2nd Data Package</field>
+    </record>
+
+    <record id="product_attribute_value_131" model="product.attribute.value">
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_37"></field>
+        <field name="price_extra">0</field>
+        <field name="weight_extra">0</field>
+        <field name="sequence">0</field>
+        <field name="name">2-Hornady ELD-M</field>
+    </record>
+
+    <record id="product_attribute_value_132" model="product.attribute.value">
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_37"></field>
+        <field name="price_extra">0</field>
+        <field name="weight_extra">0</field>
+        <field name="sequence">0</field>
+        <field name="name">2-Barnes LRX</field>
+    </record>
+
+    <record id="product_attribute_value_133" model="product.attribute.value">
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_37"></field>
+        <field name="price_extra">0</field>
+        <field name="weight_extra">0</field>
+        <field name="sequence">0</field>
+        <field name="name">2-Berger VLD</field>
+    </record>
+
+    <record id="product_attribute_value_134" model="product.attribute.value">
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_37"></field>
+        <field name="price_extra">0</field>
+        <field name="weight_extra">0</field>
+        <field name="sequence">0</field>
+        <field name="name">N/A</field>
+    </record>
+
+    <record id="product_attribute_value_135" model="product.attribute.value">
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_35"></field>
+        <field name="price_extra">0</field>
+        <field name="weight_extra">0</field>
+        <field name="sequence">0</field>
+        <field name="name">33 Nosler</field>
+    </record>
+
+    <record id="product_attribute_value_136" model="product.attribute.value">
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_35"></field>
+        <field name="price_extra">0</field>
+        <field name="weight_extra">0</field>
+        <field name="sequence">0</field>
+        <field name="name">338 RUM</field>
+    </record>
+
+    <record id="product_attribute_value_137" model="product.attribute.value">
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_35"></field>
+        <field name="price_extra">0</field>
+        <field name="weight_extra">0</field>
+        <field name="sequence">0</field>
+        <field name="name">375 Ruger</field>
+    </record>
+
+    <record id="product_attribute_value_138" model="product.attribute.value">
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_34"></field>
+        <field name="price_extra">0</field>
+        <field name="weight_extra">0</field>
+        <field name="sequence">0</field>
+        <field name="name">Picatinny Rail 30 MOA</field>
+    </record>
+
+</odoo>

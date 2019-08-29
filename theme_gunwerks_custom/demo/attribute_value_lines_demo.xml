@@ -1,0 +1,2233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <record id="product_attribute_value_line_1" model="product.attribute.value.line">
+        <field name="product_tmpl_id" ref="theme_gunwerks_custom.product_template_01"/>
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_47"/>
+        <field name="value_id" ref="theme_gunwerks_custom.product_attribute_value_17"/>
+        <field name="image" type="base64" file="theme_gunwerks_custom/static/img/__export__.product_attribute_value_line_68_1f554de4.jpg"/>
+        <field name="sequence">1</field>
+        <field name="sequence_numeric">1</field>
+    </record>
+
+    <record id="product_attribute_value_line_2" model="product.attribute.value.line">
+        <field name="product_tmpl_id" ref="theme_gunwerks_custom.product_template_01"/>
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_47"/>
+        <field name="value_id" ref="theme_gunwerks_custom.product_attribute_value_21"/>
+        <field name="image" type="base64" file="theme_gunwerks_custom/static/img/__export__.product_attribute_value_line_69_3c89ff4f.jpg"/>
+        <field name="sequence">2</field>
+        <field name="sequence_numeric">2</field>
+    </record>
+
+    <record id="product_attribute_value_line_3" model="product.attribute.value.line">
+        <field name="product_tmpl_id" ref="theme_gunwerks_custom.product_template_01"/>
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_47"/>
+        <field name="value_id" ref="theme_gunwerks_custom.product_attribute_value_37"/>
+        <field name="image" type="base64" file="theme_gunwerks_custom/static/img/__export__.product_attribute_value_line_230_63dec8c6.jpg"/>
+        <field name="sequence">3</field>
+        <field name="sequence_numeric">3</field>
+    </record>
+
+    <record id="product_attribute_value_line_4" model="product.attribute.value.line">
+        <field name="product_tmpl_id" ref="theme_gunwerks_custom.product_template_01"/>
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_47"/>
+        <field name="value_id" ref="theme_gunwerks_custom.product_attribute_value_40"/>
+        <field name="image" type="base64" file="theme_gunwerks_custom/static/img/__export__.product_attribute_value_line_231_a60af4e8.jpg"/>
+        <field name="sequence">4</field>
+        <field name="sequence_numeric">4</field>
+    </record>
+
+    <record id="product_attribute_value_line_5" model="product.attribute.value.line">
+        <field name="product_tmpl_id" ref="theme_gunwerks_custom.product_template_01"/>
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_47"/>
+        <field name="value_id" ref="theme_gunwerks_custom.product_attribute_value_7"/>
+        <field name="image" type="base64" file="theme_gunwerks_custom/static/img/__export__.product_attribute_value_line_140_c48b06ad.jpg"/>
+        <field name="sequence">5</field>
+        <field name="sequence_numeric">5</field>
+    </record>
+
+    <record id="product_attribute_value_line_6" model="product.attribute.value.line">
+        <field name="product_tmpl_id" ref="theme_gunwerks_custom.product_template_01"/>
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_47"/>
+        <field name="value_id" ref="theme_gunwerks_custom.product_attribute_value_3"/>
+        <field name="image" type="base64" file="theme_gunwerks_custom/static/img/__export__.product_attribute_value_line_229_a863dd61.jpg"/>
+        <field name="sequence">6</field>
+        <field name="sequence_numeric">6</field>
+    </record>
+
+    <record id="product_attribute_value_line_7" model="product.attribute.value.line">
+        <field name="product_tmpl_id" ref="theme_gunwerks_custom.product_template_01"/>
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_47"/>
+        <field name="value_id" ref="theme_gunwerks_custom.product_attribute_value_42"/>
+        <field name="image" type="base64" file="theme_gunwerks_custom/static/img/__export__.product_attribute_value_line_142_8e10ad86.jpg"/>
+        <field name="sequence">7</field>
+        <field name="sequence_numeric">7</field>
+    </record>
+
+    <record id="product_attribute_value_line_8" model="product.attribute.value.line">
+        <field name="product_tmpl_id" ref="theme_gunwerks_custom.product_template_01"/>
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_47"/>
+        <field name="value_id" ref="theme_gunwerks_custom.product_attribute_value_44"/>
+        <field name="image" type="base64" file="theme_gunwerks_custom/static/img/__export__.product_attribute_value_line_139_c0ce3a47.jpg"/>
+        <field name="sequence">8</field>
+        <field name="sequence_numeric">8</field>
+    </record>
+
+    <record id="product_attribute_value_line_9" model="product.attribute.value.line">
+        <field name="product_tmpl_id" ref="theme_gunwerks_custom.product_template_01"/>
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_47"/>
+        <field name="value_id" ref="theme_gunwerks_custom.product_attribute_value_32"/>
+        <field name="image" type="base64" file="theme_gunwerks_custom/static/img/__export__.product_attribute_value_line_141_2b75c083.jpg"/>
+        <field name="sequence">9</field>
+        <field name="sequence_numeric">9</field>
+    </record>
+
+    <record id="product_attribute_value_line_10" model="product.attribute.value.line">
+        <field name="product_tmpl_id" ref="theme_gunwerks_custom.product_template_01"/>
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_47"/>
+        <field name="value_id" ref="theme_gunwerks_custom.product_attribute_value_11"/>
+        <field name="image" type="base64" file="theme_gunwerks_custom/static/img/__export__.product_attribute_value_line_143_c904d15a.jpg"/>
+        <field name="sequence">10</field>
+        <field name="sequence_numeric">10</field>
+    </record>
+
+    <record id="product_attribute_value_line_11" model="product.attribute.value.line">
+        <field name="product_tmpl_id" ref="theme_gunwerks_custom.product_template_01"/>
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_24"/>
+        <field name="value_id" ref="theme_gunwerks_custom.product_attribute_value_84"/>
+        <field name="image" type="base64" file="theme_gunwerks_custom/static/img/__export__.product_attribute_value_line_138_cc92e7d7.jpg"/>
+        <field name="sequence">11</field>
+        <field name="sequence_numeric">11</field>
+        <field name="value_ids" 
+            eval="[(6, 0, [ref('theme_gunwerks_custom.product_attribute_value_84'),])]"/>
+    </record>
+
+    <record id="product_attribute_value_line_12" model="product.attribute.value.line">
+        <field name="product_tmpl_id" ref="theme_gunwerks_custom.product_template_01"/>
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_24"/>
+        <field name="value_id" ref="theme_gunwerks_custom.product_attribute_value_85"/>
+        <field name="image" type="base64" file="theme_gunwerks_custom/static/img/__export__.product_attribute_value_line_144_084e1710.jpg"/>
+        <field name="sequence">12</field>
+        <field name="sequence_numeric">12</field>
+        <field name="value_ids" 
+            eval="[(6, 0, [ref('theme_gunwerks_custom.product_attribute_value_85'), ref('theme_gunwerks_custom.product_attribute_value_86'),])]"/>
+    </record>
+
+    <record id="product_attribute_value_line_13" model="product.attribute.value.line">
+        <field name="product_tmpl_id" ref="theme_gunwerks_custom.product_template_01"/>
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_5"/>
+        <field name="value_id" ref="theme_gunwerks_custom.product_attribute_value_61"/>
+        <field name="image" type="base64" file="theme_gunwerks_custom/static/img/__export__.product_attribute_value_line_158_d9df8bae.jpg"/>
+        <field name="sequence">13</field>
+        <field name="sequence_numeric">13</field>
+        <field name="value_ids" 
+            eval="[(6, 0, [ref('theme_gunwerks_custom.product_attribute_value_65'), ref('theme_gunwerks_custom.product_attribute_value_69'),
+            ref('theme_gunwerks_custom.product_attribute_value_74'),])]"/>
+    </record>
+
+    <record id="product_attribute_value_line_14" model="product.attribute.value.line">
+        <field name="product_tmpl_id" ref="theme_gunwerks_custom.product_template_01"/>
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_5"/>
+        <field name="value_id" ref="theme_gunwerks_custom.product_attribute_value_61"/>
+        <field name="image" type="base64" file="theme_gunwerks_custom/static/img/__export__.product_attribute_value_line_159_2a89cdee.jpg"/>
+        <field name="sequence">14</field>
+        <field name="sequence_numeric">14</field>
+        <field name="value_ids" 
+            eval="[(6, 0, [ref('theme_gunwerks_custom.product_attribute_value_65'), ref('theme_gunwerks_custom.product_attribute_value_69'),
+            ref('theme_gunwerks_custom.product_attribute_value_75'),])]"/>
+    </record>
+
+    <record id="product_attribute_value_line_15" model="product.attribute.value.line">
+        <field name="product_tmpl_id" ref="theme_gunwerks_custom.product_template_01"/>
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_5"/>
+        <field name="value_id" ref="theme_gunwerks_custom.product_attribute_value_61"/>
+        <field name="image" type="base64" file="theme_gunwerks_custom/static/img/__export__.product_attribute_value_line_160_7d4cd8fd.jpg"/>
+        <field name="sequence">15</field>
+        <field name="sequence_numeric">15</field>
+        <field name="value_ids" 
+            eval="[(6, 0, [ref('theme_gunwerks_custom.product_attribute_value_65'), ref('theme_gunwerks_custom.product_attribute_value_69'),
+            ref('theme_gunwerks_custom.product_attribute_value_76'),])]"/>
+    </record>
+
+    <record id="product_attribute_value_line_16" model="product.attribute.value.line">
+        <field name="product_tmpl_id" ref="theme_gunwerks_custom.product_template_01"/>
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_5"/>
+        <field name="value_id" ref="theme_gunwerks_custom.product_attribute_value_61"/>
+        <field name="image" type="base64" file="theme_gunwerks_custom/static/img/__export__.product_attribute_value_line_161_45cfe82b.jpg"/>
+        <field name="sequence">16</field>
+        <field name="sequence_numeric">16</field>
+        <field name="value_ids" 
+            eval="[(6, 0, [ref('theme_gunwerks_custom.product_attribute_value_65'), ref('theme_gunwerks_custom.product_attribute_value_69'),
+            ref('theme_gunwerks_custom.product_attribute_value_77'),])]"/>
+    </record>
+
+    <record id="product_attribute_value_line_17" model="product.attribute.value.line">
+        <field name="product_tmpl_id" ref="theme_gunwerks_custom.product_template_01"/>
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_5"/>
+        <field name="value_id" ref="theme_gunwerks_custom.product_attribute_value_61"/>
+        <field name="image" type="base64" file="theme_gunwerks_custom/static/img/__export__.product_attribute_value_line_162_294304f6.jpg"/>
+        <field name="sequence">17</field>
+        <field name="sequence_numeric">17</field>
+        <field name="value_ids" 
+            eval="[(6, 0, [ref('theme_gunwerks_custom.product_attribute_value_65'), ref('theme_gunwerks_custom.product_attribute_value_69'),
+            ref('theme_gunwerks_custom.product_attribute_value_78'),])]"/>
+    </record>
+
+    <record id="product_attribute_value_line_18" model="product.attribute.value.line">
+        <field name="product_tmpl_id" ref="theme_gunwerks_custom.product_template_01"/>
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_5"/>
+        <field name="value_id" ref="theme_gunwerks_custom.product_attribute_value_61"/>
+        <field name="image" type="base64" file="theme_gunwerks_custom/static/img/__export__.product_attribute_value_line_164_b6818824.jpg"/>
+        <field name="sequence">18</field>
+        <field name="sequence_numeric">18</field>
+        <field name="value_ids" 
+            eval="[(6, 0, [ref('theme_gunwerks_custom.product_attribute_value_65'), ref('theme_gunwerks_custom.product_attribute_value_69'),
+            ref('theme_gunwerks_custom.product_attribute_value_79'),])]"/>
+    </record>
+
+    <record id="product_attribute_value_line_19" model="product.attribute.value.line">
+        <field name="product_tmpl_id" ref="theme_gunwerks_custom.product_template_01"/>
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_5"/>
+        <field name="value_id" ref="theme_gunwerks_custom.product_attribute_value_61"/>
+        <field name="image" type="base64" file="theme_gunwerks_custom/static/img/__export__.product_attribute_value_line_205_e3c68268.jpg"/>
+        <field name="sequence">19</field>
+        <field name="sequence_numeric">19</field>
+        <field name="value_ids" 
+            eval="[(6, 0, [ref('theme_gunwerks_custom.product_attribute_value_65'), ref('theme_gunwerks_custom.product_attribute_value_69'),
+            ref('theme_gunwerks_custom.product_attribute_value_115'),])]"/>
+        
+    </record>
+
+    <record id="product_attribute_value_line_20" model="product.attribute.value.line">
+        <field name="product_tmpl_id" ref="theme_gunwerks_custom.product_template_01"/>
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_5"/>
+        <field name="value_id" ref="theme_gunwerks_custom.product_attribute_value_61"/>
+        <field name="image" type="base64" file="theme_gunwerks_custom/static/img/__export__.product_attribute_value_line_206_d7ce9b70.jpg"/>
+        <field name="sequence">20</field>
+        <field name="sequence_numeric">20</field>
+        <field name="value_ids" 
+            eval="[(6, 0, [ref('theme_gunwerks_custom.product_attribute_value_65'), ref('theme_gunwerks_custom.product_attribute_value_69'),
+            ref('theme_gunwerks_custom.product_attribute_value_116'),])]"/>
+    </record>
+
+    <record id="product_attribute_value_line_21" model="product.attribute.value.line">
+        <field name="product_tmpl_id" ref="theme_gunwerks_custom.product_template_01"/>
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_5"/>
+        <field name="value_id" ref="theme_gunwerks_custom.product_attribute_value_61"/>
+        <field name="image" type="base64" file="theme_gunwerks_custom/static/img/__export__.product_attribute_value_line_207_026f9fc4.jpg"/>
+        <field name="sequence">21</field>
+        <field name="sequence_numeric">21</field>
+        <field name="value_ids" 
+            eval="[(6, 0, [ref('theme_gunwerks_custom.product_attribute_value_65'), ref('theme_gunwerks_custom.product_attribute_value_69'),
+            ref('theme_gunwerks_custom.product_attribute_value_117'),])]"/>
+
+    </record>
+
+    <record id="product_attribute_value_line_22" model="product.attribute.value.line">
+        <field name="product_tmpl_id" ref="theme_gunwerks_custom.product_template_01"/>
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_5"/>
+        <field name="value_id" ref="theme_gunwerks_custom.product_attribute_value_61"/>
+        <field name="image" type="base64" file="theme_gunwerks_custom/static/img/__export__.product_attribute_value_line_208_e45ae5a0.jpg"/>
+        <field name="sequence">22</field>
+        <field name="sequence_numeric">22</field>
+        <field name="value_ids" 
+            eval="[(6, 0, [ref('theme_gunwerks_custom.product_attribute_value_65'), ref('theme_gunwerks_custom.product_attribute_value_69'),
+            ref('theme_gunwerks_custom.product_attribute_value_118'),])]"/>
+    </record>
+
+    <record id="product_attribute_value_line_23" model="product.attribute.value.line">
+        <field name="product_tmpl_id" ref="theme_gunwerks_custom.product_template_01"/>
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_5"/>
+        <field name="value_id" ref="theme_gunwerks_custom.product_attribute_value_61"/>
+        <field name="image" type="base64" file="theme_gunwerks_custom/static/img/__export__.product_attribute_value_line_209_7fa7017c.jpg"/>
+        <field name="sequence">23</field>
+        <field name="sequence_numeric">23</field>
+        <field name="value_ids" 
+            eval="[(6, 0, [ref('theme_gunwerks_custom.product_attribute_value_65'), ref('theme_gunwerks_custom.product_attribute_value_69'),
+            ref('theme_gunwerks_custom.product_attribute_value_119'),])]"/>
+    </record>
+
+    <record id="product_attribute_value_line_24" model="product.attribute.value.line">
+        <field name="product_tmpl_id" ref="theme_gunwerks_custom.product_template_01"/>
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_5"/>
+        <field name="value_id" ref="theme_gunwerks_custom.product_attribute_value_61"/>
+        <field name="image" type="base64" file="theme_gunwerks_custom/static/img/__export__.product_attribute_value_line_151_3ebd2578.jpg"/>
+        <field name="sequence">24</field>
+        <field name="sequence_numeric">24</field>
+        <field name="value_ids" 
+            eval="[(6, 0, [ref('theme_gunwerks_custom.product_attribute_value_65'), ref('theme_gunwerks_custom.product_attribute_value_67'),
+            ref('theme_gunwerks_custom.product_attribute_value_74'),])]"/>
+    </record>
+
+    <record id="product_attribute_value_line_25" model="product.attribute.value.line">
+        <field name="product_tmpl_id" ref="theme_gunwerks_custom.product_template_01"/>
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_5"/>
+        <field name="value_id" ref="theme_gunwerks_custom.product_attribute_value_61"/>
+        <field name="image" type="base64" file="theme_gunwerks_custom/static/img/__export__.product_attribute_value_line_152_02bf82c0.jpg"/>
+        <field name="sequence">25</field>
+        <field name="sequence_numeric">25</field>
+        <field name="value_ids" 
+            eval="[(6, 0, [ref('theme_gunwerks_custom.product_attribute_value_65'), ref('theme_gunwerks_custom.product_attribute_value_67'),
+            ref('theme_gunwerks_custom.product_attribute_value_75'),])]"/>
+    </record>
+
+    <record id="product_attribute_value_line_26" model="product.attribute.value.line">
+        <field name="product_tmpl_id" ref="theme_gunwerks_custom.product_template_01"/>
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_5"/>
+        <field name="value_id" ref="theme_gunwerks_custom.product_attribute_value_61"/>
+        <field name="image" type="base64" file="theme_gunwerks_custom/static/img/__export__.product_attribute_value_line_153_e8e40bf3.jpg"/>
+        <field name="sequence">26</field>
+        <field name="sequence_numeric">26</field>
+        <field name="value_ids" 
+            eval="[(6, 0, [ref('theme_gunwerks_custom.product_attribute_value_65'), ref('theme_gunwerks_custom.product_attribute_value_67'),
+            ref('theme_gunwerks_custom.product_attribute_value_76'),])]"/>
+    </record>
+
+    <record id="product_attribute_value_line_27" model="product.attribute.value.line">
+        <field name="product_tmpl_id" ref="theme_gunwerks_custom.product_template_01"/>
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_5"/>
+        <field name="value_id" ref="theme_gunwerks_custom.product_attribute_value_61"/>
+        <field name="image" type="base64" file="theme_gunwerks_custom/static/img/__export__.product_attribute_value_line_154_d66f0def.jpg"/>
+        <field name="sequence">27</field>
+        <field name="sequence_numeric">27</field>
+        <field name="value_ids" 
+            eval="[(6, 0, [ref('theme_gunwerks_custom.product_attribute_value_65'), ref('theme_gunwerks_custom.product_attribute_value_67'),
+            ref('theme_gunwerks_custom.product_attribute_value_77'),])]"/>
+    </record>
+
+    <record id="product_attribute_value_line_28" model="product.attribute.value.line">
+        <field name="product_tmpl_id" ref="theme_gunwerks_custom.product_template_01"/>
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_5"/>
+        <field name="value_id" ref="theme_gunwerks_custom.product_attribute_value_61"/>
+        <field name="image" type="base64" file="theme_gunwerks_custom/static/img/__export__.product_attribute_value_line_155_cbfa055a.jpg"/>
+        <field name="sequence">28</field>
+        <field name="sequence_numeric">28</field>
+        <field name="value_ids" 
+            eval="[(6, 0, [ref('theme_gunwerks_custom.product_attribute_value_65'), ref('theme_gunwerks_custom.product_attribute_value_67'),
+            ref('theme_gunwerks_custom.product_attribute_value_78'),])]"/>
+    </record>
+
+    <record id="product_attribute_value_line_29" model="product.attribute.value.line">
+        <field name="product_tmpl_id" ref="theme_gunwerks_custom.product_template_01"/>
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_5"/>
+        <field name="value_id" ref="theme_gunwerks_custom.product_attribute_value_61"/>
+        <field name="image" type="base64" file="theme_gunwerks_custom/static/img/__export__.product_attribute_value_line_157_d75314b0.jpg"/>
+        <field name="sequence">29</field>
+        <field name="sequence_numeric">29</field>
+        <field name="value_ids" 
+            eval="[(6, 0, [ref('theme_gunwerks_custom.product_attribute_value_65'), ref('theme_gunwerks_custom.product_attribute_value_67'),
+            ref('theme_gunwerks_custom.product_attribute_value_79'),])]"/>
+    </record>
+
+    <record id="product_attribute_value_line_30" model="product.attribute.value.line">
+        <field name="product_tmpl_id" ref="theme_gunwerks_custom.product_template_01"/>
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_5"/>
+        <field name="value_id" ref="theme_gunwerks_custom.product_attribute_value_61"/>
+        <field name="image" type="base64" file="theme_gunwerks_custom/static/img/__export__.product_attribute_value_line_210_9814deb7.jpg"/>
+        <field name="sequence">30</field>
+        <field name="sequence_numeric">30</field>
+        <field name="value_ids" 
+            eval="[(6, 0, [ref('theme_gunwerks_custom.product_attribute_value_65'), ref('theme_gunwerks_custom.product_attribute_value_67'),
+            ref('theme_gunwerks_custom.product_attribute_value_115'),])]"/>
+    </record>
+
+    <record id="product_attribute_value_line_31" model="product.attribute.value.line">
+        <field name="product_tmpl_id" ref="theme_gunwerks_custom.product_template_01"/>
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_5"/>
+        <field name="value_id" ref="theme_gunwerks_custom.product_attribute_value_61"/>
+        <field name="image" type="base64" file="theme_gunwerks_custom/static/img/__export__.product_attribute_value_line_211_ca4690ad.jpg"/>
+        <field name="sequence">31</field>
+        <field name="sequence_numeric">31</field>
+        <field name="value_ids" 
+            eval="[(6, 0, [ref('theme_gunwerks_custom.product_attribute_value_65'), ref('theme_gunwerks_custom.product_attribute_value_67'),
+            ref('theme_gunwerks_custom.product_attribute_value_116'),])]"/>
+    </record>
+
+    <record id="product_attribute_value_line_32" model="product.attribute.value.line">
+        <field name="product_tmpl_id" ref="theme_gunwerks_custom.product_template_01"/>
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_5"/>
+        <field name="value_id" ref="theme_gunwerks_custom.product_attribute_value_61"/>
+        <field name="image" type="base64" file="theme_gunwerks_custom/static/img/__export__.product_attribute_value_line_212_6ef0ab7e.jpg"/>
+        <field name="sequence">32</field>
+        <field name="sequence_numeric">32</field>
+        <field name="value_ids" 
+            eval="[(6, 0, [ref('theme_gunwerks_custom.product_attribute_value_65'), ref('theme_gunwerks_custom.product_attribute_value_67'),
+            ref('theme_gunwerks_custom.product_attribute_value_118'),])]"/>
+    </record>
+
+    <record id="product_attribute_value_line_33" model="product.attribute.value.line">
+        <field name="product_tmpl_id" ref="theme_gunwerks_custom.product_template_01"/>
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_5"/>
+        <field name="value_id" ref="theme_gunwerks_custom.product_attribute_value_61"/>
+        <field name="image" type="base64" file="theme_gunwerks_custom/static/img/__export__.product_attribute_value_line_213_f698f41c.jpg"/>
+        <field name="sequence">33</field>
+        <field name="sequence_numeric">33</field>
+        <field name="value_ids" 
+            eval="[(6, 0, [ref('theme_gunwerks_custom.product_attribute_value_65'), ref('theme_gunwerks_custom.product_attribute_value_67'),
+            ref('theme_gunwerks_custom.product_attribute_value_119'),])]"/>
+    </record>
+
+    <record id="product_attribute_value_line_34" model="product.attribute.value.line">
+        <field name="product_tmpl_id" ref="theme_gunwerks_custom.product_template_01"/>
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_5"/>
+        <field name="value_id" ref="theme_gunwerks_custom.product_attribute_value_61"/>
+        <field name="image" type="base64" file="theme_gunwerks_custom/static/img/__export__.product_attribute_value_line_81_24d3f09a.jpg"/>
+        <field name="sequence">34</field>
+        <field name="sequence_numeric">34</field>
+        <field name="value_ids" 
+            eval="[(6, 0, [ref('theme_gunwerks_custom.product_attribute_value_65'), ref('theme_gunwerks_custom.product_attribute_value_66'),
+            ref('theme_gunwerks_custom.product_attribute_value_74'),])]"/>
+    </record>
+
+    <record id="product_attribute_value_line_35" model="product.attribute.value.line">
+        <field name="product_tmpl_id" ref="theme_gunwerks_custom.product_template_01"/>
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_5"/>
+        <field name="value_id" ref="theme_gunwerks_custom.product_attribute_value_61"/>
+        <field name="image" type="base64" file="theme_gunwerks_custom/static/img/__export__.product_attribute_value_line_82_266510b0.jpg"/>
+        <field name="sequence">35</field>
+        <field name="sequence_numeric">35</field>
+        <field name="value_ids" 
+            eval="[(6, 0, [ref('theme_gunwerks_custom.product_attribute_value_65'), ref('theme_gunwerks_custom.product_attribute_value_66'),
+            ref('theme_gunwerks_custom.product_attribute_value_75'),])]"/>
+    </record>
+
+    <record id="product_attribute_value_line_36" model="product.attribute.value.line">
+        <field name="product_tmpl_id" ref="theme_gunwerks_custom.product_template_01"/>
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_5"/>
+        <field name="value_id" ref="theme_gunwerks_custom.product_attribute_value_61"/>
+        <field name="image" type="base64" file="theme_gunwerks_custom/static/img/__export__.product_attribute_value_line_146_fe529e87.jpg"/>
+        <field name="sequence">36</field>
+        <field name="sequence_numeric">36</field>
+        <field name="value_ids" 
+            eval="[(6, 0, [ref('theme_gunwerks_custom.product_attribute_value_65'), ref('theme_gunwerks_custom.product_attribute_value_66'),
+            ref('theme_gunwerks_custom.product_attribute_value_76'),])]"/>
+    </record>
+
+    <record id="product_attribute_value_line_37" model="product.attribute.value.line">
+        <field name="product_tmpl_id" ref="theme_gunwerks_custom.product_template_01"/>
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_5"/>
+        <field name="value_id" ref="theme_gunwerks_custom.product_attribute_value_61"/>
+        <field name="image" type="base64" file="theme_gunwerks_custom/static/img/__export__.product_attribute_value_line_145_cf4448ba.jpg"/>
+        <field name="sequence">37</field>
+        <field name="sequence_numeric">37</field>
+        <field name="value_ids" 
+            eval="[(6, 0, [ref('theme_gunwerks_custom.product_attribute_value_65'), ref('theme_gunwerks_custom.product_attribute_value_66'),
+            ref('theme_gunwerks_custom.product_attribute_value_115'),])]"/>
+    </record>
+
+    <record id="product_attribute_value_line_38" model="product.attribute.value.line">
+        <field name="product_tmpl_id" ref="theme_gunwerks_custom.product_template_01"/>
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_5"/>
+        <field name="value_id" ref="theme_gunwerks_custom.product_attribute_value_61"/>
+        <field name="image" type="base64" file="theme_gunwerks_custom/static/img/__export__.product_attribute_value_line_147_73c21287.jpg"/>
+        <field name="sequence">38</field>
+        <field name="sequence_numeric">38</field>
+        <field name="value_ids" 
+            eval="[(6, 0, [ref('theme_gunwerks_custom.product_attribute_value_65'), ref('theme_gunwerks_custom.product_attribute_value_66'),
+            ref('theme_gunwerks_custom.product_attribute_value_77'),])]"/>
+    </record>
+
+    <record id="product_attribute_value_line_39" model="product.attribute.value.line">
+        <field name="product_tmpl_id" ref="theme_gunwerks_custom.product_template_01"/>
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_5"/>
+        <field name="value_id" ref="theme_gunwerks_custom.product_attribute_value_61"/>
+        <field name="image" type="base64" file="theme_gunwerks_custom/static/img/__export__.product_attribute_value_line_214_02fb29d4.jpg"/>
+        <field name="sequence">39</field>
+        <field name="sequence_numeric">39</field>
+        <field name="value_ids" 
+            eval="[(6, 0, [ref('theme_gunwerks_custom.product_attribute_value_65'), ref('theme_gunwerks_custom.product_attribute_value_66'),
+            ref('theme_gunwerks_custom.product_attribute_value_116'),])]"/>
+    </record>
+
+    <record id="product_attribute_value_line_40" model="product.attribute.value.line">
+        <field name="product_tmpl_id" ref="theme_gunwerks_custom.product_template_01"/>
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_5"/>
+        <field name="value_id" ref="theme_gunwerks_custom.product_attribute_value_61"/>
+        <field name="image" type="base64" file="theme_gunwerks_custom/static/img/__export__.product_attribute_value_line_215_0686de18.jpg"/>
+        <field name="sequence">40</field>
+        <field name="sequence_numeric">40</field>
+        <field name="value_ids" 
+            eval="[(6, 0, [ref('theme_gunwerks_custom.product_attribute_value_65'), ref('theme_gunwerks_custom.product_attribute_value_66'),
+            ref('theme_gunwerks_custom.product_attribute_value_117'),])]"/>
+    </record>
+
+    <record id="product_attribute_value_line_41" model="product.attribute.value.line">
+        <field name="product_tmpl_id" ref="theme_gunwerks_custom.product_template_01"/>
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_5"/>
+        <field name="value_id" ref="theme_gunwerks_custom.product_attribute_value_61"/>
+        <field name="image" type="base64" file="theme_gunwerks_custom/static/img/__export__.product_attribute_value_line_216_418e7f2b.jpg"/>
+        <field name="sequence">41</field>
+        <field name="sequence_numeric">41</field>
+        <field name="value_ids" 
+            eval="[(6, 0, [ref('theme_gunwerks_custom.product_attribute_value_65'), ref('theme_gunwerks_custom.product_attribute_value_66'),
+            ref('theme_gunwerks_custom.product_attribute_value_118'),])]"/>
+
+    </record>
+
+    <record id="product_attribute_value_line_42" model="product.attribute.value.line">
+        <field name="product_tmpl_id" ref="theme_gunwerks_custom.product_template_01"/>
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_5"/>
+        <field name="value_id" ref="theme_gunwerks_custom.product_attribute_value_61"/>
+        <field name="image" type="base64" file="theme_gunwerks_custom/static/img/__export__.product_attribute_value_line_148_643f0965.jpg"/>
+        <field name="sequence">42</field>
+        <field name="sequence_numeric">42</field>
+        <field name="value_ids" 
+            eval="[(6, 0, [ref('theme_gunwerks_custom.product_attribute_value_65'), ref('theme_gunwerks_custom.product_attribute_value_66'),
+            ref('theme_gunwerks_custom.product_attribute_value_78'),])]"/>
+    </record>
+
+    <record id="product_attribute_value_line_43" model="product.attribute.value.line">
+        <field name="product_tmpl_id" ref="theme_gunwerks_custom.product_template_01"/>
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_5"/>
+        <field name="value_id" ref="theme_gunwerks_custom.product_attribute_value_61"/>
+        <field name="image" type="base64" file="theme_gunwerks_custom/static/img/__export__.product_attribute_value_line_150_6eafbef2.jpg"/>
+        <field name="sequence">43</field>
+        <field name="sequence_numeric">43</field>
+        <field name="value_ids" 
+            eval="[(6, 0, [ref('theme_gunwerks_custom.product_attribute_value_65'), ref('theme_gunwerks_custom.product_attribute_value_66'),
+            ref('theme_gunwerks_custom.product_attribute_value_79'),])]"/>
+    </record>
+
+    <record id="product_attribute_value_line_44" model="product.attribute.value.line">
+        <field name="product_tmpl_id" ref="theme_gunwerks_custom.product_template_01"/>
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_5"/>
+        <field name="value_id" ref="theme_gunwerks_custom.product_attribute_value_61"/>
+        <field name="image" type="base64" file="theme_gunwerks_custom/static/img/__export__.product_attribute_value_line_217_bbe0b2fc.jpg"/>
+        <field name="sequence">44</field>
+        <field name="sequence_numeric">44</field>
+        <field name="value_ids" 
+            eval="[(6, 0, [ref('theme_gunwerks_custom.product_attribute_value_65'), ref('theme_gunwerks_custom.product_attribute_value_66'),
+            ref('theme_gunwerks_custom.product_attribute_value_119'),])]"/>
+    </record>
+
+    <record id="product_attribute_value_line_45" model="product.attribute.value.line">
+        <field name="product_tmpl_id" ref="theme_gunwerks_custom.product_template_01"/>
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_5"/>
+        <field name="value_id" ref="theme_gunwerks_custom.product_attribute_value_62"/>
+        <field name="image" type="base64" file="theme_gunwerks_custom/static/img/__export__.product_attribute_value_line_258_86975652.jpg"/>
+        <field name="sequence">45</field>
+        <field name="sequence_numeric">45</field>
+        <field name="value_ids" 
+            eval="[(6, 0, [ref('theme_gunwerks_custom.product_attribute_value_63'), ref('theme_gunwerks_custom.product_attribute_value_71'),
+            ref('theme_gunwerks_custom.product_attribute_value_74'),])]"/>
+    </record>
+
+    <record id="product_attribute_value_line_46" model="product.attribute.value.line">
+        <field name="product_tmpl_id" ref="theme_gunwerks_custom.product_template_01"/>
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_5"/>
+        <field name="value_id" ref="theme_gunwerks_custom.product_attribute_value_62"/>
+        <field name="image" type="base64" file="theme_gunwerks_custom/static/img/__export__.product_attribute_value_line_259_359f8ac6.jpg"/>
+        <field name="sequence">46</field>
+        <field name="sequence_numeric">46</field>
+        <field name="value_ids" 
+            eval="[(6, 0, [ref('theme_gunwerks_custom.product_attribute_value_63'), ref('theme_gunwerks_custom.product_attribute_value_71'),
+            ref('theme_gunwerks_custom.product_attribute_value_75'),])]"/>
+    </record>
+
+    <record id="product_attribute_value_line_47" model="product.attribute.value.line">
+        <field name="product_tmpl_id" ref="theme_gunwerks_custom.product_template_01"/>
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_5"/>
+        <field name="value_id" ref="theme_gunwerks_custom.product_attribute_value_62"/>
+        <field name="image" type="base64" file="theme_gunwerks_custom/static/img/__export__.product_attribute_value_line_260_c674d156.jpg"/>
+        <field name="sequence">47</field>
+        <field name="sequence_numeric">47</field>
+        <field name="value_ids" 
+            eval="[(6, 0, [ref('theme_gunwerks_custom.product_attribute_value_63'), ref('theme_gunwerks_custom.product_attribute_value_71'),
+            ref('theme_gunwerks_custom.product_attribute_value_76'),])]"/>
+    </record>
+
+    <record id="product_attribute_value_line_48" model="product.attribute.value.line">
+        <field name="product_tmpl_id" ref="theme_gunwerks_custom.product_template_01"/>
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_5"/>
+        <field name="value_id" ref="theme_gunwerks_custom.product_attribute_value_62"/>
+        <field name="image" type="base64" file="theme_gunwerks_custom/static/img/__export__.product_attribute_value_line_261_fd8b08f8.jpg"/>
+        <field name="sequence">48</field>
+        <field name="sequence_numeric">48</field>
+        <field name="value_ids" 
+            eval="[(6, 0, [ref('theme_gunwerks_custom.product_attribute_value_63'), ref('theme_gunwerks_custom.product_attribute_value_71'),
+            ref('theme_gunwerks_custom.product_attribute_value_77'),])]"/>
+    </record>
+
+    <record id="product_attribute_value_line_49" model="product.attribute.value.line">
+        <field name="product_tmpl_id" ref="theme_gunwerks_custom.product_template_01"/>
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_5"/>
+        <field name="value_id" ref="theme_gunwerks_custom.product_attribute_value_62"/>
+        <field name="image" type="base64" file="theme_gunwerks_custom/static/img/__export__.product_attribute_value_line_262_995470c7.jpg"/>
+        <field name="sequence">49</field>
+        <field name="sequence_numeric">49</field>
+        <field name="value_ids" 
+            eval="[(6, 0, [ref('theme_gunwerks_custom.product_attribute_value_63'), ref('theme_gunwerks_custom.product_attribute_value_71'),
+            ref('theme_gunwerks_custom.product_attribute_value_78'),])]"/>
+    </record>
+
+    <record id="product_attribute_value_line_50" model="product.attribute.value.line">
+        <field name="product_tmpl_id" ref="theme_gunwerks_custom.product_template_01"/>
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_5"/>
+        <field name="value_id" ref="theme_gunwerks_custom.product_attribute_value_62"/>
+        <field name="image" type="base64" file="theme_gunwerks_custom/static/img/__export__.product_attribute_value_line_263_53caad45.jpg"/>
+        <field name="sequence">50</field>
+        <field name="sequence_numeric">50</field>
+        <field name="value_ids" 
+            eval="[(6, 0, [ref('theme_gunwerks_custom.product_attribute_value_63'), ref('theme_gunwerks_custom.product_attribute_value_71'),
+            ref('theme_gunwerks_custom.product_attribute_value_79'),])]"/>
+    </record>
+
+    <record id="product_attribute_value_line_51" model="product.attribute.value.line">
+        <field name="product_tmpl_id" ref="theme_gunwerks_custom.product_template_01"/>
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_5"/>
+        <field name="value_id" ref="theme_gunwerks_custom.product_attribute_value_62"/>
+        <field name="image" type="base64" file="theme_gunwerks_custom/static/img/__export__.product_attribute_value_line_264_3d5897c0.jpg"/>
+        <field name="sequence">51</field>
+        <field name="sequence_numeric">51</field>
+        <field name="value_ids" 
+            eval="[(6, 0, [ref('theme_gunwerks_custom.product_attribute_value_63'), ref('theme_gunwerks_custom.product_attribute_value_71'),
+            ref('theme_gunwerks_custom.product_attribute_value_115'),])]"/>
+    </record>
+
+    <record id="product_attribute_value_line_52" model="product.attribute.value.line">
+        <field name="product_tmpl_id" ref="theme_gunwerks_custom.product_template_01"/>
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_5"/>
+        <field name="value_id" ref="theme_gunwerks_custom.product_attribute_value_62"/>
+        <field name="image" type="base64" file="theme_gunwerks_custom/static/img/__export__.product_attribute_value_line_265_359b6d21.jpg"/>
+        <field name="sequence">52</field>
+        <field name="sequence_numeric">52</field>
+        <field name="value_ids" 
+            eval="[(6, 0, [ref('theme_gunwerks_custom.product_attribute_value_63'), ref('theme_gunwerks_custom.product_attribute_value_71'),
+            ref('theme_gunwerks_custom.product_attribute_value_116'),])]"/>
+    </record>
+
+    <record id="product_attribute_value_line_53" model="product.attribute.value.line">
+        <field name="product_tmpl_id" ref="theme_gunwerks_custom.product_template_01"/>
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_5"/>
+        <field name="value_id" ref="theme_gunwerks_custom.product_attribute_value_62"/>
+        <field name="image" type="base64" file="theme_gunwerks_custom/static/img/__export__.product_attribute_value_line_266_ecb1527d.jpg"/>
+        <field name="sequence">53</field>
+        <field name="sequence_numeric">53</field>
+        <field name="value_ids" 
+            eval="[(6, 0, [ref('theme_gunwerks_custom.product_attribute_value_63'), ref('theme_gunwerks_custom.product_attribute_value_71'),
+            ref('theme_gunwerks_custom.product_attribute_value_117'),])]"/>
+    </record>
+
+    <record id="product_attribute_value_line_54" model="product.attribute.value.line">
+        <field name="product_tmpl_id" ref="theme_gunwerks_custom.product_template_01"/>
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_5"/>
+        <field name="value_id" ref="theme_gunwerks_custom.product_attribute_value_62"/>
+        <field name="image" type="base64" file="theme_gunwerks_custom/static/img/__export__.product_attribute_value_line_267_5ce547ac.jpg"/>
+        <field name="sequence">54</field>
+        <field name="sequence_numeric">54</field>
+        <field name="value_ids" 
+            eval="[(6, 0, [ref('theme_gunwerks_custom.product_attribute_value_63'), ref('theme_gunwerks_custom.product_attribute_value_71'),
+            ref('theme_gunwerks_custom.product_attribute_value_118'),])]"/>
+    </record>
+
+    <record id="product_attribute_value_line_55" model="product.attribute.value.line">
+        <field name="product_tmpl_id" ref="theme_gunwerks_custom.product_template_01"/>
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_5"/>
+        <field name="value_id" ref="theme_gunwerks_custom.product_attribute_value_62"/>
+        <field name="image" type="base64" file="theme_gunwerks_custom/static/img/__export__.product_attribute_value_line_268_7dca14b3.jpg"/>
+        <field name="sequence">55</field>
+        <field name="sequence_numeric">55</field>
+        <field name="value_ids" 
+            eval="[(6, 0, [ref('theme_gunwerks_custom.product_attribute_value_63'), ref('theme_gunwerks_custom.product_attribute_value_71'),
+            ref('theme_gunwerks_custom.product_attribute_value_119'),])]"/>
+    </record>
+
+    <record id="product_attribute_value_line_56" model="product.attribute.value.line">
+        <field name="product_tmpl_id" ref="theme_gunwerks_custom.product_template_01"/>
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_5"/>
+        <field name="value_id" ref="theme_gunwerks_custom.product_attribute_value_62"/>
+        <field name="image" type="base64" file="theme_gunwerks_custom/static/img/__export__.product_attribute_value_line_269_1ee0da49.jpg"/>
+        <field name="sequence">56</field>
+        <field name="sequence_numeric">56</field>
+        <field name="value_ids" 
+            eval="[(6, 0, [ref('theme_gunwerks_custom.product_attribute_value_63'), ref('theme_gunwerks_custom.product_attribute_value_72'),
+            ref('theme_gunwerks_custom.product_attribute_value_74'),])]"/>
+    </record>
+
+    <record id="product_attribute_value_line_57" model="product.attribute.value.line">
+        <field name="product_tmpl_id" ref="theme_gunwerks_custom.product_template_01"/>
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_5"/>
+        <field name="value_id" ref="theme_gunwerks_custom.product_attribute_value_62"/>
+        <field name="image" type="base64" file="theme_gunwerks_custom/static/img/__export__.product_attribute_value_line_270_14791a92.jpg"/>
+        <field name="sequence">57</field>
+        <field name="sequence_numeric">57</field>
+        <field name="value_ids" 
+            eval="[(6, 0, [ref('theme_gunwerks_custom.product_attribute_value_63'), ref('theme_gunwerks_custom.product_attribute_value_72'),
+            ref('theme_gunwerks_custom.product_attribute_value_75'),])]"/>
+    </record>
+
+    <record id="product_attribute_value_line_58" model="product.attribute.value.line">
+        <field name="product_tmpl_id" ref="theme_gunwerks_custom.product_template_01"/>
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_5"/>
+        <field name="value_id" ref="theme_gunwerks_custom.product_attribute_value_62"/>
+        <field name="image" type="base64" file="theme_gunwerks_custom/static/img/__export__.product_attribute_value_line_271_561817ae.jpg"/>
+        <field name="sequence">58</field>
+        <field name="sequence_numeric">58</field>
+        <field name="value_ids" 
+            eval="[(6, 0, [ref('theme_gunwerks_custom.product_attribute_value_63'), ref('theme_gunwerks_custom.product_attribute_value_72'),
+            ref('theme_gunwerks_custom.product_attribute_value_76'),])]"/>
+    </record>
+
+    <record id="product_attribute_value_line_59" model="product.attribute.value.line">
+        <field name="product_tmpl_id" ref="theme_gunwerks_custom.product_template_01"/>
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_5"/>
+        <field name="value_id" ref="theme_gunwerks_custom.product_attribute_value_62"/>
+        <field name="image" type="base64" file="theme_gunwerks_custom/static/img/__export__.product_attribute_value_line_272_55f94684.jpg"/>
+        <field name="sequence">59</field>
+        <field name="sequence_numeric">59</field>
+        <field name="value_ids" 
+            eval="[(6, 0, [ref('theme_gunwerks_custom.product_attribute_value_63'), ref('theme_gunwerks_custom.product_attribute_value_72'),
+            ref('theme_gunwerks_custom.product_attribute_value_77'),])]"/>
+    </record>
+
+    <record id="product_attribute_value_line_60" model="product.attribute.value.line">
+        <field name="product_tmpl_id" ref="theme_gunwerks_custom.product_template_01"/>
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_5"/>
+        <field name="value_id" ref="theme_gunwerks_custom.product_attribute_value_62"/>
+        <field name="image" type="base64" file="theme_gunwerks_custom/static/img/__export__.product_attribute_value_line_273_4d3a1547.jpg"/>
+        <field name="sequence">60</field>
+        <field name="sequence_numeric">60</field>
+        <field name="value_ids" 
+            eval="[(6, 0, [ref('theme_gunwerks_custom.product_attribute_value_63'), ref('theme_gunwerks_custom.product_attribute_value_72'),
+            ref('theme_gunwerks_custom.product_attribute_value_78'),])]"/>
+    </record>
+
+    <record id="product_attribute_value_line_61" model="product.attribute.value.line">
+        <field name="product_tmpl_id" ref="theme_gunwerks_custom.product_template_01"/>
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_5"/>
+        <field name="value_id" ref="theme_gunwerks_custom.product_attribute_value_62"/>
+        <field name="image" type="base64" file="theme_gunwerks_custom/static/img/__export__.product_attribute_value_line_274_3c7f93d7.jpg"/>
+        <field name="sequence">61</field>
+        <field name="sequence_numeric">61</field>
+        <field name="value_ids" 
+            eval="[(6, 0, [ref('theme_gunwerks_custom.product_attribute_value_63'), ref('theme_gunwerks_custom.product_attribute_value_72'),
+            ref('theme_gunwerks_custom.product_attribute_value_79'),])]"/>
+    </record>
+
+    <record id="product_attribute_value_line_62" model="product.attribute.value.line">
+        <field name="product_tmpl_id" ref="theme_gunwerks_custom.product_template_01"/>
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_5"/>
+        <field name="value_id" ref="theme_gunwerks_custom.product_attribute_value_62"/>
+        <field name="image" type="base64" file="theme_gunwerks_custom/static/img/__export__.product_attribute_value_line_275_580cf35a.jpg"/>
+        <field name="sequence">62</field>
+        <field name="sequence_numeric">62</field>
+        <field name="value_ids" 
+            eval="[(6, 0, [ref('theme_gunwerks_custom.product_attribute_value_63'), ref('theme_gunwerks_custom.product_attribute_value_72'),
+            ref('theme_gunwerks_custom.product_attribute_value_115'),])]"/>
+    </record>
+
+    <record id="product_attribute_value_line_63" model="product.attribute.value.line">
+        <field name="product_tmpl_id" ref="theme_gunwerks_custom.product_template_01"/>
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_5"/>
+        <field name="value_id" ref="theme_gunwerks_custom.product_attribute_value_62"/>
+        <field name="image" type="base64" file="theme_gunwerks_custom/static/img/__export__.product_attribute_value_line_276_b65295fc.jpg"/>
+        <field name="sequence">63</field>
+        <field name="sequence_numeric">63</field>
+        <field name="value_ids" 
+            eval="[(6, 0, [ref('theme_gunwerks_custom.product_attribute_value_63'), ref('theme_gunwerks_custom.product_attribute_value_72'),
+            ref('theme_gunwerks_custom.product_attribute_value_116'),])]"/>
+    </record>
+
+    <record id="product_attribute_value_line_64" model="product.attribute.value.line">
+        <field name="product_tmpl_id" ref="theme_gunwerks_custom.product_template_01"/>
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_5"/>
+        <field name="value_id" ref="theme_gunwerks_custom.product_attribute_value_62"/>
+        <field name="image" type="base64" file="theme_gunwerks_custom/static/img/__export__.product_attribute_value_line_277_c6b735fd.jpg"/>
+        <field name="sequence">64</field>
+        <field name="sequence_numeric">64</field>
+        <field name="value_ids" 
+            eval="[(6, 0, [ref('theme_gunwerks_custom.product_attribute_value_63'), ref('theme_gunwerks_custom.product_attribute_value_72'),
+            ref('theme_gunwerks_custom.product_attribute_value_117'),])]"/>
+    </record>
+
+    <record id="product_attribute_value_line_65" model="product.attribute.value.line">
+        <field name="product_tmpl_id" ref="theme_gunwerks_custom.product_template_01"/>
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_5"/>
+        <field name="value_id" ref="theme_gunwerks_custom.product_attribute_value_62"/>
+        <field name="image" type="base64" file="theme_gunwerks_custom/static/img/__export__.product_attribute_value_line_278_84ce2b22.jpg"/>
+        <field name="sequence">65</field>
+        <field name="sequence_numeric">65</field>
+        <field name="value_ids" 
+            eval="[(6, 0, [ref('theme_gunwerks_custom.product_attribute_value_63'), ref('theme_gunwerks_custom.product_attribute_value_72'),
+            ref('theme_gunwerks_custom.product_attribute_value_118'),])]"/>
+    </record>
+
+    <record id="product_attribute_value_line_66" model="product.attribute.value.line">
+        <field name="product_tmpl_id" ref="theme_gunwerks_custom.product_template_01"/>
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_5"/>
+        <field name="value_id" ref="theme_gunwerks_custom.product_attribute_value_62"/>
+        <field name="image" type="base64" file="theme_gunwerks_custom/static/img/__export__.product_attribute_value_line_279_989eab98.jpg"/>
+        <field name="sequence">66</field>
+        <field name="sequence_numeric">66</field>
+        <field name="value_ids" 
+            eval="[(6, 0, [ref('theme_gunwerks_custom.product_attribute_value_63'), ref('theme_gunwerks_custom.product_attribute_value_72'),
+            ref('theme_gunwerks_custom.product_attribute_value_119'),])]"/>
+    </record>
+
+    <record id="product_attribute_value_line_67" model="product.attribute.value.line">
+        <field name="product_tmpl_id" ref="theme_gunwerks_custom.product_template_01"/>
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_5"/>
+        <field name="value_id" ref="theme_gunwerks_custom.product_attribute_value_62"/>
+        <field name="image" type="base64" file="theme_gunwerks_custom/static/img/__export__.product_attribute_value_line_280_aefe234c.jpg"/>
+        <field name="sequence">67</field>
+        <field name="sequence_numeric">67</field>
+        <field name="value_ids" 
+            eval="[(6, 0, [ref('theme_gunwerks_custom.product_attribute_value_63'), ref('theme_gunwerks_custom.product_attribute_value_73'),
+            ref('theme_gunwerks_custom.product_attribute_value_74'),])]"/>
+    </record>
+
+    <record id="product_attribute_value_line_68" model="product.attribute.value.line">
+        <field name="product_tmpl_id" ref="theme_gunwerks_custom.product_template_01"/>
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_5"/>
+        <field name="value_id" ref="theme_gunwerks_custom.product_attribute_value_62"/>
+        <field name="image" type="base64" file="theme_gunwerks_custom/static/img/__export__.product_attribute_value_line_281_707e2d4d.jpg"/>
+        <field name="sequence">68</field>
+        <field name="sequence_numeric">68</field>
+        <field name="value_ids" 
+            eval="[(6, 0, [ref('theme_gunwerks_custom.product_attribute_value_63'), ref('theme_gunwerks_custom.product_attribute_value_73'),
+            ref('theme_gunwerks_custom.product_attribute_value_75'),])]"/>
+    </record>
+
+    <record id="product_attribute_value_line_69" model="product.attribute.value.line">
+        <field name="product_tmpl_id" ref="theme_gunwerks_custom.product_template_01"/>
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_5"/>
+        <field name="value_id" ref="theme_gunwerks_custom.product_attribute_value_62"/>
+        <field name="image" type="base64" file="theme_gunwerks_custom/static/img/__export__.product_attribute_value_line_282_06f5c407.jpg"/>
+        <field name="sequence">69</field>
+        <field name="sequence_numeric">69</field>
+        <field name="value_ids" 
+            eval="[(6, 0, [ref('theme_gunwerks_custom.product_attribute_value_63'), ref('theme_gunwerks_custom.product_attribute_value_73'),
+            ref('theme_gunwerks_custom.product_attribute_value_76'),])]"/>
+    </record>
+
+    <record id="product_attribute_value_line_70" model="product.attribute.value.line">
+        <field name="product_tmpl_id" ref="theme_gunwerks_custom.product_template_01"/>
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_5"/>
+        <field name="value_id" ref="theme_gunwerks_custom.product_attribute_value_62"/>
+        <field name="image" type="base64" file="theme_gunwerks_custom/static/img/__export__.product_attribute_value_line_283_3af21ee6.jpg"/>
+        <field name="sequence">70</field>
+        <field name="sequence_numeric">70</field>
+        <field name="value_ids" 
+            eval="[(6, 0, [ref('theme_gunwerks_custom.product_attribute_value_63'), ref('theme_gunwerks_custom.product_attribute_value_73'),
+            ref('theme_gunwerks_custom.product_attribute_value_77'),])]"/>
+    </record>
+    <record id="product_attribute_value_line_71" model="product.attribute.value.line">
+        <field name="product_tmpl_id" ref="theme_gunwerks_custom.product_template_01"/>
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_5"/>
+        <field name="value_id" ref="theme_gunwerks_custom.product_attribute_value_62"/>
+        <field name="image" type="base64" file="theme_gunwerks_custom/static/img/__export__.product_attribute_value_line_284_3fe78781.jpg"/>
+        <field name="sequence">71</field>
+        <field name="sequence_numeric">71</field>
+        <field name="value_ids" 
+            eval="[(6, 0, [ref('theme_gunwerks_custom.product_attribute_value_63'), ref('theme_gunwerks_custom.product_attribute_value_73'),
+            ref('theme_gunwerks_custom.product_attribute_value_78'),])]"/>
+    </record>
+
+    <record id="product_attribute_value_line_72" model="product.attribute.value.line">
+        <field name="product_tmpl_id" ref="theme_gunwerks_custom.product_template_01"/>
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_5"/>
+        <field name="value_id" ref="theme_gunwerks_custom.product_attribute_value_62"/>
+        <field name="image" type="base64" file="theme_gunwerks_custom/static/img/__export__.product_attribute_value_line_285_e0d0114a.jpg"/>
+        <field name="sequence">72</field>
+        <field name="sequence_numeric">72</field>
+        <field name="value_ids" 
+            eval="[(6, 0, [ref('theme_gunwerks_custom.product_attribute_value_63'), ref('theme_gunwerks_custom.product_attribute_value_73'),
+            ref('theme_gunwerks_custom.product_attribute_value_79'),])]"/>
+    </record>
+
+    <record id="product_attribute_value_line_73" model="product.attribute.value.line">
+        <field name="product_tmpl_id" ref="theme_gunwerks_custom.product_template_01"/>
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_5"/>
+        <field name="value_id" ref="theme_gunwerks_custom.product_attribute_value_62"/>
+        <field name="image" type="base64" file="theme_gunwerks_custom/static/img/__export__.product_attribute_value_line_286_bd11c662.jpg"/>
+        <field name="sequence">73</field>
+        <field name="sequence_numeric">73</field>
+        <field name="value_ids" 
+            eval="[(6, 0, [ref('theme_gunwerks_custom.product_attribute_value_63'), ref('theme_gunwerks_custom.product_attribute_value_73'),
+            ref('theme_gunwerks_custom.product_attribute_value_115'),])]"/>
+    </record>
+
+    <record id="product_attribute_value_line_74" model="product.attribute.value.line">
+        <field name="product_tmpl_id" ref="theme_gunwerks_custom.product_template_01"/>
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_5"/>
+        <field name="value_id" ref="theme_gunwerks_custom.product_attribute_value_62"/>
+        <field name="image" type="base64" file="theme_gunwerks_custom/static/img/__export__.product_attribute_value_line_287_39f46bc7.jpg"/>
+        <field name="sequence">74</field>
+        <field name="sequence_numeric">74</field>
+        <field name="value_ids" 
+            eval="[(6, 0, [ref('theme_gunwerks_custom.product_attribute_value_63'), ref('theme_gunwerks_custom.product_attribute_value_73'),
+            ref('theme_gunwerks_custom.product_attribute_value_116'),])]"/>
+    </record>
+
+    <record id="product_attribute_value_line_75" model="product.attribute.value.line">
+        <field name="product_tmpl_id" ref="theme_gunwerks_custom.product_template_01"/>
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_5"/>
+        <field name="value_id" ref="theme_gunwerks_custom.product_attribute_value_62"/>
+        <field name="image" type="base64" file="theme_gunwerks_custom/static/img/__export__.product_attribute_value_line_288_97685799.jpg"/>
+        <field name="sequence">75</field>
+        <field name="sequence_numeric">75</field>
+        <field name="value_ids" 
+            eval="[(6, 0, [ref('theme_gunwerks_custom.product_attribute_value_63'), ref('theme_gunwerks_custom.product_attribute_value_73'),
+            ref('theme_gunwerks_custom.product_attribute_value_117'),])]"/>
+    </record>
+
+    <record id="product_attribute_value_line_76" model="product.attribute.value.line">
+        <field name="product_tmpl_id" ref="theme_gunwerks_custom.product_template_01"/>
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_5"/>
+        <field name="value_id" ref="theme_gunwerks_custom.product_attribute_value_62"/>
+        <field name="image" type="base64" file="theme_gunwerks_custom/static/img/__export__.product_attribute_value_line_289_6c61e2e7.jpg"/>
+        <field name="sequence">76</field>
+        <field name="sequence_numeric">76</field>
+        <field name="value_ids" 
+            eval="[(6, 0, [ref('theme_gunwerks_custom.product_attribute_value_63'), ref('theme_gunwerks_custom.product_attribute_value_73'),
+            ref('theme_gunwerks_custom.product_attribute_value_118'),])]"/>
+    </record>
+
+    <record id="product_attribute_value_line_77" model="product.attribute.value.line">
+        <field name="product_tmpl_id" ref="theme_gunwerks_custom.product_template_01"/>
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_5"/>
+        <field name="value_id" ref="theme_gunwerks_custom.product_attribute_value_62"/>
+        <field name="image" type="base64" file="theme_gunwerks_custom/static/img/__export__.product_attribute_value_line_290_aef5ef5c.jpg"/>
+        <field name="sequence">77</field>
+        <field name="sequence_numeric">77</field>
+        <field name="value_ids" 
+            eval="[(6, 0, [ref('theme_gunwerks_custom.product_attribute_value_63'), ref('theme_gunwerks_custom.product_attribute_value_73'),
+            ref('theme_gunwerks_custom.product_attribute_value_119'),])]"/>
+    </record>
+
+    <record id="product_attribute_value_line_78" model="product.attribute.value.line">
+        <field name="product_tmpl_id" ref="theme_gunwerks_custom.product_template_01"/>
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_7"/>
+        <field name="value_id" ref="theme_gunwerks_custom.product_attribute_value_82"/>
+        <field name="image" type="base64" file="theme_gunwerks_custom/static/img/__export__.product_attribute_value_line_317_5b99a489.jpg"/>
+        <field name="sequence">78</field>
+        <field name="sequence_numeric">78</field>
+        <field name="value_ids" 
+            eval="[(6, 0, [ref('theme_gunwerks_custom.product_attribute_value_63'), ref('theme_gunwerks_custom.product_attribute_value_74'),])]"/>
+    </record>
+
+    <record id="product_attribute_value_line_79" model="product.attribute.value.line">
+        <field name="product_tmpl_id" ref="theme_gunwerks_custom.product_template_01"/>
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_7"/>
+        <field name="value_id" ref="theme_gunwerks_custom.product_attribute_value_82"/>
+        <field name="image" type="base64" file="theme_gunwerks_custom/static/img/__export__.product_attribute_value_line_318_bfd96f61.jpg"/>
+        <field name="sequence">79</field>
+        <field name="sequence_numeric">79</field>
+        <field name="value_ids" 
+            eval="[(6, 0, [ref('theme_gunwerks_custom.product_attribute_value_63'), ref('theme_gunwerks_custom.product_attribute_value_75'),])]"/>
+    </record>
+
+    <record id="product_attribute_value_line_80" model="product.attribute.value.line">
+        <field name="product_tmpl_id" ref="theme_gunwerks_custom.product_template_01"/>
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_7"/>
+        <field name="value_id" ref="theme_gunwerks_custom.product_attribute_value_82"/>
+        <field name="image" type="base64" file="theme_gunwerks_custom/static/img/__export__.product_attribute_value_line_319_b3ab4197.jpg"/>
+        <field name="sequence">80</field>
+        <field name="sequence_numeric">80</field>
+        <field name="value_ids" 
+            eval="[(6, 0, [ref('theme_gunwerks_custom.product_attribute_value_63'), ref('theme_gunwerks_custom.product_attribute_value_76'),])]"/>
+    </record>
+
+    <record id="product_attribute_value_line_81" model="product.attribute.value.line">
+        <field name="product_tmpl_id" ref="theme_gunwerks_custom.product_template_01"/>
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_7"/>
+        <field name="value_id" ref="theme_gunwerks_custom.product_attribute_value_82"/>
+        <field name="image" type="base64" file="theme_gunwerks_custom/static/img/__export__.product_attribute_value_line_320_0db0d9cc.jpg"/>
+        <field name="sequence">81</field>
+        <field name="sequence_numeric">81</field>
+        <field name="value_ids" 
+            eval="[(6, 0, [ref('theme_gunwerks_custom.product_attribute_value_63'), ref('theme_gunwerks_custom.product_attribute_value_77'),])]"/>
+    </record>
+
+    <record id="product_attribute_value_line_82" model="product.attribute.value.line">
+        <field name="product_tmpl_id" ref="theme_gunwerks_custom.product_template_01"/>
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_7"/>
+        <field name="value_id" ref="theme_gunwerks_custom.product_attribute_value_82"/>
+        <field name="image" type="base64" file="theme_gunwerks_custom/static/img/__export__.product_attribute_value_line_321_46492f9a.jpg"/>
+        <field name="sequence">82</field>
+        <field name="sequence_numeric">82</field>
+        <field name="value_ids" 
+            eval="[(6, 0, [ref('theme_gunwerks_custom.product_attribute_value_63'), ref('theme_gunwerks_custom.product_attribute_value_78'),])]"/>
+    </record>
+
+    <record id="product_attribute_value_line_83" model="product.attribute.value.line">
+        <field name="product_tmpl_id" ref="theme_gunwerks_custom.product_template_01"/>
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_7"/>
+        <field name="value_id" ref="theme_gunwerks_custom.product_attribute_value_82"/>
+        <field name="image" type="base64" file="theme_gunwerks_custom/static/img/__export__.product_attribute_value_line_322_60ae8e43.jpg"/>
+        <field name="sequence">83</field>
+        <field name="sequence_numeric">83</field>
+        <field name="value_ids" 
+            eval="[(6, 0, [ref('theme_gunwerks_custom.product_attribute_value_63'), ref('theme_gunwerks_custom.product_attribute_value_79'),])]"/>
+    </record>
+
+    <record id="product_attribute_value_line_84" model="product.attribute.value.line">
+        <field name="product_tmpl_id" ref="theme_gunwerks_custom.product_template_01"/>
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_7"/>
+        <field name="value_id" ref="theme_gunwerks_custom.product_attribute_value_82"/>
+        <field name="image" type="base64" file="theme_gunwerks_custom/static/img/__export__.product_attribute_value_line_323_5d46af85.jpg"/>
+        <field name="sequence">84</field>
+        <field name="sequence_numeric">84</field>
+        <field name="value_ids" 
+            eval="[(6, 0, [ref('theme_gunwerks_custom.product_attribute_value_63'), ref('theme_gunwerks_custom.product_attribute_value_115'),])]"/>
+    </record>
+
+    <record id="product_attribute_value_line_85" model="product.attribute.value.line">
+        <field name="product_tmpl_id" ref="theme_gunwerks_custom.product_template_01"/>
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_7"/>
+        <field name="value_id" ref="theme_gunwerks_custom.product_attribute_value_82"/>
+        <field name="image" type="base64" file="theme_gunwerks_custom/static/img/__export__.product_attribute_value_line_324_a5ed1cc5.jpg"/>
+        <field name="sequence">85</field>
+        <field name="sequence_numeric">85</field>
+        <field name="value_ids" 
+            eval="[(6, 0, [ref('theme_gunwerks_custom.product_attribute_value_63'), ref('theme_gunwerks_custom.product_attribute_value_116'),])]"/>
+    </record>
+
+    <record id="product_attribute_value_line_86" model="product.attribute.value.line">
+        <field name="product_tmpl_id" ref="theme_gunwerks_custom.product_template_01"/>
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_7"/>
+        <field name="value_id" ref="theme_gunwerks_custom.product_attribute_value_82"/>
+        <field name="image" type="base64" file="theme_gunwerks_custom/static/img/__export__.product_attribute_value_line_325_f20ae4a3.jpg"/>
+        <field name="sequence">86</field>
+        <field name="sequence_numeric">86</field>
+        <field name="value_ids" 
+            eval="[(6, 0, [ref('theme_gunwerks_custom.product_attribute_value_63'), ref('theme_gunwerks_custom.product_attribute_value_117'),])]"/>
+    </record>
+
+    <record id="product_attribute_value_line_87" model="product.attribute.value.line">
+        <field name="product_tmpl_id" ref="theme_gunwerks_custom.product_template_01"/>
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_7"/>
+        <field name="value_id" ref="theme_gunwerks_custom.product_attribute_value_82"/>
+        <field name="image" type="base64" file="theme_gunwerks_custom/static/img/__export__.product_attribute_value_line_326_434d3aaa.jpg"/>
+        <field name="sequence">87</field>
+        <field name="sequence_numeric">87</field>
+        <field name="value_ids" 
+            eval="[(6, 0, [ref('theme_gunwerks_custom.product_attribute_value_63'), ref('theme_gunwerks_custom.product_attribute_value_118'),])]"/>
+    </record>
+
+    <record id="product_attribute_value_line_88" model="product.attribute.value.line">
+        <field name="product_tmpl_id" ref="theme_gunwerks_custom.product_template_01"/>
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_7"/>
+        <field name="value_id" ref="theme_gunwerks_custom.product_attribute_value_82"/>
+        <field name="image" type="base64" file="theme_gunwerks_custom/static/img/__export__.product_attribute_value_line_327_92c8a133.jpg"/>
+        <field name="sequence">88</field>
+        <field name="sequence_numeric">88</field>
+        <field name="value_ids" 
+            eval="[(6, 0, [ref('theme_gunwerks_custom.product_attribute_value_63'), ref('theme_gunwerks_custom.product_attribute_value_119'),])]"/>
+    </record>
+
+    <record id="product_attribute_value_line_89" model="product.attribute.value.line">
+        <field name="product_tmpl_id" ref="theme_gunwerks_custom.product_template_01"/>
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_7"/>
+        <field name="value_id" ref="theme_gunwerks_custom.product_attribute_value_82"/>
+        <field name="image" type="base64" file="theme_gunwerks_custom/static/img/__export__.product_attribute_value_line_95_31e2c246.jpg"/>
+        <field name="sequence">89</field>
+        <field name="sequence_numeric">89</field>
+        <field name="value_ids" 
+            eval="[(6, 0, [ref('theme_gunwerks_custom.product_attribute_value_65'), ref('theme_gunwerks_custom.product_attribute_value_66'),
+            ref('theme_gunwerks_custom.product_attribute_value_74'),])]"/>
+    </record>
+
+    <record id="product_attribute_value_line_90" model="product.attribute.value.line">
+        <field name="product_tmpl_id" ref="theme_gunwerks_custom.product_template_01"/>
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_7"/>
+        <field name="value_id" ref="theme_gunwerks_custom.product_attribute_value_82"/>
+        <field name="image" type="base64" file="theme_gunwerks_custom/static/img/__export__.product_attribute_value_line_96_beab2eec.jpg"/>
+        <field name="sequence">90</field>
+        <field name="sequence_numeric">90</field>
+        <field name="value_ids" 
+            eval="[(6, 0, [ref('theme_gunwerks_custom.product_attribute_value_65'), ref('theme_gunwerks_custom.product_attribute_value_66'),
+            ref('theme_gunwerks_custom.product_attribute_value_75'),])]"/>
+    </record>
+
+    <record id="product_attribute_value_line_91" model="product.attribute.value.line">
+        <field name="product_tmpl_id" ref="theme_gunwerks_custom.product_template_01"/>
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_7"/>
+        <field name="value_id" ref="theme_gunwerks_custom.product_attribute_value_82"/>
+        <field name="image" type="base64" file="theme_gunwerks_custom/static/img/__export__.product_attribute_value_line_165_83809940.jpg"/>
+        <field name="sequence">91</field>
+        <field name="sequence_numeric">91</field>
+        <field name="value_ids" 
+            eval="[(6, 0, [ref('theme_gunwerks_custom.product_attribute_value_65'), ref('theme_gunwerks_custom.product_attribute_value_66'),
+            ref('theme_gunwerks_custom.product_attribute_value_76'),])]"/>
+    </record>
+
+    <record id="product_attribute_value_line_92" model="product.attribute.value.line">
+        <field name="product_tmpl_id" ref="theme_gunwerks_custom.product_template_01"/>
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_7"/>
+        <field name="value_id" ref="theme_gunwerks_custom.product_attribute_value_82"/>
+        <field name="image" type="base64" file="theme_gunwerks_custom/static/img/__export__.product_attribute_value_line_166_49245ddf.jpg"/>
+        <field name="sequence">92</field>
+        <field name="sequence_numeric">92</field>
+        <field name="value_ids" 
+            eval="[(6, 0, [ref('theme_gunwerks_custom.product_attribute_value_65'), ref('theme_gunwerks_custom.product_attribute_value_66'),
+            ref('theme_gunwerks_custom.product_attribute_value_77'),])]"/>
+    </record>
+
+    <record id="product_attribute_value_line_93" model="product.attribute.value.line">
+        <field name="product_tmpl_id" ref="theme_gunwerks_custom.product_template_01"/>
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_7"/>
+        <field name="value_id" ref="theme_gunwerks_custom.product_attribute_value_82"/>
+        <field name="image" type="base64" file="theme_gunwerks_custom/static/img/__export__.product_attribute_value_line_167_57ca91d7.jpg"/>
+        <field name="sequence">93</field>
+        <field name="sequence_numeric">93</field>
+        <field name="value_ids" 
+            eval="[(6, 0, [ref('theme_gunwerks_custom.product_attribute_value_65'), ref('theme_gunwerks_custom.product_attribute_value_66'),
+            ref('theme_gunwerks_custom.product_attribute_value_78'),])]"/>
+
+    </record>
+
+    <record id="product_attribute_value_line_94" model="product.attribute.value.line">
+        <field name="product_tmpl_id" ref="theme_gunwerks_custom.product_template_01"/>
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_7"/>
+        <field name="value_id" ref="theme_gunwerks_custom.product_attribute_value_82"/>
+        <field name="image" type="base64" file="theme_gunwerks_custom/static/img/__export__.product_attribute_value_line_169_21303b0d.jpg"/>
+        <field name="sequence">94</field>
+        <field name="sequence_numeric">94</field>
+        <field name="value_ids" 
+            eval="[(6, 0, [ref('theme_gunwerks_custom.product_attribute_value_65'), ref('theme_gunwerks_custom.product_attribute_value_66'),
+            ref('theme_gunwerks_custom.product_attribute_value_79'),])]"/>
+    </record>
+
+    <record id="product_attribute_value_line_95" model="product.attribute.value.line">
+        <field name="product_tmpl_id" ref="theme_gunwerks_custom.product_template_01"/>
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_7"/>
+        <field name="value_id" ref="theme_gunwerks_custom.product_attribute_value_82"/>
+        <field name="image" type="base64" file="theme_gunwerks_custom/static/img/__export__.product_attribute_value_line_183_08f2799f.jpg"/>
+        <field name="sequence">95</field>
+        <field name="sequence_numeric">95</field>
+        <field name="value_ids" 
+            eval="[(6, 0, [ref('theme_gunwerks_custom.product_attribute_value_65'), ref('theme_gunwerks_custom.product_attribute_value_66'),
+            ref('theme_gunwerks_custom.product_attribute_value_115'),])]"/>
+    </record>
+
+    <record id="product_attribute_value_line_96" model="product.attribute.value.line">
+        <field name="product_tmpl_id" ref="theme_gunwerks_custom.product_template_01"/>
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_7"/>
+        <field name="value_id" ref="theme_gunwerks_custom.product_attribute_value_82"/>
+        <field name="image" type="base64" file="theme_gunwerks_custom/static/img/__export__.product_attribute_value_line_184_fad49a3d.jpg"/>
+        <field name="sequence">96</field>
+        <field name="sequence_numeric">96</field>
+        <field name="value_ids" 
+            eval="[(6, 0, [ref('theme_gunwerks_custom.product_attribute_value_65'), ref('theme_gunwerks_custom.product_attribute_value_66'),
+            ref('theme_gunwerks_custom.product_attribute_value_116'),])]"/>
+    </record>
+
+    <record id="product_attribute_value_line_97" model="product.attribute.value.line">
+        <field name="product_tmpl_id" ref="theme_gunwerks_custom.product_template_01"/>
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_7"/>
+        <field name="value_id" ref="theme_gunwerks_custom.product_attribute_value_82"/>
+        <field name="image" type="base64" file="theme_gunwerks_custom/static/img/__export__.product_attribute_value_line_185_05ed7e5e.jpg"/>
+        <field name="sequence">97</field>
+        <field name="sequence_numeric">97</field>
+        <field name="value_ids" 
+            eval="[(6, 0, [ref('theme_gunwerks_custom.product_attribute_value_65'), ref('theme_gunwerks_custom.product_attribute_value_66'),
+            ref('theme_gunwerks_custom.product_attribute_value_117'),])]"/>
+    </record>
+
+    <record id="product_attribute_value_line_98" model="product.attribute.value.line">
+        <field name="product_tmpl_id" ref="theme_gunwerks_custom.product_template_01"/>
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_7"/>
+        <field name="value_id" ref="theme_gunwerks_custom.product_attribute_value_82"/>
+        <field name="image" type="base64" file="theme_gunwerks_custom/static/img/__export__.product_attribute_value_line_186_e17e763a.jpg"/>
+        <field name="sequence">98</field>
+        <field name="sequence_numeric">98</field>
+        <field name="value_ids" 
+            eval="[(6, 0, [ref('theme_gunwerks_custom.product_attribute_value_65'), ref('theme_gunwerks_custom.product_attribute_value_66'),
+            ref('theme_gunwerks_custom.product_attribute_value_118'),])]"/>
+    </record>
+
+    <record id="product_attribute_value_line_99" model="product.attribute.value.line">
+        <field name="product_tmpl_id" ref="theme_gunwerks_custom.product_template_01"/>
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_7"/>
+        <field name="value_id" ref="theme_gunwerks_custom.product_attribute_value_82"/>
+        <field name="image" type="base64" file="theme_gunwerks_custom/static/img/__export__.product_attribute_value_line_187_e3eddd4b.jpg"/>
+        <field name="sequence">99</field>
+        <field name="sequence_numeric">99</field>
+        <field name="value_ids" 
+            eval="[(6, 0, [ref('theme_gunwerks_custom.product_attribute_value_65'), ref('theme_gunwerks_custom.product_attribute_value_66'),
+            ref('theme_gunwerks_custom.product_attribute_value_119'),])]"/>
+    </record>
+
+    <record id="product_attribute_value_line_100" model="product.attribute.value.line">
+        <field name="product_tmpl_id" ref="theme_gunwerks_custom.product_template_01"/>
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_7"/>
+        <field name="value_id" ref="theme_gunwerks_custom.product_attribute_value_82"/>
+        <field name="image" type="base64" file="theme_gunwerks_custom/static/img/__export__.product_attribute_value_line_170_60d949c7.jpg"/>
+        <field name="sequence">100</field>
+        <field name="sequence_numeric">100</field>
+        <field name="value_ids" 
+            eval="[(6, 0, [ref('theme_gunwerks_custom.product_attribute_value_65'), ref('theme_gunwerks_custom.product_attribute_value_67'),
+            ref('theme_gunwerks_custom.product_attribute_value_74'),])]"/>
+    </record>
+
+    <record id="product_attribute_value_line_101" model="product.attribute.value.line">
+        <field name="product_tmpl_id" ref="theme_gunwerks_custom.product_template_01"/>
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_7"/>
+        <field name="value_id" ref="theme_gunwerks_custom.product_attribute_value_82"/>
+        <field name="image" type="base64" file="theme_gunwerks_custom/static/img/__export__.product_attribute_value_line_171_0b987d9e.jpg"/>
+        <field name="sequence">101</field>
+        <field name="sequence_numeric">101</field>
+        <field name="value_ids" 
+            eval="[(6, 0, [ref('theme_gunwerks_custom.product_attribute_value_65'), ref('theme_gunwerks_custom.product_attribute_value_67'),
+            ref('theme_gunwerks_custom.product_attribute_value_75'),])]"/>
+    </record>
+
+    <record id="product_attribute_value_line_102" model="product.attribute.value.line">
+        <field name="product_tmpl_id" ref="theme_gunwerks_custom.product_template_01"/>
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_7"/>
+        <field name="value_id" ref="theme_gunwerks_custom.product_attribute_value_82"/>
+        <field name="image" type="base64" file="theme_gunwerks_custom/static/img/__export__.product_attribute_value_line_172_1eb10e2e.jpg"/>
+        <field name="sequence">102</field>
+        <field name="sequence_numeric">102</field>
+        <field name="value_ids" 
+            eval="[(6, 0, [ref('theme_gunwerks_custom.product_attribute_value_65'), ref('theme_gunwerks_custom.product_attribute_value_67'),
+            ref('theme_gunwerks_custom.product_attribute_value_76'),])]"/>
+    </record>
+
+    <record id="product_attribute_value_line_103" model="product.attribute.value.line">
+        <field name="product_tmpl_id" ref="theme_gunwerks_custom.product_template_01"/>
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_7"/>
+        <field name="value_id" ref="theme_gunwerks_custom.product_attribute_value_82"/>
+        <field name="image" type="base64" file="theme_gunwerks_custom/static/img/__export__.product_attribute_value_line_174_d48f2e7f.jpg"/>
+        <field name="sequence">103</field>
+        <field name="sequence_numeric">103</field>
+        <field name="value_ids" 
+            eval="[(6, 0, [ref('theme_gunwerks_custom.product_attribute_value_65'), ref('theme_gunwerks_custom.product_attribute_value_67'),
+            ref('theme_gunwerks_custom.product_attribute_value_78'),])]"/>
+    </record>
+
+    <record id="product_attribute_value_line_104" model="product.attribute.value.line">
+        <field name="product_tmpl_id" ref="theme_gunwerks_custom.product_template_01"/>
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_7"/>
+        <field name="value_id" ref="theme_gunwerks_custom.product_attribute_value_82"/>
+        <field name="image" type="base64" file="theme_gunwerks_custom/static/img/__export__.product_attribute_value_line_173_646e775d.jpg"/>
+        <field name="sequence">104</field>
+        <field name="sequence_numeric">104</field>
+        <field name="value_ids" 
+            eval="[(6, 0, [ref('theme_gunwerks_custom.product_attribute_value_65'), ref('theme_gunwerks_custom.product_attribute_value_67'),
+            ref('theme_gunwerks_custom.product_attribute_value_77'),])]"/>
+    </record>
+
+    <record id="product_attribute_value_line_105" model="product.attribute.value.line">
+        <field name="product_tmpl_id" ref="theme_gunwerks_custom.product_template_01"/>
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_7"/>
+        <field name="value_id" ref="theme_gunwerks_custom.product_attribute_value_82"/>
+        <field name="image" type="base64" file="theme_gunwerks_custom/static/img/__export__.product_attribute_value_line_176_4c2f0139.jpg"/>
+        <field name="sequence">105</field>
+        <field name="sequence_numeric">105</field>
+        <field name="value_ids" 
+            eval="[(6, 0, [ref('theme_gunwerks_custom.product_attribute_value_65'), ref('theme_gunwerks_custom.product_attribute_value_67'),
+            ref('theme_gunwerks_custom.product_attribute_value_79'),])]"/>
+    </record>
+
+    <record id="product_attribute_value_line_106" model="product.attribute.value.line">
+        <field name="product_tmpl_id" ref="theme_gunwerks_custom.product_template_01"/>
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_7"/>
+        <field name="value_id" ref="theme_gunwerks_custom.product_attribute_value_82"/>
+        <field name="image" type="base64" file="theme_gunwerks_custom/static/img/__export__.product_attribute_value_line_188_4ee68e3d.jpg"/>
+        <field name="sequence">106</field>
+        <field name="sequence_numeric">106</field>
+        <field name="value_ids" 
+            eval="[(6, 0, [ref('theme_gunwerks_custom.product_attribute_value_65'), ref('theme_gunwerks_custom.product_attribute_value_67'),
+            ref('theme_gunwerks_custom.product_attribute_value_115'),])]"/>
+    </record>
+
+    <record id="product_attribute_value_line_107" model="product.attribute.value.line">
+        <field name="product_tmpl_id" ref="theme_gunwerks_custom.product_template_01"/>
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_7"/>
+        <field name="value_id" ref="theme_gunwerks_custom.product_attribute_value_82"/>
+        <field name="image" type="base64" file="theme_gunwerks_custom/static/img/__export__.product_attribute_value_line_189_e2212cc6.jpg"/>
+        <field name="sequence">107</field>
+        <field name="sequence_numeric">107</field>
+        <field name="value_ids" 
+            eval="[(6, 0, [ref('theme_gunwerks_custom.product_attribute_value_65'), ref('theme_gunwerks_custom.product_attribute_value_67'),
+            ref('theme_gunwerks_custom.product_attribute_value_116'),])]"/>
+    </record>
+
+    <record id="product_attribute_value_line_108" model="product.attribute.value.line">
+        <field name="product_tmpl_id" ref="theme_gunwerks_custom.product_template_01"/>
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_7"/>
+        <field name="value_id" ref="theme_gunwerks_custom.product_attribute_value_82"/>
+        <field name="image" type="base64" file="theme_gunwerks_custom/static/img/__export__.product_attribute_value_line_190_c09166ef.jpg"/>
+        <field name="sequence">108</field>
+        <field name="sequence_numeric">108</field>
+        <field name="value_ids" 
+            eval="[(6, 0, [ref('theme_gunwerks_custom.product_attribute_value_65'), ref('theme_gunwerks_custom.product_attribute_value_67'),
+            ref('theme_gunwerks_custom.product_attribute_value_117'),])]"/>
+    </record>
+
+    <record id="product_attribute_value_line_109" model="product.attribute.value.line">
+        <field name="product_tmpl_id" ref="theme_gunwerks_custom.product_template_01"/>
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_7"/>
+        <field name="value_id" ref="theme_gunwerks_custom.product_attribute_value_82"/>
+        <field name="image" type="base64" file="theme_gunwerks_custom/static/img/__export__.product_attribute_value_line_191_cd312ebe.jpg"/>
+        <field name="sequence">109</field>
+        <field name="sequence_numeric">109</field>
+        <field name="value_ids" 
+            eval="[(6, 0, [ref('theme_gunwerks_custom.product_attribute_value_65'), ref('theme_gunwerks_custom.product_attribute_value_67'),
+            ref('theme_gunwerks_custom.product_attribute_value_118'),])]"/>
+    </record>
+
+    <record id="product_attribute_value_line_110" model="product.attribute.value.line">
+        <field name="product_tmpl_id" ref="theme_gunwerks_custom.product_template_01"/>
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_7"/>
+        <field name="value_id" ref="theme_gunwerks_custom.product_attribute_value_82"/>
+        <field name="image" type="base64" file="theme_gunwerks_custom/static/img/__export__.product_attribute_value_line_192_6bd8d627.jpg"/>
+        <field name="sequence">110</field>
+        <field name="sequence_numeric">110</field>
+        <field name="value_ids" 
+            eval="[(6, 0, [ref('theme_gunwerks_custom.product_attribute_value_65'), ref('theme_gunwerks_custom.product_attribute_value_67'),
+            ref('theme_gunwerks_custom.product_attribute_value_119'),])]"/>
+    </record>
+
+    <record id="product_attribute_value_line_111" model="product.attribute.value.line">
+        <field name="product_tmpl_id" ref="theme_gunwerks_custom.product_template_01"/>
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_7"/>
+        <field name="value_id" ref="theme_gunwerks_custom.product_attribute_value_82"/>
+        <field name="image" type="base64" file="theme_gunwerks_custom/static/img/__export__.product_attribute_value_line_198_7e46253c.jpg"/>
+        <field name="sequence">111</field>
+        <field name="sequence_numeric">111</field>
+        <field name="value_ids" 
+            eval="[(6, 0, [ref('theme_gunwerks_custom.product_attribute_value_65'), ref('theme_gunwerks_custom.product_attribute_value_69'),
+            ref('theme_gunwerks_custom.product_attribute_value_74'),])]"/>
+    </record>
+
+    <record id="product_attribute_value_line_112" model="product.attribute.value.line">
+        <field name="product_tmpl_id" ref="theme_gunwerks_custom.product_template_01"/>
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_7"/>
+        <field name="value_id" ref="theme_gunwerks_custom.product_attribute_value_82"/>
+        <field name="image" type="base64" file="theme_gunwerks_custom/static/img/__export__.product_attribute_value_line_199_4fd8df7a.jpg"/>
+        <field name="sequence">112</field>
+        <field name="sequence_numeric">112</field>
+        <field name="value_ids" 
+            eval="[(6, 0, [ref('theme_gunwerks_custom.product_attribute_value_65'), ref('theme_gunwerks_custom.product_attribute_value_69'),
+            ref('theme_gunwerks_custom.product_attribute_value_75'),])]"/>
+    </record>
+
+    <record id="product_attribute_value_line_113" model="product.attribute.value.line">
+        <field name="product_tmpl_id" ref="theme_gunwerks_custom.product_template_01"/>
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_7"/>
+        <field name="value_id" ref="theme_gunwerks_custom.product_attribute_value_82"/>
+        <field name="image" type="base64" file="theme_gunwerks_custom/static/img/__export__.product_attribute_value_line_200_ae56062c.jpg"/>
+        <field name="sequence">113</field>
+        <field name="sequence_numeric">113</field>
+        <field name="value_ids" 
+            eval="[(6, 0, [ref('theme_gunwerks_custom.product_attribute_value_65'), ref('theme_gunwerks_custom.product_attribute_value_69'),
+            ref('theme_gunwerks_custom.product_attribute_value_76'),])]"/>
+    </record>
+
+    <record id="product_attribute_value_line_114" model="product.attribute.value.line">
+        <field name="product_tmpl_id" ref="theme_gunwerks_custom.product_template_01"/>
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_7"/>
+        <field name="value_id" ref="theme_gunwerks_custom.product_attribute_value_82"/>
+        <field name="image" type="base64" file="theme_gunwerks_custom/static/img/__export__.product_attribute_value_line_201_1afec81d.jpg"/>
+        <field name="sequence">114</field>
+        <field name="sequence_numeric">114</field>
+        <field name="value_ids" 
+            eval="[(6, 0, [ref('theme_gunwerks_custom.product_attribute_value_65'), ref('theme_gunwerks_custom.product_attribute_value_69'),
+            ref('theme_gunwerks_custom.product_attribute_value_77'),])]"/>
+    </record>
+
+    <record id="product_attribute_value_line_115" model="product.attribute.value.line">
+        <field name="product_tmpl_id" ref="theme_gunwerks_custom.product_template_01"/>
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_7"/>
+        <field name="value_id" ref="theme_gunwerks_custom.product_attribute_value_82"/>
+        <field name="image" type="base64" file="theme_gunwerks_custom/static/img/__export__.product_attribute_value_line_202_65549320.jpg"/>
+        <field name="sequence">115</field>
+        <field name="sequence_numeric">115</field>
+        <field name="value_ids" 
+            eval="[(6, 0, [ref('theme_gunwerks_custom.product_attribute_value_65'), ref('theme_gunwerks_custom.product_attribute_value_69'),
+            ref('theme_gunwerks_custom.product_attribute_value_78'),])]"/>
+    </record>
+
+    <record id="product_attribute_value_line_116" model="product.attribute.value.line">
+        <field name="product_tmpl_id" ref="theme_gunwerks_custom.product_template_01"/>
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_7"/>
+        <field name="value_id" ref="theme_gunwerks_custom.product_attribute_value_82"/>
+        <field name="image" type="base64" file="theme_gunwerks_custom/static/img/__export__.product_attribute_value_line_204_7eb903aa.jpg"/>
+        <field name="sequence">116</field>
+        <field name="sequence_numeric">116</field>
+        <field name="value_ids" 
+            eval="[(6, 0, [ref('theme_gunwerks_custom.product_attribute_value_65'), ref('theme_gunwerks_custom.product_attribute_value_69'),
+            ref('theme_gunwerks_custom.product_attribute_value_79'),])]"/>
+    </record>
+
+    <record id="product_attribute_value_line_117" model="product.attribute.value.line">
+        <field name="product_tmpl_id" ref="theme_gunwerks_custom.product_template_01"/>
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_7"/>
+        <field name="value_id" ref="theme_gunwerks_custom.product_attribute_value_82"/>
+        <field name="image" type="base64" file="theme_gunwerks_custom/static/img/__export__.product_attribute_value_line_193_70290dce.jpg"/>
+        <field name="sequence">117</field>
+        <field name="sequence_numeric">117</field>
+        <field name="value_ids" 
+            eval="[(6, 0, [ref('theme_gunwerks_custom.product_attribute_value_65'), ref('theme_gunwerks_custom.product_attribute_value_69'),
+            ref('theme_gunwerks_custom.product_attribute_value_115'),])]"/>
+    </record>
+
+    <record id="product_attribute_value_line_118" model="product.attribute.value.line">
+        <field name="product_tmpl_id" ref="theme_gunwerks_custom.product_template_01"/>
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_7"/>
+        <field name="value_id" ref="theme_gunwerks_custom.product_attribute_value_82"/>
+        <field name="image" type="base64" file="theme_gunwerks_custom/static/img/__export__.product_attribute_value_line_194_fee6841f.jpg"/>
+        <field name="sequence">118</field>
+        <field name="sequence_numeric">118</field>
+        <field name="value_ids" 
+            eval="[(6, 0, [ref('theme_gunwerks_custom.product_attribute_value_65'), ref('theme_gunwerks_custom.product_attribute_value_69'),
+            ref('theme_gunwerks_custom.product_attribute_value_116'),])]"/>
+    </record>
+
+    <record id="product_attribute_value_line_119" model="product.attribute.value.line">
+        <field name="product_tmpl_id" ref="theme_gunwerks_custom.product_template_01"/>
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_7"/>
+        <field name="value_id" ref="theme_gunwerks_custom.product_attribute_value_82"/>
+        <field name="image" type="base64" file="theme_gunwerks_custom/static/img/__export__.product_attribute_value_line_195_844f5bf9.jpg"/>
+        <field name="sequence">119</field>
+        <field name="sequence_numeric">119</field>
+        <field name="value_ids" 
+            eval="[(6, 0, [ref('theme_gunwerks_custom.product_attribute_value_65'), ref('theme_gunwerks_custom.product_attribute_value_69'),
+            ref('theme_gunwerks_custom.product_attribute_value_117'),])]"/>
+    </record>
+
+    <record id="product_attribute_value_line_120" model="product.attribute.value.line">
+        <field name="product_tmpl_id" ref="theme_gunwerks_custom.product_template_01"/>
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_7"/>
+        <field name="value_id" ref="theme_gunwerks_custom.product_attribute_value_82"/>
+        <field name="image" type="base64" file="theme_gunwerks_custom/static/img/__export__.product_attribute_value_line_196_ae48e04e.jpg"/>
+        <field name="sequence">120</field>
+        <field name="sequence_numeric">120</field>
+        <field name="value_ids" 
+            eval="[(6, 0, [ref('theme_gunwerks_custom.product_attribute_value_65'), ref('theme_gunwerks_custom.product_attribute_value_69'),
+            ref('theme_gunwerks_custom.product_attribute_value_118'),])]"/>
+    </record>
+
+    <record id="product_attribute_value_line_121" model="product.attribute.value.line">
+        <field name="product_tmpl_id" ref="theme_gunwerks_custom.product_template_01"/>
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_7"/>
+        <field name="value_id" ref="theme_gunwerks_custom.product_attribute_value_82"/>
+        <field name="image" type="base64" file="theme_gunwerks_custom/static/img/__export__.product_attribute_value_line_197_1487a32b.jpg"/>
+        <field name="sequence">121</field>
+        <field name="sequence_numeric">121</field>
+        <field name="value_ids" 
+            eval="[(6, 0, [ref('theme_gunwerks_custom.product_attribute_value_65'), ref('theme_gunwerks_custom.product_attribute_value_69'),
+            ref('theme_gunwerks_custom.product_attribute_value_119'),])]"/>
+    </record>
+
+    <record id="product_attribute_value_line_122" model="product.attribute.value.line">
+        <field name="product_tmpl_id" ref="theme_gunwerks_custom.product_template_01"/>
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_7"/>
+        <field name="value_id" ref="theme_gunwerks_custom.product_attribute_value_81"/>
+        <field name="image" type="base64" file="theme_gunwerks_custom/static/img/__export__.product_attribute_value_line_97_9418c7d5.jpg"/>
+        <field name="sequence">122</field>
+        <field name="sequence_numeric">122</field>
+        <field name="value_ids" 
+            eval="[(6, 0, [ref('theme_gunwerks_custom.product_attribute_value_65'), ref('theme_gunwerks_custom.product_attribute_value_66'),
+            ref('theme_gunwerks_custom.product_attribute_value_74'),])]"/>
+    </record>
+
+    <record id="product_attribute_value_line_123" model="product.attribute.value.line">
+        <field name="product_tmpl_id" ref="theme_gunwerks_custom.product_template_01"/>
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_7"/>
+        <field name="value_id" ref="theme_gunwerks_custom.product_attribute_value_81"/>
+        <field name="image" type="base64" file="theme_gunwerks_custom/static/img/__export__.product_attribute_value_line_98_ad9fff5c.jpg"/>
+        <field name="sequence">123</field>
+        <field name="sequence_numeric">123</field>
+        <field name="value_ids" 
+            eval="[(6, 0, [ref('theme_gunwerks_custom.product_attribute_value_65'), ref('theme_gunwerks_custom.product_attribute_value_66'),
+            ref('theme_gunwerks_custom.product_attribute_value_75'),])]"/>
+    </record>
+
+    <record id="product_attribute_value_line_124" model="product.attribute.value.line">
+        <field name="product_tmpl_id" ref="theme_gunwerks_custom.product_template_01"/>
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_7"/>
+        <field name="value_id" ref="theme_gunwerks_custom.product_attribute_value_80"/>
+        <field name="image" type="base64" file="theme_gunwerks_custom/static/img/__export__.product_attribute_value_line_100_25f57de2.jpg"/>
+        <field name="sequence">124</field>
+        <field name="sequence_numeric">124</field>
+        <field name="value_ids" 
+            eval="[(6, 0, [ref('theme_gunwerks_custom.product_attribute_value_65'), ref('theme_gunwerks_custom.product_attribute_value_66'),
+            ref('theme_gunwerks_custom.product_attribute_value_75'),])]"/>
+    </record>
+
+    <record id="product_attribute_value_line_125" model="product.attribute.value.line">
+        <field name="product_tmpl_id" ref="theme_gunwerks_custom.product_template_01"/>
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_7"/>
+        <field name="value_id" ref="theme_gunwerks_custom.product_attribute_value_80"/>
+        <field name="image" type="base64" file="theme_gunwerks_custom/static/img/__export__.product_attribute_value_line_99_4640e31b.jpg"/>
+        <field name="sequence">125</field>
+        <field name="sequence_numeric">125</field>
+        <field name="value_ids" 
+            eval="[(6, 0, [ref('theme_gunwerks_custom.product_attribute_value_65'), ref('theme_gunwerks_custom.product_attribute_value_66'),
+            ref('theme_gunwerks_custom.product_attribute_value_74'),])]"/>
+    </record>
+
+    <record id="product_attribute_value_line_126" model="product.attribute.value.line">
+        <field name="product_tmpl_id" ref="theme_gunwerks_custom.product_template_01"/>
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_9"/>
+        <field name="value_id" ref="theme_gunwerks_custom.product_attribute_value_54"/>
+        <field name="image" type="base64" file="theme_gunwerks_custom/static/img/__export__.product_attribute_value_line_45_1b816097.jpg"/>
+        <field name="sequence">126</field>
+        <field name="sequence_numeric">126</field>
+        <field name="value_ids" 
+            eval="[(6, 0, [ref('theme_gunwerks_custom.product_attribute_value_56'), ref('theme_gunwerks_custom.product_attribute_value_74'),])]"/>
+    </record>
+
+    <record id="product_attribute_value_line_127" model="product.attribute.value.line">
+        <field name="product_tmpl_id" ref="theme_gunwerks_custom.product_template_01"/>
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_9"/>
+        <field name="value_id" ref="theme_gunwerks_custom.product_attribute_value_54"/>
+        <field name="image" type="base64" file="theme_gunwerks_custom/static/img/__export__.product_attribute_value_line_85_0dc234dc.jpg"/>
+        <field name="sequence">127</field>
+        <field name="sequence_numeric">127</field>
+        <field name="value_ids" 
+            eval="[(6, 0, [ref('theme_gunwerks_custom.product_attribute_value_56'), ref('theme_gunwerks_custom.product_attribute_value_75'),])]"/>
+    </record>
+
+    <record id="product_attribute_value_line_128" model="product.attribute.value.line">
+        <field name="product_tmpl_id" ref="theme_gunwerks_custom.product_template_01"/>
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_9"/>
+        <field name="value_id" ref="theme_gunwerks_custom.product_attribute_value_54"/>
+        <field name="image" type="base64" file="theme_gunwerks_custom/static/img/__export__.product_attribute_value_line_44_f37601fe.jpg"/>
+        <field name="sequence">128</field>
+        <field name="sequence_numeric">128</field>
+        <field name="value_ids" 
+            eval="[(6, 0, [ref('theme_gunwerks_custom.product_attribute_value_56'), ref('theme_gunwerks_custom.product_attribute_value_76'),])]"/>
+    </record>
+
+    <record id="product_attribute_value_line_129" model="product.attribute.value.line">
+        <field name="product_tmpl_id" ref="theme_gunwerks_custom.product_template_01"/>
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_9"/>
+        <field name="value_id" ref="theme_gunwerks_custom.product_attribute_value_54"/>
+        <field name="image" type="base64" file="theme_gunwerks_custom/static/img/__export__.product_attribute_value_line_47_086c04c4.jpg"/>
+        <field name="sequence">129</field>
+        <field name="sequence_numeric">129</field>
+        <field name="value_ids" 
+            eval="[(6, 0, [ref('theme_gunwerks_custom.product_attribute_value_56'), ref('theme_gunwerks_custom.product_attribute_value_77'),])]"/>
+    </record>
+
+    <record id="product_attribute_value_line_130" model="product.attribute.value.line">
+        <field name="product_tmpl_id" ref="theme_gunwerks_custom.product_template_01"/>
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_9"/>
+        <field name="value_id" ref="theme_gunwerks_custom.product_attribute_value_54"/>
+        <field name="image" type="base64" file="theme_gunwerks_custom/static/img/__export__.product_attribute_value_line_48_7c3588b7.jpg"/>
+        <field name="sequence">130</field>
+        <field name="sequence_numeric">130</field>
+        <field name="value_ids" 
+            eval="[(6, 0, [ref('theme_gunwerks_custom.product_attribute_value_56'), ref('theme_gunwerks_custom.product_attribute_value_78'),])]"/>
+    </record>
+
+    <record id="product_attribute_value_line_131" model="product.attribute.value.line">
+        <field name="product_tmpl_id" ref="theme_gunwerks_custom.product_template_01"/>
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_9"/>
+        <field name="value_id" ref="theme_gunwerks_custom.product_attribute_value_54"/>
+        <field name="image" type="base64" file="theme_gunwerks_custom/static/img/__export__.product_attribute_value_line_232_f4f23e72.jpg"/>
+        <field name="sequence">131</field>
+        <field name="sequence_numeric">131</field>
+        <field name="value_ids" 
+            eval="[(6, 0, [ref('theme_gunwerks_custom.product_attribute_value_56'), ref('theme_gunwerks_custom.product_attribute_value_79'),])]"/>
+    </record>
+
+    <record id="product_attribute_value_line_132" model="product.attribute.value.line">
+        <field name="product_tmpl_id" ref="theme_gunwerks_custom.product_template_01"/>
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_9"/>
+        <field name="value_id" ref="theme_gunwerks_custom.product_attribute_value_54"/>
+        <field name="image" type="base64" file="theme_gunwerks_custom/static/img/__export__.product_attribute_value_line_233_007bff74.jpg"/>
+        <field name="sequence">132</field>
+        <field name="sequence_numeric">132</field>
+        <field name="value_ids" 
+            eval="[(6, 0, [ref('theme_gunwerks_custom.product_attribute_value_56'), ref('theme_gunwerks_custom.product_attribute_value_115'),])]"/>
+    </record>
+
+    <record id="product_attribute_value_line_133" model="product.attribute.value.line">
+        <field name="product_tmpl_id" ref="theme_gunwerks_custom.product_template_01"/>
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_9"/>
+        <field name="value_id" ref="theme_gunwerks_custom.product_attribute_value_54"/>
+        <field name="image" type="base64" file="theme_gunwerks_custom/static/img/__export__.product_attribute_value_line_234_fe060834.jpg"/>
+        <field name="sequence">133</field>
+        <field name="sequence_numeric">133</field>
+        <field name="value_ids" 
+            eval="[(6, 0, [ref('theme_gunwerks_custom.product_attribute_value_56'), ref('theme_gunwerks_custom.product_attribute_value_116'),])]"/>
+    </record>
+
+    <record id="product_attribute_value_line_134" model="product.attribute.value.line">
+        <field name="product_tmpl_id" ref="theme_gunwerks_custom.product_template_01"/>
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_9"/>
+        <field name="value_id" ref="theme_gunwerks_custom.product_attribute_value_54"/>
+        <field name="image" type="base64" file="theme_gunwerks_custom/static/img/__export__.product_attribute_value_line_235_9008fe9e.jpg"/>
+        <field name="sequence">134</field>
+        <field name="sequence_numeric">134</field>
+        <field name="value_ids" 
+            eval="[(6, 0, [ref('theme_gunwerks_custom.product_attribute_value_56'), ref('theme_gunwerks_custom.product_attribute_value_117'),])]"/>
+    </record>
+
+    <record id="product_attribute_value_line_135" model="product.attribute.value.line">
+        <field name="product_tmpl_id" ref="theme_gunwerks_custom.product_template_01"/>
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_9"/>
+        <field name="value_id" ref="theme_gunwerks_custom.product_attribute_value_54"/>
+        <field name="image" type="base64" file="theme_gunwerks_custom/static/img/__export__.product_attribute_value_line_236_3dd52034.jpg"/>
+        <field name="sequence">135</field>
+        <field name="sequence_numeric">135</field>
+        <field name="value_ids" 
+            eval="[(6, 0, [ref('theme_gunwerks_custom.product_attribute_value_56'), ref('theme_gunwerks_custom.product_attribute_value_118'),])]"/>
+    </record>
+
+    <record id="product_attribute_value_line_136" model="product.attribute.value.line">
+        <field name="product_tmpl_id" ref="theme_gunwerks_custom.product_template_01"/>
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_9"/>
+        <field name="value_id" ref="theme_gunwerks_custom.product_attribute_value_54"/>
+        <field name="image" type="base64" file="theme_gunwerks_custom/static/img/__export__.product_attribute_value_line_237_de0af56e.jpg"/>
+        <field name="sequence">136</field>
+        <field name="sequence_numeric">136</field>
+        <field name="value_ids" 
+            eval="[(6, 0, [ref('theme_gunwerks_custom.product_attribute_value_56'), ref('theme_gunwerks_custom.product_attribute_value_119'),])]"/>
+    </record>
+
+    <record id="product_attribute_value_line_137" model="product.attribute.value.line">
+        <field name="product_tmpl_id" ref="theme_gunwerks_custom.product_template_01"/>
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_9"/>
+        <field name="value_id" ref="theme_gunwerks_custom.product_attribute_value_54"/>
+        <field name="image" type="base64" file="theme_gunwerks_custom/static/img/__export__.product_attribute_value_line_49_b66bfcfa.jpg"/>
+        <field name="sequence">137</field>
+        <field name="sequence_numeric">137</field>
+        <field name="value_ids" 
+            eval="[(6, 0, [ref('theme_gunwerks_custom.product_attribute_value_55'), ref('theme_gunwerks_custom.product_attribute_value_74'),])]"/>
+    </record>
+
+    <record id="product_attribute_value_line_138" model="product.attribute.value.line">
+        <field name="product_tmpl_id" ref="theme_gunwerks_custom.product_template_01"/>
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_9"/>
+        <field name="value_id" ref="theme_gunwerks_custom.product_attribute_value_54"/>
+        <field name="image" type="base64" file="theme_gunwerks_custom/static/img/__export__.product_attribute_value_line_238_b3ba062b.jpg"/>
+        <field name="sequence">138</field>
+        <field name="sequence_numeric">138</field>
+        <field name="value_ids" 
+            eval="[(6, 0, [ref('theme_gunwerks_custom.product_attribute_value_55'), ref('theme_gunwerks_custom.product_attribute_value_75'),])]"/>
+    </record>
+
+    <record id="product_attribute_value_line_139" model="product.attribute.value.line">
+        <field name="product_tmpl_id" ref="theme_gunwerks_custom.product_template_01"/>
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_9"/>
+        <field name="value_id" ref="theme_gunwerks_custom.product_attribute_value_54"/>
+        <field name="image" type="base64" file="theme_gunwerks_custom/static/img/__export__.product_attribute_value_line_50_9ff24232.jpg"/>
+        <field name="sequence">139</field>
+        <field name="sequence_numeric">139</field>
+        <field name="value_ids" 
+            eval="[(6, 0, [ref('theme_gunwerks_custom.product_attribute_value_55'), ref('theme_gunwerks_custom.product_attribute_value_76'),])]"/>
+    </record>
+
+    <record id="product_attribute_value_line_140" model="product.attribute.value.line">
+        <field name="product_tmpl_id" ref="theme_gunwerks_custom.product_template_01"/>
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_9"/>
+        <field name="value_id" ref="theme_gunwerks_custom.product_attribute_value_54"/>
+        <field name="image" type="base64" file="theme_gunwerks_custom/static/img/__export__.product_attribute_value_line_51_c0c5d5f0.jpg"/>
+        <field name="sequence">140</field>
+        <field name="sequence_numeric">140</field>
+        <field name="value_ids" 
+            eval="[(6, 0, [ref('theme_gunwerks_custom.product_attribute_value_55'), ref('theme_gunwerks_custom.product_attribute_value_77'),])]"/>
+    </record>
+
+    <record id="product_attribute_value_line_141" model="product.attribute.value.line">
+        <field name="product_tmpl_id" ref="theme_gunwerks_custom.product_template_01"/>
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_9"/>
+        <field name="value_id" ref="theme_gunwerks_custom.product_attribute_value_54"/>
+        <field name="image" type="base64" file="theme_gunwerks_custom/static/img/__export__.product_attribute_value_line_52_06676c50.jpg"/>
+        <field name="sequence">141</field>
+        <field name="sequence_numeric">141</field>
+        <field name="value_ids" 
+            eval="[(6, 0, [ref('theme_gunwerks_custom.product_attribute_value_55'), ref('theme_gunwerks_custom.product_attribute_value_78'),])]"/>
+    </record>
+
+    <record id="product_attribute_value_line_142" model="product.attribute.value.line">
+        <field name="product_tmpl_id" ref="theme_gunwerks_custom.product_template_01"/>
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_9"/>
+        <field name="value_id" ref="theme_gunwerks_custom.product_attribute_value_54"/>
+        <field name="image" type="base64" file="theme_gunwerks_custom/static/img/__export__.product_attribute_value_line_239_13657469.jpg"/>
+        <field name="sequence">142</field>
+        <field name="sequence_numeric">142</field>
+        <field name="value_ids" 
+            eval="[(6, 0, [ref('theme_gunwerks_custom.product_attribute_value_55'), ref('theme_gunwerks_custom.product_attribute_value_79'),])]"/>
+    </record>
+
+    <record id="product_attribute_value_line_143" model="product.attribute.value.line">
+        <field name="product_tmpl_id" ref="theme_gunwerks_custom.product_template_01"/>
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_9"/>
+        <field name="value_id" ref="theme_gunwerks_custom.product_attribute_value_54"/>
+        <field name="image" type="base64" file="theme_gunwerks_custom/static/img/__export__.product_attribute_value_line_240_9ff36983.jpg"/>
+        <field name="sequence">143</field>
+        <field name="sequence_numeric">143</field>
+        <field name="value_ids" 
+            eval="[(6, 0, [ref('theme_gunwerks_custom.product_attribute_value_55'), ref('theme_gunwerks_custom.product_attribute_value_115'),])]"/>
+    </record>
+
+    <record id="product_attribute_value_line_144" model="product.attribute.value.line">
+        <field name="product_tmpl_id" ref="theme_gunwerks_custom.product_template_01"/>
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_9"/>
+        <field name="value_id" ref="theme_gunwerks_custom.product_attribute_value_54"/>
+        <field name="image" type="base64" file="theme_gunwerks_custom/static/img/__export__.product_attribute_value_line_241_f485ac34.jpg"/>
+        <field name="sequence">144</field>
+        <field name="sequence_numeric">144</field>
+        <field name="value_ids" 
+            eval="[(6, 0, [ref('theme_gunwerks_custom.product_attribute_value_55'), ref('theme_gunwerks_custom.product_attribute_value_116'),])]"/>
+    </record>
+
+    <record id="product_attribute_value_line_145" model="product.attribute.value.line">
+        <field name="product_tmpl_id" ref="theme_gunwerks_custom.product_template_01"/>
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_9"/>
+        <field name="value_id" ref="theme_gunwerks_custom.product_attribute_value_54"/>
+        <field name="image" type="base64" file="theme_gunwerks_custom/static/img/__export__.product_attribute_value_line_242_d970e60f.jpg"/>
+        <field name="sequence">145</field>
+        <field name="sequence_numeric">145</field>
+        <field name="value_ids" 
+            eval="[(6, 0, [ref('theme_gunwerks_custom.product_attribute_value_55'), ref('theme_gunwerks_custom.product_attribute_value_117'),])]"/>
+    </record>
+
+    <record id="product_attribute_value_line_146" model="product.attribute.value.line">
+        <field name="product_tmpl_id" ref="theme_gunwerks_custom.product_template_01"/>
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_9"/>
+        <field name="value_id" ref="theme_gunwerks_custom.product_attribute_value_54"/>
+        <field name="image" type="base64" file="theme_gunwerks_custom/static/img/__export__.product_attribute_value_line_243_65bd2362.jpg"/>
+        <field name="sequence">146</field>
+        <field name="sequence_numeric">146</field>
+        <field name="value_ids" 
+            eval="[(6, 0, [ref('theme_gunwerks_custom.product_attribute_value_55'), ref('theme_gunwerks_custom.product_attribute_value_118'),])]"/>
+    </record>
+
+    <record id="product_attribute_value_line_147" model="product.attribute.value.line">
+        <field name="product_tmpl_id" ref="theme_gunwerks_custom.product_template_01"/>
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_9"/>
+        <field name="value_id" ref="theme_gunwerks_custom.product_attribute_value_54"/>
+        <field name="image" type="base64" file="theme_gunwerks_custom/static/img/__export__.product_attribute_value_line_244_40259856.jpg"/>
+        <field name="sequence">147</field>
+        <field name="sequence_numeric">147</field>
+        <field name="value_ids" 
+            eval="[(6, 0, [ref('theme_gunwerks_custom.product_attribute_value_55'), ref('theme_gunwerks_custom.product_attribute_value_119'),])]"/>
+    </record>
+
+    <record id="product_attribute_value_line_148" model="product.attribute.value.line">
+        <field name="product_tmpl_id" ref="theme_gunwerks_custom.product_template_01"/>
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_9"/>
+        <field name="value_id" ref="theme_gunwerks_custom.product_attribute_value_53"/>
+        <field name="image" type="base64" file="theme_gunwerks_custom/static/img/__export__.product_attribute_value_line_53_f4e25877.jpg"/>
+        <field name="sequence">148</field>
+        <field name="sequence_numeric">148</field>
+        <field name="value_ids" 
+            eval="[(6, 0, [ref('theme_gunwerks_custom.product_attribute_value_74'),])]"/>
+    </record>
+
+    <record id="product_attribute_value_line_149" model="product.attribute.value.line">
+        <field name="product_tmpl_id" ref="theme_gunwerks_custom.product_template_01"/>
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_9"/>
+        <field name="value_id" ref="theme_gunwerks_custom.product_attribute_value_53"/>
+        <field name="image" type="base64" file="theme_gunwerks_custom/static/img/__export__.product_attribute_value_line_54_33775db6.jpg"/>
+        <field name="sequence">149</field>
+        <field name="sequence_numeric">149</field>
+        <field name="value_ids" 
+            eval="[(6, 0, [ref('theme_gunwerks_custom.product_attribute_value_75'),])]"/>
+    </record>
+
+    <record id="product_attribute_value_line_150" model="product.attribute.value.line">
+        <field name="product_tmpl_id" ref="theme_gunwerks_custom.product_template_01"/>
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_9"/>
+        <field name="value_id" ref="theme_gunwerks_custom.product_attribute_value_53"/>
+        <field name="image" type="base64" file="theme_gunwerks_custom/static/img/__export__.product_attribute_value_line_55_01f32743.jpg"/>
+        <field name="sequence">150</field>
+        <field name="sequence_numeric">150</field>
+        <field name="value_ids" 
+            eval="[(6, 0, [ref('theme_gunwerks_custom.product_attribute_value_76'),])]"/>
+    </record>
+
+    <record id="product_attribute_value_line_151" model="product.attribute.value.line">
+        <field name="product_tmpl_id" ref="theme_gunwerks_custom.product_template_01"/>
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_9"/>
+        <field name="value_id" ref="theme_gunwerks_custom.product_attribute_value_53"/>
+        <field name="image" type="base64" file="theme_gunwerks_custom/static/img/__export__.product_attribute_value_line_56_c70c6cf5.jpg"/>
+        <field name="sequence">151</field>
+        <field name="sequence_numeric">151</field>
+        <field name="value_ids" 
+            eval="[(6, 0, [ref('theme_gunwerks_custom.product_attribute_value_77'),])]"/>
+    </record>
+
+    <record id="product_attribute_value_line_152" model="product.attribute.value.line">
+        <field name="product_tmpl_id" ref="theme_gunwerks_custom.product_template_01"/>
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_9"/>
+        <field name="value_id" ref="theme_gunwerks_custom.product_attribute_value_53"/>
+        <field name="image" type="base64" file="theme_gunwerks_custom/static/img/__export__.product_attribute_value_line_57_5e6717a7.jpg"/>
+        <field name="sequence">152</field>
+        <field name="sequence_numeric">152</field>
+        <field name="value_ids" 
+            eval="[(6, 0, [ref('theme_gunwerks_custom.product_attribute_value_78'),])]"/>
+    </record>
+
+    <record id="product_attribute_value_line_153" model="product.attribute.value.line">
+        <field name="product_tmpl_id" ref="theme_gunwerks_custom.product_template_01"/>
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_9"/>
+        <field name="value_id" ref="theme_gunwerks_custom.product_attribute_value_53"/>
+        <field name="image" type="base64" file="theme_gunwerks_custom/static/img/__export__.product_attribute_value_line_245_f31244c3.jpg"/>
+        <field name="sequence">153</field>
+        <field name="sequence_numeric">153</field>
+        <field name="value_ids" 
+            eval="[(6, 0, [ref('theme_gunwerks_custom.product_attribute_value_79'),])]"/>
+    </record>
+
+    <record id="product_attribute_value_line_154" model="product.attribute.value.line">
+        <field name="product_tmpl_id" ref="theme_gunwerks_custom.product_template_01"/>
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_9"/>
+        <field name="value_id" ref="theme_gunwerks_custom.product_attribute_value_53"/>
+        <field name="image" type="base64" file="theme_gunwerks_custom/static/img/__export__.product_attribute_value_line_246_527a071d.jpg"/>
+        <field name="sequence">154</field>
+        <field name="sequence_numeric">154</field>
+        <field name="value_ids" 
+            eval="[(6, 0, [ref('theme_gunwerks_custom.product_attribute_value_115'),])]"/>
+    </record>
+
+    <record id="product_attribute_value_line_155" model="product.attribute.value.line">
+        <field name="product_tmpl_id" ref="theme_gunwerks_custom.product_template_01"/>
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_9"/>
+        <field name="value_id" ref="theme_gunwerks_custom.product_attribute_value_53"/>
+        <field name="image" type="base64" file="theme_gunwerks_custom/static/img/__export__.product_attribute_value_line_247_84671d04.jpg"/>
+        <field name="sequence">155</field>
+        <field name="sequence_numeric">155</field>
+        <field name="value_ids" 
+            eval="[(6, 0, [ref('theme_gunwerks_custom.product_attribute_value_116'),])]"/>
+    </record>
+
+    <record id="product_attribute_value_line_156" model="product.attribute.value.line">
+        <field name="product_tmpl_id" ref="theme_gunwerks_custom.product_template_01"/>
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_9"/>
+        <field name="value_id" ref="theme_gunwerks_custom.product_attribute_value_53"/>
+        <field name="image" type="base64" file="theme_gunwerks_custom/static/img/__export__.product_attribute_value_line_248_279b3362.jpg"/>
+        <field name="sequence">156</field>
+        <field name="sequence_numeric">156</field>
+        <field name="value_ids" 
+            eval="[(6, 0, [ref('theme_gunwerks_custom.product_attribute_value_117'),])]"/>
+    </record>
+
+    <record id="product_attribute_value_line_157" model="product.attribute.value.line">
+        <field name="product_tmpl_id" ref="theme_gunwerks_custom.product_template_01"/>
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_9"/>
+        <field name="value_id" ref="theme_gunwerks_custom.product_attribute_value_53"/>
+        <field name="image" type="base64" file="theme_gunwerks_custom/static/img/__export__.product_attribute_value_line_249_c6d9a822.jpg"/>
+        <field name="sequence">157</field>
+        <field name="sequence_numeric">157</field>
+        <field name="value_ids" 
+            eval="[(6, 0, [ref('theme_gunwerks_custom.product_attribute_value_118'),])]"/>
+    </record>
+
+    <record id="product_attribute_value_line_158" model="product.attribute.value.line">
+        <field name="product_tmpl_id" ref="theme_gunwerks_custom.product_template_01"/>
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_9"/>
+        <field name="value_id" ref="theme_gunwerks_custom.product_attribute_value_53"/>
+        <field name="image" type="base64" file="theme_gunwerks_custom/static/img/__export__.product_attribute_value_line_250_1f166dca.jpg"/>
+        <field name="sequence">158</field>
+        <field name="sequence_numeric">158</field>
+        <field name="value_ids" 
+            eval="[(6, 0, [ref('theme_gunwerks_custom.product_attribute_value_119'),])]"/>
+    </record>
+
+    <record id="product_attribute_value_line_159" model="product.attribute.value.line">
+        <field name="product_tmpl_id" ref="theme_gunwerks_custom.product_template_01"/>
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_49"/>
+        <field name="value_id" ref="theme_gunwerks_custom.product_attribute_value_60"/>
+        <field name="image" type="base64" file="theme_gunwerks_custom/static/img/__export__.product_attribute_value_line_58_c676cd0a.jpg"/>
+        <field name="sequence">159</field>
+        <field name="sequence_numeric">159</field>
+        <field name="value_ids" 
+            eval="[(6, 0, [ref('theme_gunwerks_custom.product_attribute_value_74'),])]"/>
+    </record>
+
+    <record id="product_attribute_value_line_160" model="product.attribute.value.line">
+        <field name="product_tmpl_id" ref="theme_gunwerks_custom.product_template_01"/>
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_49"/>
+        <field name="value_id" ref="theme_gunwerks_custom.product_attribute_value_60"/>
+        <field name="image" type="base64" file="theme_gunwerks_custom/static/img/__export__.product_attribute_value_line_59_2a57c975.jpg"/>
+        <field name="sequence">160</field>
+        <field name="sequence_numeric">160</field>
+        <field name="value_ids" 
+            eval="[(6, 0, [ref('theme_gunwerks_custom.product_attribute_value_75'),])]"/>
+    </record>
+
+    <record id="product_attribute_value_line_161" model="product.attribute.value.line">
+        <field name="product_tmpl_id" ref="theme_gunwerks_custom.product_template_01"/>
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_49"/>
+        <field name="value_id" ref="theme_gunwerks_custom.product_attribute_value_60"/>
+        <field name="image" type="base64" file="theme_gunwerks_custom/static/img/__export__.product_attribute_value_line_60_4ba01f1b.jpg"/>
+        <field name="sequence">161</field>
+        <field name="sequence_numeric">161</field>
+        <field name="value_ids" 
+            eval="[(6, 0, [ref('theme_gunwerks_custom.product_attribute_value_76'),])]"/>
+    </record>
+
+    <record id="product_attribute_value_line_162" model="product.attribute.value.line">
+        <field name="product_tmpl_id" ref="theme_gunwerks_custom.product_template_01"/>
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_49"/>
+        <field name="value_id" ref="theme_gunwerks_custom.product_attribute_value_60"/>
+        <field name="image" type="base64" file="theme_gunwerks_custom/static/img/__export__.product_attribute_value_line_113_c911c2c4.jpg"/>
+        <field name="sequence">162</field>
+        <field name="sequence_numeric">162</field>
+        <field name="value_ids" 
+            eval="[(6, 0, [ref('theme_gunwerks_custom.product_attribute_value_77'),])]"/>
+    </record>
+
+    <record id="product_attribute_value_line_163" model="product.attribute.value.line">
+        <field name="product_tmpl_id" ref="theme_gunwerks_custom.product_template_01"/>
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_49"/>
+        <field name="value_id" ref="theme_gunwerks_custom.product_attribute_value_60"/>
+        <field name="image" type="base64" file="theme_gunwerks_custom/static/img/__export__.product_attribute_value_line_114_f991c3ed.jpg"/>
+        <field name="sequence">163</field>
+        <field name="sequence_numeric">163</field>
+        <field name="value_ids" 
+            eval="[(6, 0, [ref('theme_gunwerks_custom.product_attribute_value_78'),])]"/>
+    </record>
+
+    <record id="product_attribute_value_line_164" model="product.attribute.value.line">
+        <field name="product_tmpl_id" ref="theme_gunwerks_custom.product_template_01"/>
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_49"/>
+        <field name="value_id" ref="theme_gunwerks_custom.product_attribute_value_60"/>
+        <field name="image" type="base64" file="theme_gunwerks_custom/static/img/__export__.product_attribute_value_line_116_4cac4474.jpg"/>
+        <field name="sequence">164</field>
+        <field name="sequence_numeric">164</field>
+        <field name="value_ids" 
+            eval="[(6, 0, [ref('theme_gunwerks_custom.product_attribute_value_79'),])]"/>
+    </record>
+
+    <record id="product_attribute_value_line_165" model="product.attribute.value.line">
+        <field name="product_tmpl_id" ref="theme_gunwerks_custom.product_template_01"/>
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_49"/>
+        <field name="value_id" ref="theme_gunwerks_custom.product_attribute_value_60"/>
+        <field name="image" type="base64" file="theme_gunwerks_custom/static/img/__export__.product_attribute_value_line_117_f127d850.jpg"/>
+        <field name="sequence">165</field>
+        <field name="sequence_numeric">165</field>
+        <field name="value_ids" 
+            eval="[(6, 0, [ref('theme_gunwerks_custom.product_attribute_value_115'),])]"/>
+    </record>
+
+    <record id="product_attribute_value_line_166" model="product.attribute.value.line">
+        <field name="product_tmpl_id" ref="theme_gunwerks_custom.product_template_01"/>
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_49"/>
+        <field name="value_id" ref="theme_gunwerks_custom.product_attribute_value_60"/>
+        <field name="image" type="base64" file="theme_gunwerks_custom/static/img/__export__.product_attribute_value_line_252_bc02705b.jpg"/>
+        <field name="sequence">166</field>
+        <field name="sequence_numeric">166</field>
+        <field name="value_ids" 
+            eval="[(6, 0, [ref('theme_gunwerks_custom.product_attribute_value_116'),])]"/>
+    </record>
+
+    <record id="product_attribute_value_line_167" model="product.attribute.value.line">
+        <field name="product_tmpl_id" ref="theme_gunwerks_custom.product_template_01"/>
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_49"/>
+        <field name="value_id" ref="theme_gunwerks_custom.product_attribute_value_60"/>
+        <field name="image" type="base64" file="theme_gunwerks_custom/static/img/__export__.product_attribute_value_line_255_baeacd9e.jpg"/>
+        <field name="sequence">167</field>
+        <field name="sequence_numeric">167</field>
+        <field name="value_ids" 
+            eval="[(6, 0, [ref('theme_gunwerks_custom.product_attribute_value_117'),])]"/>
+    </record>
+
+    <record id="product_attribute_value_line_168" model="product.attribute.value.line">
+        <field name="product_tmpl_id" ref="theme_gunwerks_custom.product_template_01"/>
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_49"/>
+        <field name="value_id" ref="theme_gunwerks_custom.product_attribute_value_60"/>
+        <field name="image" type="base64" file="theme_gunwerks_custom/static/img/__export__.product_attribute_value_line_256_e58bd7e0.jpg"/>
+        <field name="sequence">168</field>
+        <field name="sequence_numeric">168</field>
+        <field name="value_ids" 
+            eval="[(6, 0, [ref('theme_gunwerks_custom.product_attribute_value_118'),])]"/>
+    </record>
+
+    <record id="product_attribute_value_line_169" model="product.attribute.value.line">
+        <field name="product_tmpl_id" ref="theme_gunwerks_custom.product_template_01"/>
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_49"/>
+        <field name="value_id" ref="theme_gunwerks_custom.product_attribute_value_60"/>
+        <field name="image" type="base64" file="theme_gunwerks_custom/static/img/__export__.product_attribute_value_line_257_8255ffae.jpg"/>
+        <field name="sequence">169</field>
+        <field name="sequence_numeric">169</field>
+        <field name="value_ids" 
+            eval="[(6, 0, [ref('theme_gunwerks_custom.product_attribute_value_119'),])]"/>
+    </record>
+
+    <record id="product_attribute_value_line_170" model="product.attribute.value.line">
+        <field name="product_tmpl_id" ref="theme_gunwerks_custom.product_template_01"/>
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_27"/>
+        <field name="value_id" ref="theme_gunwerks_custom.product_attribute_value_47"/>
+        <field name="image" type="base64" file="theme_gunwerks_custom/static/img/__export__.product_attribute_value_line_76_2bd5e806.jpg"/>
+        <field name="sequence">170</field>
+        <field name="sequence_numeric">170</field>
+        <field name="value_ids" 
+            eval="[(6, 0, [ref('theme_gunwerks_custom.product_attribute_value_48'),])]"/>
+    </record>
+
+    <record id="product_attribute_value_line_171" model="product.attribute.value.line">
+        <field name="product_tmpl_id" ref="theme_gunwerks_custom.product_template_01"/>
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_27"/>
+        <field name="value_id" ref="theme_gunwerks_custom.product_attribute_value_47"/>
+        <field name="image" type="base64" file="theme_gunwerks_custom/static/img/__export__.product_attribute_value_line_77_c68e54c5.jpg"/>
+        <field name="sequence">171</field>
+        <field name="sequence_numeric">171</field>
+        <field name="value_ids" 
+            eval="[(6, 0, [ref('theme_gunwerks_custom.product_attribute_value_49'),])]"/>
+    </record>
+
+    <record id="product_attribute_value_line_172" model="product.attribute.value.line">
+        <field name="product_tmpl_id" ref="theme_gunwerks_custom.product_template_01"/>
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_27"/>
+        <field name="value_id" ref="theme_gunwerks_custom.product_attribute_value_47"/>
+        <field name="image" type="base64" file="theme_gunwerks_custom/static/img/__export__.product_attribute_value_line_78_57f0b3eb.jpg"/>
+        <field name="sequence">172</field>
+        <field name="sequence_numeric">172</field>
+        <field name="value_ids" 
+            eval="[(6, 0, [ref('theme_gunwerks_custom.product_attribute_value_50'),])]"/>
+    </record>
+
+    <record id="product_attribute_value_line_173" model="product.attribute.value.line">
+        <field name="product_tmpl_id" ref="theme_gunwerks_custom.product_template_01"/>
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_27"/>
+        <field name="value_id" ref="theme_gunwerks_custom.product_attribute_value_47"/>
+        <field name="image" type="base64" file="theme_gunwerks_custom/static/img/__export__.product_attribute_value_line_253_66dfb4a6.jpg"/>
+        <field name="sequence">173</field>
+        <field name="sequence_numeric">173</field>
+        <field name="value_ids" 
+            eval="[(6, 0, [ref('theme_gunwerks_custom.product_attribute_value_51'),])]"/>
+    </record>
+
+    <record id="product_attribute_value_line_174" model="product.attribute.value.line">
+        <field name="product_tmpl_id" ref="theme_gunwerks_custom.product_template_01"/>
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_27"/>
+        <field name="value_id" ref="theme_gunwerks_custom.product_attribute_value_47"/>
+        <field name="image" type="base64" file="theme_gunwerks_custom/static/img/__export__.product_attribute_value_line_254_063949bb.jpg"/>
+        <field name="sequence">174</field>
+        <field name="sequence_numeric">174</field>
+        <field name="value_ids" 
+            eval="[(6, 0, [ref('theme_gunwerks_custom.product_attribute_value_52'),])]"/>
+    </record>
+
+    <record id="product_attribute_value_line_175" model="product.attribute.value.line">
+        <field name="product_tmpl_id" ref="theme_gunwerks_custom.product_template_01"/>
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_27"/>
+        <field name="value_id" ref="theme_gunwerks_custom.product_attribute_value_46"/>
+        <field name="image" type="base64" file="theme_gunwerks_custom/static/img/__export__.product_attribute_value_line_71_2628f6c0.jpg"/>
+        <field name="sequence">175</field>
+        <field name="sequence_numeric">175</field>
+        <field name="value_ids" 
+            eval="[(6, 0, [ref('theme_gunwerks_custom.product_attribute_value_24'),])]"/>
+    </record>
+
+    <record id="product_attribute_value_line_176" model="product.attribute.value.line">
+        <field name="product_tmpl_id" ref="theme_gunwerks_custom.product_template_01"/>
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_27"/>
+        <field name="value_id" ref="theme_gunwerks_custom.product_attribute_value_46"/>
+        <field name="image" type="base64" file="theme_gunwerks_custom/static/img/__export__.product_attribute_value_line_72_51835624.jpg"/>
+        <field name="sequence">176</field>
+        <field name="sequence_numeric">176</field>
+        <field name="value_ids" 
+            eval="[(6, 0, [ref('theme_gunwerks_custom.product_attribute_value_5'),])]"/>
+    </record>
+
+    <record id="product_attribute_value_line_177" model="product.attribute.value.line">
+        <field name="product_tmpl_id" ref="theme_gunwerks_custom.product_template_01"/>
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_27"/>
+        <field name="value_id" ref="theme_gunwerks_custom.product_attribute_value_46"/>
+        <field name="image" type="base64" file="theme_gunwerks_custom/static/img/__export__.product_attribute_value_line_73_dd87be02.jpg"/>
+        <field name="sequence">177</field>
+        <field name="sequence_numeric">177</field>
+        <field name="value_ids" 
+            eval="[(6, 0, [ref('theme_gunwerks_custom.product_attribute_value_13'),])]"/>
+    </record>
+
+    <record id="product_attribute_value_line_178" model="product.attribute.value.line">
+        <field name="product_tmpl_id" ref="theme_gunwerks_custom.product_template_01"/>
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_27"/>
+        <field name="value_id" ref="theme_gunwerks_custom.product_attribute_value_46"/>
+        <field name="image" type="base64" file="theme_gunwerks_custom/static/img/__export__.product_attribute_value_line_180_17362d8b.jpg"/>
+        <field name="sequence">178</field>
+        <field name="sequence_numeric">178</field>
+        <field name="value_ids" 
+            eval="[(6, 0, [ref('theme_gunwerks_custom.product_attribute_value_1'),])]"/>
+    </record>
+
+    <record id="product_attribute_value_line_179" model="product.attribute.value.line">
+        <field name="product_tmpl_id" ref="theme_gunwerks_custom.product_template_01"/>
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_27"/>
+        <field name="value_id" ref="theme_gunwerks_custom.product_attribute_value_46"/>
+        <field name="image" type="base64" file="theme_gunwerks_custom/static/img/__export__.product_attribute_value_line_75_8efa6e7a.jpg"/>
+        <field name="sequence">179</field>
+        <field name="sequence_numeric">179</field>
+        <field name="value_ids" 
+            eval="[(6, 0, [ref('theme_gunwerks_custom.product_attribute_value_9'),])]"/>
+    </record>
+
+    <record id="product_attribute_value_line_180" model="product.attribute.value.line">
+        <field name="product_tmpl_id" ref="theme_gunwerks_custom.product_template_01"/>
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_27"/>
+        <field name="value_id" ref="theme_gunwerks_custom.product_attribute_value_46"/>
+        <field name="image" type="base64" file="theme_gunwerks_custom/static/img/__export__.product_attribute_value_line_181_1b897881.jpg"/>
+        <field name="sequence">180</field>
+        <field name="sequence_numeric">180</field>
+        <field name="value_ids" 
+            eval="[(6, 0, [ref('theme_gunwerks_custom.product_attribute_value_30'),])]"/>
+    </record>
+
+    <record id="product_attribute_value_line_181" model="product.attribute.value.line">
+        <field name="product_tmpl_id" ref="theme_gunwerks_custom.product_template_01"/>
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_27"/>
+        <field name="value_id" ref="theme_gunwerks_custom.product_attribute_value_46"/>
+        <field name="image" type="base64" file="theme_gunwerks_custom/static/img/__export__.product_attribute_value_line_182_581b9eec.jpg"/>
+        <field name="sequence">181</field>
+        <field name="sequence_numeric">181</field>
+        <field name="value_ids" 
+            eval="[(6, 0, [ref('theme_gunwerks_custom.product_attribute_value_34'),])]"/>
+    </record>
+
+    <record id="product_attribute_value_line_182" model="product.attribute.value.line">
+        <field name="product_tmpl_id" ref="theme_gunwerks_custom.product_template_01"/>
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_27"/>
+        <field name="value_id" ref="theme_gunwerks_custom.product_attribute_value_46"/>
+        <field name="image" type="base64" file="theme_gunwerks_custom/static/img/__export__.product_attribute_value_line_177_e053eb0e.jpg"/>
+        <field name="sequence">182</field>
+        <field name="sequence_numeric">182</field>
+        <field name="value_ids" 
+            eval="[(6, 0, [ref('theme_gunwerks_custom.product_attribute_value_19'),])]"/>
+    </record>
+
+    <record id="product_attribute_value_line_183" model="product.attribute.value.line">
+        <field name="product_tmpl_id" ref="theme_gunwerks_custom.product_template_01"/>
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_27"/>
+        <field name="value_id" ref="theme_gunwerks_custom.product_attribute_value_46"/>
+        <field name="image" type="base64" file="theme_gunwerks_custom/static/img/__export__.product_attribute_value_line_178_2124cfbd.jpg"/>
+        <field name="sequence">183</field>
+        <field name="sequence_numeric">183</field>
+        <field name="value_ids" 
+            eval="[(6, 0, [ref('theme_gunwerks_custom.product_attribute_value_23'),])]"/>
+    </record>
+
+    <record id="product_attribute_value_line_184" model="product.attribute.value.line">
+        <field name="product_tmpl_id" ref="theme_gunwerks_custom.product_template_01"/>
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_27"/>
+        <field name="value_id" ref="theme_gunwerks_custom.product_attribute_value_46"/>
+        <field name="image" type="base64" file="theme_gunwerks_custom/static/img/__export__.product_attribute_value_line_179_896f9795.jpg"/>
+        <field name="sequence">184</field>
+        <field name="sequence_numeric">184</field>
+        <field name="value_ids" 
+            eval="[(6, 0, [ref('theme_gunwerks_custom.product_attribute_value_29'),])]"/>
+    </record>
+
+    <record id="product_attribute_value_line_185" model="product.attribute.value.line">
+        <field name="product_tmpl_id" ref="theme_gunwerks_custom.product_template_01"/>
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_22"/>
+        <field name="value_id" ref="theme_gunwerks_custom.product_attribute_value_74"/>
+        <field name="image" type="base64" file="theme_gunwerks_custom/static/img/__export__.product_attribute_value_line_128_6e9f4294.jpg"/>
+        <field name="sequence">185</field>
+        <field name="sequence_numeric">185</field>
+        <field name="value_ids" 
+            eval="[(6, 0, [ref('theme_gunwerks_custom.product_attribute_value_74'),])]"/>
+    </record>
+
+    <record id="product_attribute_value_line_186" model="product.attribute.value.line">
+        <field name="product_tmpl_id" ref="theme_gunwerks_custom.product_template_01"/>
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_22"/>
+        <field name="value_id" ref="theme_gunwerks_custom.product_attribute_value_75"/>
+        <field name="image" type="base64" file="theme_gunwerks_custom/static/img/__export__.product_attribute_value_line_129_9687e13b.jpg"/>
+        <field name="sequence">186</field>
+        <field name="sequence_numeric">186</field>
+        <field name="value_ids" 
+            eval="[(6, 0, [ref('theme_gunwerks_custom.product_attribute_value_75'),])]"/>
+    </record>
+
+    <record id="product_attribute_value_line_187" model="product.attribute.value.line">
+        <field name="product_tmpl_id" ref="theme_gunwerks_custom.product_template_01"/>
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_22"/>
+        <field name="value_id" ref="theme_gunwerks_custom.product_attribute_value_76"/>
+        <field name="image" type="base64" file="theme_gunwerks_custom/static/img/__export__.product_attribute_value_line_130_88cde687.jpg"/>
+        <field name="sequence">187</field>
+        <field name="sequence_numeric">187</field>
+        <field name="value_ids" 
+            eval="[(6, 0, [ref('theme_gunwerks_custom.product_attribute_value_76'),])]"/>
+    </record>
+
+    <record id="product_attribute_value_line_188" model="product.attribute.value.line">
+        <field name="product_tmpl_id" ref="theme_gunwerks_custom.product_template_01"/>
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_22"/>
+        <field name="value_id" ref="theme_gunwerks_custom.product_attribute_value_77"/>
+        <field name="image" type="base64" file="theme_gunwerks_custom/static/img/__export__.product_attribute_value_line_131_4a9b6e68.jpg"/>
+        <field name="sequence">188</field>
+        <field name="sequence_numeric">188</field>
+        <field name="value_ids" 
+            eval="[(6, 0, [ref('theme_gunwerks_custom.product_attribute_value_77'),])]"/>
+    </record>
+
+    <record id="product_attribute_value_line_189" model="product.attribute.value.line">
+        <field name="product_tmpl_id" ref="theme_gunwerks_custom.product_template_01"/>
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_22"/>
+        <field name="value_id" ref="theme_gunwerks_custom.product_attribute_value_78"/>
+        <field name="image" type="base64" file="theme_gunwerks_custom/static/img/__export__.product_attribute_value_line_132_249d8803.jpg"/>
+        <field name="sequence">189</field>
+        <field name="sequence_numeric">189</field>
+        <field name="value_ids" 
+            eval="[(6, 0, [ref('theme_gunwerks_custom.product_attribute_value_78'),])]"/>
+    </record>
+
+    <record id="product_attribute_value_line_190" model="product.attribute.value.line">
+        <field name="product_tmpl_id" ref="theme_gunwerks_custom.product_template_01"/>
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_22"/>
+        <field name="value_id" ref="theme_gunwerks_custom.product_attribute_value_79"/>
+        <field name="image" type="base64" file="theme_gunwerks_custom/static/img/__export__.product_attribute_value_line_134_9ab86377.jpg"/>
+        <field name="sequence">190</field>
+        <field name="sequence_numeric">190</field>
+        <field name="value_ids" 
+            eval="[(6, 0, [ref('theme_gunwerks_custom.product_attribute_value_79'),])]"/>
+    </record>
+
+    <record id="product_attribute_value_line_191" model="product.attribute.value.line">
+        <field name="product_tmpl_id" ref="theme_gunwerks_custom.product_template_01"/>
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_22"/>
+        <field name="value_id" ref="theme_gunwerks_custom.product_attribute_value_115"/>
+        <field name="image" type="base64" file="theme_gunwerks_custom/static/img/__export__.product_attribute_value_line_228_7b4d44bd.jpg"/>
+        <field name="sequence">191</field>
+        <field name="sequence_numeric">191</field>
+        <field name="value_ids" 
+            eval="[(6, 0, [ref('theme_gunwerks_custom.product_attribute_value_115'),])]"/>
+    </record>
+
+    <record id="product_attribute_value_line_192" model="product.attribute.value.line">
+        <field name="product_tmpl_id" ref="theme_gunwerks_custom.product_template_01"/>
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_22"/>
+        <field name="value_id" ref="theme_gunwerks_custom.product_attribute_value_116"/>
+        <field name="image" type="base64" file="theme_gunwerks_custom/static/img/__export__.product_attribute_value_line_227_e46054b2.jpg"/>
+        <field name="sequence">192</field>
+        <field name="sequence_numeric">192</field>
+        <field name="value_ids" 
+            eval="[(6, 0, [ref('theme_gunwerks_custom.product_attribute_value_116'),])]"/>
+    </record>
+
+    <record id="product_attribute_value_line_193" model="product.attribute.value.line">
+        <field name="product_tmpl_id" ref="theme_gunwerks_custom.product_template_01"/>
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_22"/>
+        <field name="value_id" ref="theme_gunwerks_custom.product_attribute_value_117"/>
+        <field name="image" type="base64" file="theme_gunwerks_custom/static/img/__export__.product_attribute_value_line_226_08d6ddb8.jpg"/>
+        <field name="sequence">193</field>
+        <field name="sequence_numeric">193</field>
+        <field name="value_ids" 
+            eval="[(6, 0, [ref('theme_gunwerks_custom.product_attribute_value_117'),])]"/>
+    </record>
+
+    <record id="product_attribute_value_line_194" model="product.attribute.value.line">
+        <field name="product_tmpl_id" ref="theme_gunwerks_custom.product_template_01"/>
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_22"/>
+        <field name="value_id" ref="theme_gunwerks_custom.product_attribute_value_118"/>
+        <field name="image" type="base64" file="theme_gunwerks_custom/static/img/__export__.product_attribute_value_line_224_713c9cc2.jpg"/>
+        <field name="sequence">194</field>
+        <field name="sequence_numeric">194</field>
+        <field name="value_ids" 
+            eval="[(6, 0, [ref('theme_gunwerks_custom.product_attribute_value_118'),])]"/>
+    </record>
+
+    <record id="product_attribute_value_line_195" model="product.attribute.value.line">
+        <field name="product_tmpl_id" ref="theme_gunwerks_custom.product_template_01"/>
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_22"/>
+        <field name="value_id" ref="theme_gunwerks_custom.product_attribute_value_119"/>
+        <field name="image" type="base64" file="theme_gunwerks_custom/static/img/__export__.product_attribute_value_line_225_3e98ef53.jpg"/>
+        <field name="sequence">195</field>
+        <field name="sequence_numeric">195</field>
+        <field name="value_ids" 
+            eval="[(6, 0, [ref('theme_gunwerks_custom.product_attribute_value_119'),])]"/>
+    </record>
+</odoo>

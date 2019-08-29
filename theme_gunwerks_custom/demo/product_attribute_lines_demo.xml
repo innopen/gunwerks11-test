@@ -1,0 +1,392 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <record id="product_attribute_line_1" model="product.attribute.line">
+        <field name="product_tmpl_id" ref="theme_gunwerks_custom.product_template_01"/>
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_35"/>
+        <field name="value_ids" 
+            eval="[(6, 0, [ref('theme_gunwerks_custom.product_attribute_value_2'), ref('theme_gunwerks_custom.product_attribute_value_6'),
+            ref('theme_gunwerks_custom.product_attribute_value_10'),
+            ref('theme_gunwerks_custom.product_attribute_value_14'),
+            ref('theme_gunwerks_custom.product_attribute_value_16'),
+            ref('theme_gunwerks_custom.product_attribute_value_20'),
+            ref('theme_gunwerks_custom.product_attribute_value_25'),
+            ref('theme_gunwerks_custom.product_attribute_value_27'),
+            ref('theme_gunwerks_custom.product_attribute_value_31'),
+            ref('theme_gunwerks_custom.product_attribute_value_35'),
+            ref('theme_gunwerks_custom.product_attribute_value_38'),
+            ref('theme_gunwerks_custom.product_attribute_value_41'),
+            ref('theme_gunwerks_custom.product_attribute_value_45'),
+            ref('theme_gunwerks_custom.product_attribute_value_127'),])]"/>
+        <field name="custom">False</field>
+        <field name="default_val" ref = "theme_gunwerks_custom.product_attribute_value_16"/>
+        <field name="multi">False</field>
+        <field name="required">True</field>
+        <field name="sequence">10</field>
+    </record>
+
+    <record id="product_attribute_line_2" model="product.attribute.line">
+        <field name="product_tmpl_id" ref="theme_gunwerks_custom.product_template_01"/>
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_4"/>
+        <field name="value_ids" 
+            eval="[(6, 0, [ref('theme_gunwerks_custom.product_attribute_value_55'), ref('theme_gunwerks_custom.product_attribute_value_56'),])]"/>
+        <field name="custom">False</field>
+        <field name="default_val" ref = "theme_gunwerks_custom.product_attribute_value_56"/>
+        <field name="multi">False</field>
+        <field name="required">True</field>
+        <field name="sequence">11</field>
+    </record>
+
+    <record id="product_attribute_line_3" model="product.attribute.line">
+        <field name="product_tmpl_id" ref="theme_gunwerks_custom.product_template_01"/>
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_9"/>
+        <field name="value_ids" 
+            eval="[(6, 0, [ref('theme_gunwerks_custom.product_attribute_value_53'), ref('theme_gunwerks_custom.product_attribute_value_54'),])]"/>
+        <field name="custom">False</field>
+        <field name="default_val" ref = "theme_gunwerks_custom.product_attribute_value_54"/>
+        <field name="multi">False</field>
+        <field name="required">True</field>
+        <field name="sequence">12</field>
+    </record>
+
+    <record id="product_attribute_line_4" model="product.attribute.line">
+        <field name="product_tmpl_id" ref="theme_gunwerks_custom.product_template_01"/>
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_2"/>
+        <field name="value_ids" 
+            eval="[(6, 0, [ref('theme_gunwerks_custom.product_attribute_value_57'), ref('theme_gunwerks_custom.product_attribute_value_58'),])]"/>
+        <field name="custom">False</field>
+        <field name="default_val" ref = "theme_gunwerks_custom.product_attribute_value_57"/>
+        <field name="multi">False</field>
+        <field name="required">True</field>
+        <field name="sequence">13</field>
+    </record>
+
+    <record id="product_attribute_line_5" model="product.attribute.line">
+        <field name="product_tmpl_id" ref="theme_gunwerks_custom.product_template_01"/>
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_25"/>
+        <field name="value_ids" 
+            eval="[(6, 0, [ref('theme_gunwerks_custom.product_attribute_value_59'), ref('theme_gunwerks_custom.product_attribute_value_128'),])]"/>
+        <field name="custom">False</field>
+        <field name="default_val" ref = "theme_gunwerks_custom.product_attribute_value_59"/>
+        <field name="multi">False</field>
+        <field name="required">True</field>
+        <field name="sequence">14</field>
+    </record>
+
+    <record id="product_attribute_line_6" model="product.attribute.line">
+        <field name="product_tmpl_id" ref="theme_gunwerks_custom.product_template_01"/>
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_5"/>
+        <field name="value_ids" 
+            eval="[(6, 0, [ref('theme_gunwerks_custom.product_attribute_value_61'), ref('theme_gunwerks_custom.product_attribute_value_62'),])]"/>
+        <field name="custom">False</field>
+        <field name="default_val" ref = "theme_gunwerks_custom.product_attribute_value_61"/>
+        <field name="multi">False</field>
+        <field name="required">True</field>
+        <field name="sequence">15</field>
+    </record>
+
+    <record id="product_attribute_line_7" model="product.attribute.line">
+        <field name="product_tmpl_id" ref="theme_gunwerks_custom.product_template_01"/>
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_19"/>
+        <field name="value_ids" 
+            eval="[(6, 0, [ref('theme_gunwerks_custom.product_attribute_value_63'), ref('theme_gunwerks_custom.product_attribute_value_64'),
+            ref('theme_gunwerks_custom.product_attribute_value_65'),])]"/>
+        <field name="custom">False</field>
+        <field name="default_val" ref = "theme_gunwerks_custom.product_attribute_value_65"/>
+        <field name="multi">False</field>
+        <field name="required">True</field>
+        <field name="sequence">16</field>
+    </record>
+
+    <record id="product_attribute_line_8" model="product.attribute.line">
+        <field name="product_tmpl_id" ref="theme_gunwerks_custom.product_template_01"/>
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_6"/>
+        <field name="value_ids" 
+            eval="[(6, 0, [ref('theme_gunwerks_custom.product_attribute_value_66'), ref('theme_gunwerks_custom.product_attribute_value_67'),
+            ref('theme_gunwerks_custom.product_attribute_value_68'),
+            ref('theme_gunwerks_custom.product_attribute_value_69'),
+            ref('theme_gunwerks_custom.product_attribute_value_70'),])]"/>
+        <field name="custom">False</field>
+        <field name="default_val" ref = "theme_gunwerks_custom.product_attribute_value_69"/>
+        <field name="multi">False</field>
+        <field name="required">True</field>
+        <field name="sequence">17</field>
+    </record>
+
+    <record id="product_attribute_line_9" model="product.attribute.line">
+        <field name="product_tmpl_id" ref="theme_gunwerks_custom.product_template_01"/>
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_3"/>
+        <field name="value_ids" 
+            eval="[(6, 0, [ref('theme_gunwerks_custom.product_attribute_value_71'), ref('theme_gunwerks_custom.product_attribute_value_72'),
+            ref('theme_gunwerks_custom.product_attribute_value_73'),])]"/>
+        <field name="custom">False</field>
+        <field name="default_val" ref = "theme_gunwerks_custom.product_attribute_value_71"/>
+        <field name="multi">False</field>
+        <field name="required">True</field>
+        <field name="sequence">18</field>
+    </record>
+
+    <record id="product_attribute_line_10" model="product.attribute.line">
+        <field name="product_tmpl_id" ref="theme_gunwerks_custom.product_template_01"/>
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_7"/>
+        <field name="value_ids" 
+            eval="[(6, 0, [ref('theme_gunwerks_custom.product_attribute_value_80'), ref('theme_gunwerks_custom.product_attribute_value_81'),
+            ref('theme_gunwerks_custom.product_attribute_value_82'),])]"/>
+        <field name="custom">False</field>
+        <field name="default_val" ref = "theme_gunwerks_custom.product_attribute_value_82"/>
+        <field name="multi">False</field>
+        <field name="required">True</field>
+        <field name="sequence">19</field>
+    </record>
+
+    <record id="product_attribute_line_11" model="product.attribute.line">
+        <field name="product_tmpl_id" ref="theme_gunwerks_custom.product_template_01"/>
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_22"/>
+        <field name="value_ids" 
+            eval="[(6, 0, [ref('theme_gunwerks_custom.product_attribute_value_74'), ref('theme_gunwerks_custom.product_attribute_value_75'),
+            ref('theme_gunwerks_custom.product_attribute_value_76'),
+            ref('theme_gunwerks_custom.product_attribute_value_77'),
+            ref('theme_gunwerks_custom.product_attribute_value_78'),
+            ref('theme_gunwerks_custom.product_attribute_value_79'),
+            ref('theme_gunwerks_custom.product_attribute_value_115'),
+            ref('theme_gunwerks_custom.product_attribute_value_116'),
+            ref('theme_gunwerks_custom.product_attribute_value_117'),
+            ref('theme_gunwerks_custom.product_attribute_value_118'),
+            ref('theme_gunwerks_custom.product_attribute_value_119'),])]"/>
+        <field name="custom">False</field>
+        <field name="default_val" ref = "theme_gunwerks_custom.product_attribute_value_75"/>
+        <field name="multi">False</field>
+        <field name="required">True</field>
+        <field name="sequence">20</field>
+    </record>
+
+    <record id="product_attribute_line_12" model="product.attribute.line">
+        <field name="product_tmpl_id" ref="theme_gunwerks_custom.product_template_01"/>
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_27"/>
+        <field name="value_ids" 
+            eval="[(6, 0, [ref('theme_gunwerks_custom.product_attribute_value_46'), ref('theme_gunwerks_custom.product_attribute_value_47'),])]"/>
+        <field name="custom">False</field>
+        <field name="default_val" ref = "theme_gunwerks_custom.product_attribute_value_46"/>
+        <field name="multi">False</field>
+        <field name="required">True</field>
+        <field name="sequence">21</field>
+    </record>
+
+    <record id="product_attribute_line_13" model="product.attribute.line">
+        <field name="product_tmpl_id" ref="theme_gunwerks_custom.product_template_01"/>
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_48"/>
+        <field name="value_ids" 
+            eval="[(6, 0, [ref('theme_gunwerks_custom.product_attribute_value_1'), ref('theme_gunwerks_custom.product_attribute_value_5'),
+            ref('theme_gunwerks_custom.product_attribute_value_9'),
+            ref('theme_gunwerks_custom.product_attribute_value_13'),
+            ref('theme_gunwerks_custom.product_attribute_value_19'),
+            ref('theme_gunwerks_custom.product_attribute_value_23'),
+            ref('theme_gunwerks_custom.product_attribute_value_24'),
+            ref('theme_gunwerks_custom.product_attribute_value_29'),
+            ref('theme_gunwerks_custom.product_attribute_value_30'),
+            ref('theme_gunwerks_custom.product_attribute_value_34'),
+            ref('theme_gunwerks_custom.product_attribute_value_48'),
+            ref('theme_gunwerks_custom.product_attribute_value_49'),
+            ref('theme_gunwerks_custom.product_attribute_value_50'),
+            ref('theme_gunwerks_custom.product_attribute_value_51'),
+            ref('theme_gunwerks_custom.product_attribute_value_52'),])]"/>
+        <field name="custom">False</field>
+        <field name="default_val" ref = "theme_gunwerks_custom.product_attribute_value_24"/>
+        <field name="multi">False</field>
+        <field name="required">True</field>
+        <field name="sequence">22</field>
+    </record>
+
+    <record id="product_attribute_line_14" model="product.attribute.line">
+        <field name="product_tmpl_id" ref="theme_gunwerks_custom.product_template_01"/>
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_11"/>
+        <field name="value_ids" 
+            eval="[(6, 0, [ref('theme_gunwerks_custom.product_attribute_value_106'),
+            ref('theme_gunwerks_custom.product_attribute_value_107'),
+            ref('theme_gunwerks_custom.product_attribute_value_108'),
+            ref('theme_gunwerks_custom.product_attribute_value_109'),
+            ref('theme_gunwerks_custom.product_attribute_value_110'),
+            ref('theme_gunwerks_custom.product_attribute_value_111'),
+            ref('theme_gunwerks_custom.product_attribute_value_112'),
+            ref('theme_gunwerks_custom.product_attribute_value_113'),
+            ref('theme_gunwerks_custom.product_attribute_value_114'),])]"/>
+        <field name="custom">False</field>
+        <field name="default_val" ref = "theme_gunwerks_custom.product_attribute_value_111"/>
+        <field name="multi">False</field>
+        <field name="required">True</field>
+        <field name="sequence">23</field>
+    </record>
+
+    <record id="product_attribute_line_15" model="product.attribute.line">
+        <field name="product_tmpl_id" ref="theme_gunwerks_custom.product_template_01"/>
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_49"/>
+        <field name="value_ids" 
+            eval="[(6, 0, [ref('theme_gunwerks_custom.product_attribute_value_60'), ])]"/>
+        <field name="custom">False</field>
+        <field name="default_val" ref = "theme_gunwerks_custom.product_attribute_value_60"/>
+        <field name="multi">False</field>
+        <field name="required">True</field>
+        <field name="sequence">24</field>
+    </record>
+
+    <record id="product_attribute_line_16" model="product.attribute.line">
+        <field name="product_tmpl_id" ref="theme_gunwerks_custom.product_template_01"/>
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_47"/>
+        <field name="value_ids" 
+            eval="[(6, 0, [ref('theme_gunwerks_custom.product_attribute_value_3'),
+            ref('theme_gunwerks_custom.product_attribute_value_7'),
+            ref('theme_gunwerks_custom.product_attribute_value_11'),
+            ref('theme_gunwerks_custom.product_attribute_value_17'),
+            ref('theme_gunwerks_custom.product_attribute_value_21'),
+            ref('theme_gunwerks_custom.product_attribute_value_32'),
+            ref('theme_gunwerks_custom.product_attribute_value_37'),
+            ref('theme_gunwerks_custom.product_attribute_value_40'),
+            ref('theme_gunwerks_custom.product_attribute_value_42'),
+            ref('theme_gunwerks_custom.product_attribute_value_44'), ])]"/>
+        <field name="custom">False</field>
+        <field name="default_val" ref = "theme_gunwerks_custom.product_attribute_value_17"/>
+        <field name="multi">False</field>
+        <field name="required">True</field>
+        <field name="sequence">25</field>
+    </record>
+
+    <record id="product_attribute_line_17" model="product.attribute.line">
+        <field name="product_tmpl_id" ref="theme_gunwerks_custom.product_template_01"/>
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_24"/>
+        <field name="value_ids" 
+            eval="[(6, 0, [ref('theme_gunwerks_custom.product_attribute_value_83'), ref('theme_gunwerks_custom.product_attribute_value_84'),
+            ref('theme_gunwerks_custom.product_attribute_value_85'),])]"/>
+        <field name="custom">False</field>
+        <field name="default_val" ref = "theme_gunwerks_custom.product_attribute_value_84"/>
+        <field name="multi">False</field>
+        <field name="required">True</field>
+        <field name="sequence">26</field>
+    </record>
+
+    <record id="product_attribute_line_18" model="product.attribute.line">
+        <field name="product_tmpl_id" ref="theme_gunwerks_custom.product_template_01"/>
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_34"/>
+        <field name="value_ids" 
+            eval="[(6, 0, [ref('theme_gunwerks_custom.product_attribute_value_86'), ref('theme_gunwerks_custom.product_attribute_value_87'),])]"/>
+        <field name="custom">False</field>
+        <field name="default_val" ref = "theme_gunwerks_custom.product_attribute_value_86"/>
+        <field name="multi">False</field>
+        <field name="required">True</field>
+        <field name="sequence">27</field>
+    </record>
+
+    <record id="product_attribute_line_19" model="product.attribute.line">
+        <field name="product_tmpl_id" ref="theme_gunwerks_custom.product_template_01"/>
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_17"/>
+        <field name="value_ids" 
+            eval="[(6, 0, [ref('theme_gunwerks_custom.product_attribute_value_121'), ref('theme_gunwerks_custom.product_attribute_value_122'),])]"/>
+        <field name="custom">False</field>
+        <field name="default_val" ref = "theme_gunwerks_custom.product_attribute_value_121"/>
+        <field name="multi">False</field>
+        <field name="required">True</field>
+        <field name="sequence">28</field>
+    </record>
+
+    <record id="product_attribute_line_20" model="product.attribute.line">
+        <field name="product_tmpl_id" ref="theme_gunwerks_custom.product_template_01"/>
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_8"/>
+        <field name="value_ids" 
+            eval="[(6, 0, [ref('theme_gunwerks_custom.product_attribute_value_88'), ref('theme_gunwerks_custom.product_attribute_value_89'),
+            ref('theme_gunwerks_custom.product_attribute_value_90'),
+            ref('theme_gunwerks_custom.product_attribute_value_91'),])]"/>
+        <field name="custom">False</field>
+        <field name="default_val" ref = "theme_gunwerks_custom.product_attribute_value_91"/>
+        <field name="multi">False</field>
+        <field name="required">True</field>
+        <field name="sequence">29</field>
+    </record>
+
+    <record id="product_attribute_line_21" model="product.attribute.line">
+        <field name="product_tmpl_id" ref="theme_gunwerks_custom.product_template_01"/>
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_21"/>
+        <field name="value_ids" 
+            eval="[(6, 0, [ref('theme_gunwerks_custom.product_attribute_value_123'), ref('theme_gunwerks_custom.product_attribute_value_124'),
+            ref('theme_gunwerks_custom.product_attribute_value_125'),
+            ref('theme_gunwerks_custom.product_attribute_value_126'),])]"/>
+        <field name="custom">False</field>
+        <field name="default_val" ref = "theme_gunwerks_custom.product_attribute_value_124"/>
+        <field name="multi">False</field>
+        <field name="required">True</field>
+        <field name="sequence">30</field>
+    </record>
+
+    <record id="product_attribute_line_22" model="product.attribute.line">
+        <field name="product_tmpl_id" ref="theme_gunwerks_custom.product_template_01"/>
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_14"/>
+        <field name="value_ids" 
+            eval="[(6, 0, [ref('theme_gunwerks_custom.product_attribute_value_92'),
+            ref('theme_gunwerks_custom.product_attribute_value_93'),
+            ref('theme_gunwerks_custom.product_attribute_value_94'),
+            ref('theme_gunwerks_custom.product_attribute_value_95'),
+            ref('theme_gunwerks_custom.product_attribute_value_96'),
+            ref('theme_gunwerks_custom.product_attribute_value_97'),
+            ref('theme_gunwerks_custom.product_attribute_value_98'),
+            ref('theme_gunwerks_custom.product_attribute_value_99'),
+            ref('theme_gunwerks_custom.product_attribute_value_100'),
+            ref('theme_gunwerks_custom.product_attribute_value_101'),
+            ref('theme_gunwerks_custom.product_attribute_value_102'),
+            ref('theme_gunwerks_custom.product_attribute_value_103'),
+            ref('theme_gunwerks_custom.product_attribute_value_104'),
+            ref('theme_gunwerks_custom.product_attribute_value_105'),
+            ref('theme_gunwerks_custom.product_attribute_value_120'), ])]"/>
+        <field name="custom">False</field>
+        <field name="default_val" ref = "theme_gunwerks_custom.product_attribute_value_97"/>
+        <field name="multi">False</field>
+        <field name="required">True</field>
+        <field name="sequence">31</field>
+    </record>
+
+    <record id="product_attribute_line_23" model="product.attribute.line">
+        <field name="product_tmpl_id" ref="theme_gunwerks_custom.product_template_01"/>
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_13"/>
+        <field name="value_ids" 
+            eval="[(6, 0, [ref('theme_gunwerks_custom.product_attribute_value_4'),
+            ref('theme_gunwerks_custom.product_attribute_value_8'),
+            ref('theme_gunwerks_custom.product_attribute_value_12'),
+            ref('theme_gunwerks_custom.product_attribute_value_15'),
+            ref('theme_gunwerks_custom.product_attribute_value_18'),
+            ref('theme_gunwerks_custom.product_attribute_value_22'),
+            ref('theme_gunwerks_custom.product_attribute_value_26'),
+            ref('theme_gunwerks_custom.product_attribute_value_28'),
+            ref('theme_gunwerks_custom.product_attribute_value_33'),
+            ref('theme_gunwerks_custom.product_attribute_value_36'),
+            ref('theme_gunwerks_custom.product_attribute_value_39'),
+            ref('theme_gunwerks_custom.product_attribute_value_43'),])]"/>
+        <field name="custom">False</field>
+        <field name="default_val" ref = "theme_gunwerks_custom.product_attribute_value_12"/>
+        <field name="multi">False</field>
+        <field name="required">True</field>
+        <field name="sequence">32</field>
+    </record>
+
+    <record id="product_attribute_line_24" model="product.attribute.line">
+        <field name="product_tmpl_id" ref="theme_gunwerks_custom.product_template_01"/>
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_36"/>
+        <field name="value_ids" 
+            eval="[(6, 0, [ref('theme_gunwerks_custom.product_attribute_value_129'), ref('theme_gunwerks_custom.product_attribute_value_130'),])]"/>
+        <field name="custom">False</field>
+        <field name="default_val" ref = "theme_gunwerks_custom.product_attribute_value_129"/>
+        <field name="multi">False</field>
+        <field name="required">True</field>
+        <field name="sequence">33</field>
+    </record>
+
+    <record id="product_attribute_line_25" model="product.attribute.line">
+        <field name="product_tmpl_id" ref="theme_gunwerks_custom.product_template_01"/>
+        <field name="attribute_id" ref="theme_gunwerks_custom.product_attribute_37"/>
+        <field name="value_ids" 
+            eval="[(6, 0, [ref('theme_gunwerks_custom.product_attribute_value_131'), ref('theme_gunwerks_custom.product_attribute_value_132'),
+            ref('theme_gunwerks_custom.product_attribute_value_133'),
+            ref('theme_gunwerks_custom.product_attribute_value_134'),])]"/>
+        <field name="custom">False</field>
+        <field name="default_val" ref = "theme_gunwerks_custom.product_attribute_value_134"/>
+        <field name="multi">False</field>
+        <field name="required">True</field>
+        <field name="sequence">34</field>
+    </record>
+</odoo>
