@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <data noupdate="0">
+        <record id="bullet_calliber_172" model="bullet.caliber">
+			<field name="name">.172</field>
+            <field name='caliber'>.172</field>
+		</record>
+        <record id="bullet_calliber_204" model="bullet.caliber">
+			<field name="name">.204</field>
+            <field name='caliber'>.204</field>
+		</record>
+        <record id="bullet_calliber_223" model="bullet.caliber">
+			<field name="name">.223 / 22LR</field>
+            <field name='caliber'>.223</field>
+		</record>
+        <record id="bullet_calliber_224" model="bullet.caliber">
+			<field name="name">.224 / 5.56mm</field>
+            <field name='caliber'>.224</field>
+		</record>
+        <record id="bullet_calliber_243" model="bullet.caliber">
+			<field name="name">.243 / 6mm</field>
+            <field name='caliber'>.243</field>
+		</record>
+        <record id="bullet_calliber_257" model="bullet.caliber">
+			<field name="name">.257</field>
+            <field name='caliber'>.257</field>
+		</record>
+        <record id="bullet_calliber_264" model="bullet.caliber">
+			<field name="name">.264 / 6.5mm</field>
+            <field name='caliber'>.264</field>
+		</record>
+        <record id="bullet_calliber_277" model="bullet.caliber">
+			<field name="name">.277</field>
+            <field name='caliber'>.277</field>
+		</record>
+        <record id="bullet_calliber_284" model="bullet.caliber">
+			<field name="name">.284 / 7mm</field>
+            <field name='caliber'>.284</field>
+		</record>
+        <record id="bullet_calliber_308" model="bullet.caliber">
+			<field name="name">.308 / 7.62mm</field>
+            <field name='caliber'>.308</field>
+		</record>
+        <record id="bullet_calliber_312" model="bullet.caliber">
+			<field name="name">.312</field>
+            <field name='caliber'>.312</field>
+		</record>
+        <record id="bullet_calliber_323" model="bullet.caliber">
+			<field name="name">.323 / 8mm</field>
+            <field name='caliber'>.323</field>
+		</record>
+        <record id="bullet_calliber_338" model="bullet.caliber">
+			<field name="name">.338</field>
+            <field name='caliber'>.338</field>
+		</record>
+        <record id="bullet_calliber_358" model="bullet.caliber">
+			<field name="name">.358</field>
+            <field name='caliber'>.358</field>
+		</record>
+        <record id="bullet_calliber_366" model="bullet.caliber">
+			<field name="name">.366 / 9.3mm</field>
+            <field name='caliber'>.312</field>
+		</record>
+        <record id="bullet_calliber_375" model="bullet.caliber">
+			<field name="name">.375</field>
+            <field name='caliber'>.375</field>
+		</record>        
+        <record id="bullet_calliber_458" model="bullet.caliber">
+			<field name="name">.458</field>
+            <field name='caliber'>.458</field>
+		</record>
+    </data>
+</odoo>

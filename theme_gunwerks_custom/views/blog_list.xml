@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<odoo>
-	<template id="gunwerks_blog_filter_inherit" inherit_id="theme_gunwerks.gunwerks_blog_filter" name="Blog Filters">
-        <xpath expr="//form[hasclass('js_event_filter')]/div[hasclass('event-filter-scn')]" position="attributes">
-        	<attribute name="t-if">len(authors) or len(tags) or len(types)</attribute>
-        </xpath>
-    </template>
-</odoo>

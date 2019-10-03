@@ -1,0 +1,131 @@
+<odoo>
+  <data>
+    <!-- explicit list view definition -->
+    <record model="ir.ui.view" id="gunwerks_ballistics.profiles_list">
+      <field name="name">Ballistics Profile</field>
+      <field name="model">ballistic.profiles</field>
+      <field name="arch" type="xml">
+        <tree>
+          <field name="name"/>
+          <field name="res_partner_id"/>
+        </tree>
+      </field>
+    </record>
+
+    <!-- explicit list view definition -->
+    <record model="ir.ui.view" id="gunwerks_ballistics.profiles_form">
+      <field name="name">Ballistics Profile</field>
+      <field name="model">ballistic.profiles</field>
+      <field name="arch" type="xml">
+        <form>
+          <sheet>
+            <group>
+              <field name="name"/>
+              <field name="res_partner_id"/>
+              <field name='input_units'/>
+            </group>
+            <group>
+              <group string='Weapon Details'>
+                <field name="bullet_caliber_id" options="{'no_create': True}"/>
+                <field name="twist"/>
+                <field name="twist_dir"/>
+                <field name="sight_height"/>                
+                <field name="zero_range"/>
+                <field name="zero_elevation_offset"/>
+                <field name="zero_angle_active"/>
+                <field name="zero_angle" attrs="{'invisible': [('zero_angle_active','=', False)]}"/>
+                <field name='turret_adj_active'/>
+                <field name="elevation_adj_factor" attrs="{'invisible': [('turret_adj_active','=', False)]}"/>
+                <field name="wind_adj_factor" attrs="{'invisible': [('turret_adj_active','=', False)]}"/>
+              </group>
+              <group string='Bullet Details'>
+                <field name="bullet_custom"/>
+                <field name="bullet_mfg_id" attrs="{'invisible': [('bullet_custom', '!=',False)]}"/>
+                <field name="bullet_model_id" attrs="{'invisible': [('bullet_custom', '!=',False)]}"/>
+                <field name="drag_function"/>
+                <field name="bc"/>
+                <field name="bullet_lenght" attrs="{'invisible': [('bullet_custom', '=',False)]}"/>
+                <field name="bullet_weight" attrs="{'invisible': [('bullet_custom', '=',False)]}"/>
+              </group>
+            </group>
+            <group>
+              <group string='MV Details'>
+                <field name="measured_muzzle_velocity"/>
+                <field name="muzzle_chrono_distance"/>
+                <field name="powder_factor_active"/>
+                <field name="base_powder_temp" attrs="{'invisible': [('powder_factor_active','=',False)]}"/>
+                <field name="powder_factor" attrs="{'invisible': [('powder_factor_active','=',False)]}"/>
+              </group>
+              <group string='Ballistic Turret Details'>
+                <field name="custom_turret_active"/>
+                <field name="turret_altitude" attrs="{'invisible': [('custom_turret_active','=',False)]}"/>
+                <field name="turret_mv" attrs="{'invisible': [('custom_turret_active','=',False)]}"/>
+                <field name="bdc_units" attrs="{'invisible': [('custom_turret_active','=',False)]}"/>
+                <field name="load_desc" attrs="{'invisible': [('custom_turret_active','=',False)]}"/>
+              </group>
+            </group>
+          </sheet>
+        </form>
+      </field>
+    </record>
+
+    <record model="ir.ui.view" id="gunwerks_ballistics.enviroment_form">
+      <field name="name">Ballistics Environments</field>
+      <field name="model">ballistic.enviroment</field>
+      <field name="arch" type="xml">
+        <form>
+          <sheet>
+            <group string='Environmentals'>
+              <field name='da_active'/>
+              <field name="density_altitude" attrs="{'invisible': [('da_active', '=',False)]}"/>
+              <field name="elevation" attrs="{'invisible': [('da_active', '!=',False)]}"/>
+              <field name="temp" attrs="{'invisible': [('da_active', '!=',False)]}"/>
+              <field name="pressure" attrs="{'invisible': [('da_active', '!=',False)]}"/>
+              <field name="humidity" attrs="{'invisible': [('da_active', '!=',False)]}"/>
+              <field name="latitude"/>
+              <field name="base_wind_speed"/>                
+            </group>
+          </sheet>
+        </form>
+      </field>
+    </record>
+
+    <!-- actions opening views on models -->
+    <record model="ir.actions.act_window" id="gunwerks_ballistics.action_ballistic_profiles">
+      <field name="name">Ballistic Profiles</field>
+      <field name="res_model">ballistic.profiles</field>
+      <field name="view_mode">tree,form</field>
+    </record>
+
+    <record model="ir.actions.act_window" id="gunwerks_ballistics.action_ballistic_enviroment">
+      <field name="name">Ballistic Enviroment</field>
+      <field name="res_model">ballistic.enviroment</field>
+      <field name="view_mode">tree,form</field>
+    </record>
+
+    <!-- server action to the one above -->
+    <!--
+    <record model="ir.actions.server" id="gunwerks_ballistics.action_server">
+      <field name="name">gunwerks_ballistics server</field>
+      <field name="model_id" ref="model_gunwerks_ballistics_gunwerks_ballistics"/>
+      <field name="state">code</field>
+      <field name="code">
+        action = {
+          "type": "ir.actions.act_window",
+          "view_mode": "tree,form",
+          "res_model": self._name,
+        }
+      </field>
+    </record>
+    -->
+
+    <!-- Top menu item -->
+    <menuitem name="Ballistics" id="gunwerks_ballistics.menu_root"/>
+
+    <!-- menu categories -->
+    <menuitem name="Ballistic Profiles" id="gunwerks_ballistics.profiles_menu" parent="gunwerks_ballistics.menu_root"
+              action="gunwerks_ballistics.action_ballistic_profiles"/>
+    <menuitem name="Ballistic Enviroments" id="gunwerks_ballistics.enviroment_menu" parent="gunwerks_ballistics.menu_root"
+              action="gunwerks_ballistics.action_ballistic_enviroment"/>
+  </data>
+</odoo>
