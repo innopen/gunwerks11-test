@@ -1,0 +1,5 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_turret_layout,access_turret_layout,model_turret_layout,base.group_user,1,1,1,1
+access_turret_job,access_turret_job,model_turret_job,base.group_user,1,1,1,1
+access_turret_laser,access_turret_laser,model_turret_laser,base.group_user,1,1,1,1
+access_laser_offsets,access_laser_offsets,model_laser_offsets,base.group_user,1,1,1,1

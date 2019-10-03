@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <data noupdate="0">
+        <record id="bullet_mfg_barnes" model="bullet.mfg">
+			<field name="name">Barnes</field>
+		</record>
+        <record id="bullet_mfg_berger" model="bullet.mfg">
+			<field name="name">Berger</field>
+		</record>
+        <record id="bullet_mfg_dtac" model="bullet.mfg">
+			<field name="name">DTAC</field>
+		</record>
+        <record id="bullet_mfg_eley" model="bullet.mfg">
+			<field name="name">Eley</field>
+		</record>
+        <record id="bullet_mfg_epa" model="bullet.mfg">
+			<field name="name">Extreme Peformance Ammunition</field>
+		</record>
+        <record id="bullet_mfg_gscustom" model="bullet.mfg">
+			<field name="name">GS Custom</field>
+		</record>
+        <record id="bullet_mfg_hawk" model="bullet.mfg">
+			<field name="name">Hawk</field>
+		</record>
+        <record id="bullet_mfg_hornady" model="bullet.mfg">
+			<field name="name">Hornady</field>
+		</record>
+        <record id="bullet_mfg_lapua" model="bullet.mfg">
+			<field name="name">Lapua</field>
+		</record>
+        <record id="bullet_mfg_lehigh" model="bullet.mfg">
+			<field name="name">Lehigh</field>
+		</record>
+        <record id="bullet_mfg_nosler" model="bullet.mfg">
+			<field name="name">Nosler</field>
+		</record>
+        <record id="bullet_mfg_predator" model="bullet.mfg">
+			<field name="name">Predator Projectiles</field>
+		</record>
+        <record id="bullet_mfg_sierra" model="bullet.mfg">
+			<field name="name">Sierra</field>
+		</record>
+        <record id="bullet_mfg_speer" model="bullet.mfg">
+			<field name="name">Speer</field>
+		</record>
+        <record id="bullet_mfg_swift" model="bullet.mfg">
+			<field name="name">Swift</field>
+		</record>
+        <record id="bullet_mfg_winchester" model="bullet.mfg">
+			<field name="name">Winchester</field>
+		</record>
+    </data>
+</odoo>

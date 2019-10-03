@@ -1,0 +1,7 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_bullet_model,access_bullet_model,model_bullet_model,base.group_user,1,1,1,1
+access_ballistic_profiles,access_ballistic_profiles,model_ballistic_profiles,base.group_user,1,1,1,1
+access_ballistic_workspace,access_ballistic_workspace,model_ballistic_workspace,base.group_user,1,1,1,1
+access_bullet_mfg,access_bullet_mfg,model_bullet_mfg,base.group_user,1,1,1,1
+access_bullet_caliber,access_bullet_caliber,model_bullet_caliber,base.group_user,1,1,1,1
+access_ballistic_enviroment,access_ballistic_enviroment,model_ballistic_enviroment,base.group_user,1,1,1,1

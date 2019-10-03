@@ -1,0 +1,199 @@
+<odoo>
+  <data>
+    <!-- explicit list view definition For Turret Layout -->
+    <record model="ir.ui.view" id="gunwerks_turrets.layout_list">
+      <field name="name">Turret Layouts</field>
+      <field name="model">turret.layout</field>
+      <field name="arch" type="xml">
+        <tree>
+          <field name="name"/>
+          <field name="turret_part"/>
+        </tree>
+      </field>
+    </record>
+
+    <!-- Form View for Turret layout -->
+    <record model="ir.ui.view" id="gunwerks_turrets.layout_form">
+      <field name="name">Turret Layout</field>
+      <field name="model">turret.layout</field>
+      <field name="arch" type="xml">
+        <form>
+          <sheet>
+            <div class='oe_title'>
+              <h1>
+                <field name='name' placeholder='Reference Name of Turret Layout'/>
+              </h1>
+            </div>
+            <group>
+              <group string='Turret Details'>
+                <field name="turret_part"/>
+                <field name='top_cap_active'/>
+                <field name='top_row_active'/>
+                <field name='middle_row_active'/>
+                <field name='bottom_row_active'/>
+              </group>
+              <group string="Turret Spec's">
+                <field name="adj_dir"/>
+                <field name="adj_rev"/>
+                <field name="angle_units"/>
+                <field name="click_units"/>
+              </group>
+            </group>
+            <notebook>
+              <page string='Turret Dimensions' name='turret_dimensions'>
+                <group>
+                  <group string='Top Cap'>
+                    <field name="cap_innner_dia"/>
+                    <field name="cap_outer_dia"/>
+                  </group>
+                  <group string='Face'>
+                    <field name="face_height"/>
+                    <field name="face_diameter"/>
+                  </group>
+                </group>
+              </page>
+              <page string='Laser Settings' name='laser_settings'>
+                <group>
+                  <field name='laser_offsets_ids'/>
+                </group>
+              </page>
+              <page string='Top Cap Settings' name='top_cap_settings' attrs="{'invisible': [('top_cap_active','=', False)]}">
+                <group>
+                  <group string='Inner Profile'>
+                    <field name='top_cap_inner_data'/>
+                    <field name='top_cap_inner_font'/>
+                  </group>
+                  <group string='Outer Profile'>
+                    <field name='top_cap_outer_data'/>
+                    <field name='top_cap_outer_font'/>
+                  </group>
+                </group>
+              </page>
+              <page string='Top Row Settings' name='top_row_settings' attrs="{'invisible': [('top_row_active','=', False)]}">
+                <group>
+                  <group string='Row Details'>
+                    <field name='top_info_type'/>
+                    <field name='top_font_size'/>
+                    <field name='top_line_width'/>
+                    <field name='top_row_height'/>
+                  </group>
+                  <group string='Line Heights'>
+                    <field name='top_100_line_height'/>
+                    <field name='top_50_line_height'/>
+                    <field name='top_25_line_height'/>
+                  </group>
+                </group>
+              </page>
+              <page string='Middle Row Settings' name='middle_row_settings' attrs="{'invisible': [('middle_row_active','=', False)]}">
+                <group>
+                  <group string='Row Details'>
+                    <field name='middle_info_type'/>
+                    <field name='middle_font_size'/>
+                    <field name='middle_line_width'/>
+                    <field name='middle_row_height'/>
+                  </group>
+                  <group string='Line Heights'>
+                    <field name='middle_100_line_height'/>
+                    <field name='middle_50_line_height'/>
+                    <field name='middle_25_line_height'/>
+                  </group>
+                </group>
+              </page>
+              <page string='Bottom Row Settings' name='bottom_row_settings' attrs="{'invisible': [('bottom_row_active','=', False)]}">
+                <group>
+                  <group string='Row Details'>
+                    <field name='bottom_info_type'/>
+                    <field name='bottom_font_size'/>
+                    <field name='bottom_line_width'/>
+                    <field name='bottom_row_height'/>
+                  </group>
+                  <group string='Line Heights'>
+                    <field name='bottom_100_line_height'/>
+                    <field name='bottom_50_line_height'/>
+                    <field name='bottom_25_line_height'/>
+                  </group>
+                </group>
+              </page>
+            </notebook>
+          </sheet>
+        </form>
+      </field>
+    </record>
+
+    <!-- explicit list view definition for Turret Jobs -->
+    <record model="ir.ui.view" id="gunwerks_turrets.job_list">
+      <field name="name">Turret Jobs</field>
+      <field name="model">turret.job</field>
+      <field name="arch" type="xml">
+        <tree>
+          <field name="mrp_production_id"/>
+          <field name="turret_profile_id"/>
+          <field name="ballistic_profile_id"/>
+        </tree>
+      </field>
+    </record>
+
+    <!-- Form View for Turret Jobs -->
+    <record model="ir.ui.view" id="gunwerks_turrets.job_form">
+      <field name="name">Turret Jobs</field>
+      <field name="model">turret.job</field>
+      <field name="arch" type="xml">
+        <form>
+          <sheet>
+            <group string='This is Just for Testing - Will be Integrated Into MO System'>
+              <group string='Job Settings'>
+                <field name='mrp_production_id'/>
+                <field name='turret_profile_id'/>
+                <field name='ballistic_profile_id'/>
+              </group> 
+              <group string='Output Settings'>
+                <field name='top_turret_laser_id'/>
+                <field name='face_turret_laser_id'/>
+              </group>
+            </group> 
+          </sheet>
+        </form>
+      </field>
+    </record>
+
+    <!-- actions opening views on models -->
+    <record model="ir.actions.act_window" id="gunwerks_turrets.action_turret_layout">
+      <field name="name">Turret Layout</field>
+      <field name="res_model">turret.layout</field>
+      <field name="view_mode">tree,form</field>
+    </record>
+
+    <record model="ir.actions.act_window" id="gunwerks_turrets.action_turret_job">
+      <field name="name">Turret Jobs</field>
+      <field name="res_model">turret.job</field>
+      <field name="view_mode">tree,form</field>
+    </record>
+
+    <!-- server action to the one above -->
+    <!--
+    <record model="ir.actions.server" id="gunwerks_turrets.action_server">
+      <field name="name">gunwerks_turrets server</field>
+      <field name="model_id" ref="model_gunwerks_turrets_gunwerks_turrets"/>
+      <field name="state">code</field>
+      <field name="code">
+        action = {
+          "type": "ir.actions.act_window",
+          "view_mode": "tree,form",
+          "res_model": self._name,
+        }
+      </field>
+    </record>
+    -->
+
+    <!-- Top menu item -->
+    <menuitem name="Turrets" id="gunwerks_turrets.menu_root"/>
+  
+    <!-- menu categories -->
+
+    <menuitem name="Turret Jobs" id="gunwerks_turrets.job" parent="gunwerks_turrets.menu_root"
+              action="gunwerks_turrets.action_turret_job"/>
+    <menuitem name="Turret Layouts" id="gunwerks_turrets.layout" parent="gunwerks_turrets.menu_root"
+              action="gunwerks_turrets.action_turret_layout"/>
+
+  </data>
+</odoo>

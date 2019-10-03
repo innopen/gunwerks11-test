@@ -113,6 +113,12 @@ class GunwerksWebsiteSale(WebsiteSale):
 
         parent_categories = []
         if category:
+            # START BIZZAPPDEV CUSTOMIZATION
+            category = request.env['product.public.category'].search(
+                [('id', '=', int(category))],
+                limit=1
+            )
+            # END BIZZAPPDEV CUSTOMIZATION
             url = "/shop/category/%s" % slug(category)
             current_category = category
             while current_category.parent_id:

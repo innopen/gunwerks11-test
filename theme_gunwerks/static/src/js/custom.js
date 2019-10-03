@@ -238,12 +238,29 @@ odoo.define('theme_gunwerks.custom', function(require) {
         });
 
         /* Product Variant Page Start */
-        if($('.row-level-1').length > 0) {
+        // START BIZZAPPDEV CUSTOMIZATION
 
-            var offset = $('.row-level-1').offset();
-            var height = $('.row-level-1').height();
-            var width = $('.row-level-1').width();
-            var widthT = $('.col-level-1').width();
+        var row_container = $('.tab-pane.container.active').find('.row-level-1');
+        if (!row_container.length) {
+            row_container = $('.row-level-1')
+        }
+        if(row_container.length > 0) {
+            var col_container = $('.tab-pane.container.active').find('.col-level-1');
+            if (!col_container.length) {
+                col_container = $('.col-level-1')
+            }
+            var offset = row_container.offset();
+            var height = row_container.height();
+            var width = row_container.width();
+            var widthT = col_container.width();
+        // OLD CODE
+        // if($('.row-level-1').length > 0) {
+
+        //     var offset = $('.row-level-1').offset();
+        //     var height = $('.row-level-1').height();
+        //     var width = $('.row-level-1').width();
+        //     var widthT = $('.col-level-1').width();
+        // END BIZZAPPDEV CUSTOMIZATION
             var top = offset.top + height + "px";
             var right = offset.left + "px";
             $('.tab-variant-in').css( {
@@ -275,7 +292,7 @@ odoo.define('theme_gunwerks.custom', function(require) {
                     'left': -(widthT * 2) + 'px',
                 });
             }
-            else{
+            else if($(window).width() > 400 && $(window).width() < 767 ){ // BIZZAPPDEV CUSTOMIZATION :: OLD(else {)
                 $('.col-level-1:nth-child(2n+2) .tab-variant-in').css( {
                     'left': -(width / 2) + 'px',
                 });
@@ -312,10 +329,10 @@ odoo.define('theme_gunwerks.custom', function(require) {
 
         var tab_attr_count = [];
         var tab_attr_value = {};
-
         $('input[name^="p_t_info_"]').each(function() {
-            tab_attr_count[$(this).attr('name')] = parseInt($(this).val());
-            tab_attr_value[$(this).attr('name')] = {};
+            var attr_name = $(this).attr('name')
+            tab_attr_count[attr_name] = parseInt($(this).val());
+            tab_attr_value[attr_name] = {};
         });
 
         $(".variant-value").on('click', function(e){
@@ -339,9 +356,10 @@ odoo.define('theme_gunwerks.custom', function(require) {
 
             var name = $(this).closest('.tab-pane').find('input[name^="p_t_info_"]').attr('name');
             tab_attr_value[name][attribute_id] = value_id;
-
-            if(tab_attr_count[name] === Object.keys(tab_attr_value[name]).length)
-            {
+            if ($(this).closest('fieldset').hasClass('required_config_attrib')) {
+                tab_req_attr_value[name][attribute_id] = value_id;
+            }
+            if(tab_attr_count[name] === Object.keys(tab_req_attr_value[name]).length){
                 $("a[href='#"+ name +"']").addClass('panel-completed');
             }
 

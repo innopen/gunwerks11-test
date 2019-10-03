@@ -405,7 +405,7 @@
                 </div>
             </form>
         </xpath>
-        <xpath expr="//div[@id='products_grid']//table" position="replace"/>
+        <xpath expr="//div[@id='products_grid']//table|//div[@id='products_grid']//div[hasclass('oe_list')]/.." position="replace"/>
         <xpath expr="//div[@id='products_grid']//t[@t-if='not bins']" position="replace"/>
         <xpath expr="//div[@id='products_grid']" position="inside">
             <div class="row row-b4">
