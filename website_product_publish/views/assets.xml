@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<odoo>
-    <template id="assets_gunwerks_product" name="Gunwerks Product Publish Assets" inherit_id="website.assets_frontend">
-        <xpath expr="." position="inside">
-            <script type="text/javascript" src="/website_product_publish/static/src/js/website_root.js"/>
-        </xpath>
-    </template>
-</odoo>
