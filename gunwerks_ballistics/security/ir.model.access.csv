@@ -4,4 +4,11 @@ access_ballistic_profiles,access_ballistic_profiles,model_ballistic_profiles,bas
 access_ballistic_workspace,access_ballistic_workspace,model_ballistic_workspace,base.group_user,1,1,1,1
 access_bullet_mfg,access_bullet_mfg,model_bullet_mfg,base.group_user,1,1,1,1
 access_bullet_caliber,access_bullet_caliber,model_bullet_caliber,base.group_user,1,1,1,1
-access_ballistic_enviroment,access_ballistic_enviroment,model_ballistic_enviroment,base.group_user,1,1,1,1
+access_ballistic_environment,access_ballistic_environment,model_ballistic_environment,base.group_user,1,1,1,1
+
+access_bullet_model,access_bullet_model,model_bullet_model,,1,1,1,1
+access_ballistic_profiles,access_ballistic_profiles,model_ballistic_profiles,,1,1,1,1
+access_ballistic_workspace,access_ballistic_workspace,model_ballistic_workspace,,1,1,1,1
+access_bullet_mfg,access_bullet_mfg,model_bullet_mfg,,1,1,1,1
+access_bullet_caliber,access_bullet_caliber,model_bullet_caliber,,1,1,1,1
+access_ballistic_environment,access_ballistic_environment,model_ballistic_environment,,1,1,1,1

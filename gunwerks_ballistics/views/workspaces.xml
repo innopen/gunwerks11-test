@@ -41,21 +41,21 @@
                 <page string='1st Workset'>
                   <group>
                     <field name='workset_1_profile_id'/>
-                    <field name='workset_1_enviroment_id'/>
+                    <field name='workset_1_environment_id'/>
                     <field name='workset_1_data'/>  
                   </group>
                 </page>
                 <page string='2nd Workset'>
                   <group>
                       <field name='workset_2_profile_id'/>
-                      <field name='workset_2_enviroment_id'/>
+                      <field name='workset_2_environment_id'/>
                       <field name='workset_2_data'/>  
                   </group>
                 </page>
                 <page string='3nd Workset'>
                   <group>                    
                     <field name='workset_3_profile_id'/>
-                    <field name='workset_3_enviroment_id'/>
+                    <field name='workset_3_environment_id'/>
                     <field name='workset_3_data'/>                    
                   </group>
                 </page>

@@ -15,15 +15,15 @@ class BallisticWorkspace(models.Model):
     range_increment = fields.Integer()
 
     workset_1_profile_id = fields.Many2one('ballistic.profiles')
-    workset_1_enviroment_id = fields.Many2one('ballistic.enviroment')
+    workset_1_environment_id = fields.Many2one('ballistic.environment')
     workset_1_data = fields.Text()
 
     workset_2_profile_id = fields.Many2one('ballistic.profiles')
-    workset_2_enviroment_id = fields.Many2one('ballistic.enviroment')
+    workset_2_environment_id = fields.Many2one('ballistic.environment')
     workset_2_data = fields.Text()
 
     workset_3_profile_id = fields.Many2one('ballistic.profiles')
-    workset_3_enviroment_id = fields.Many2one('ballistic.enviroment')
+    workset_3_environment_id = fields.Many2one('ballistic.environment')
     workset_3_data = fields.Text()
 
     #Settings

@@ -44,7 +44,7 @@
                 <field name="bullet_model_id" attrs="{'invisible': [('bullet_custom', '!=',False)]}"/>
                 <field name="drag_function"/>
                 <field name="bc"/>
-                <field name="bullet_lenght" attrs="{'invisible': [('bullet_custom', '=',False)]}"/>
+                <field name="bullet_length" attrs="{'invisible': [('bullet_custom', '=',False)]}"/>
                 <field name="bullet_weight" attrs="{'invisible': [('bullet_custom', '=',False)]}"/>
               </group>
             </group>
@@ -69,9 +69,9 @@
       </field>
     </record>
 
-    <record model="ir.ui.view" id="gunwerks_ballistics.enviroment_form">
+    <record model="ir.ui.view" id="gunwerks_ballistics.environment_form">
       <field name="name">Ballistics Environments</field>
-      <field name="model">ballistic.enviroment</field>
+      <field name="model">ballistic.environment</field>
       <field name="arch" type="xml">
         <form>
           <sheet>
@@ -97,9 +97,9 @@
       <field name="view_mode">tree,form</field>
     </record>
 
-    <record model="ir.actions.act_window" id="gunwerks_ballistics.action_ballistic_enviroment">
+    <record model="ir.actions.act_window" id="gunwerks_ballistics.action_ballistic_environment">
       <field name="name">Ballistic Enviroment</field>
-      <field name="res_model">ballistic.enviroment</field>
+      <field name="res_model">ballistic.environment</field>
       <field name="view_mode">tree,form</field>
     </record>
 
@@ -125,7 +125,7 @@
     <!-- menu categories -->
     <menuitem name="Ballistic Profiles" id="gunwerks_ballistics.profiles_menu" parent="gunwerks_ballistics.menu_root"
               action="gunwerks_ballistics.action_ballistic_profiles"/>
-    <menuitem name="Ballistic Enviroments" id="gunwerks_ballistics.enviroment_menu" parent="gunwerks_ballistics.menu_root"
-              action="gunwerks_ballistics.action_ballistic_enviroment"/>
+    <menuitem name="Ballistic Enviroments" id="gunwerks_ballistics.environment_menu" parent="gunwerks_ballistics.menu_root"
+              action="gunwerks_ballistics.action_ballistic_environment"/>
   </data>
 </odoo>
