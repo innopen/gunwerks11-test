@@ -1,22 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <odoo>
-    <data>
-        <!-- <template id="listing"> -->
-        <!--   <ul> -->
-        <!--     <li t-foreach="objects" t-as="object"> -->
-        <!--       <a t-attf-href="#{ root }/objects/#{ object.id }"> -->
-        <!--         <t t-esc="object.display_name"/> -->
-        <!--       </a> -->
-        <!--     </li> -->
-        <!--   </ul> -->
-        <!-- </template> -->
-        <!-- <template id="object"> -->
-        <!--   <h1><t t-esc="object.display_name"/></h1> -->
-        <!--   <dl> -->
-        <!--     <t t-foreach="object._fields" t-as="field"> -->
-        <!--       <dt><t t-esc="field"/></dt> -->
-        <!--       <dd><t t-esc="object[field]"/></dd> -->
-        <!--     </t> -->
-        <!--   </dl> -->
-        <!-- </template> -->
-    </data>
+  <template id="assets_frontend" name="Ballistic Assets Frontend" inherit_id="website.assets_frontend">\
+    <xpath expr="//script[last()]" position="after">
+      <script type="text/javascript" src="/gunwerks_ballistics/static/src/js/website_front.js"/>
+      <script type="text/javascript" src="/gunwerks_ballistics/static/src/js/custom.js"/>
+    </xpath>
+    <xpath expr="//link[last()]" position="after">
+      <link rel="stylesheet" href="/gunwerks_ballistics/static/src/less/custom_styles.less"/>
+    </xpath>
+  </template>
+
+  <template id="gw_page" name="Gunwerks Ballistic">
+    <t t-call="website.layout">
+      <div class="ballistics_layout oe_structure">
+        <div class="workspace-section">
+          <div class="ws-left">
+            <div class="row-b4 justify-content-between no-gutters">
+              <div class="col-auto">
+                <div class="wksp-select">
+                  <div class="dropdown btn-group dd_wsp gw_dd">
+                    <a href="#" class="dropdown-toggle bl-dropdown" data-toggle="dropdown">
+                      <span>Session</span>
+                      <span class="caret"></span>
+                    </a>
+                    <ul class="dropdown-menu bl-dropdown-menu" role="menu">
+                      <li class="ws_menu gw_menu" data-val="new"><span>New</span></li>
+                      <t t-foreach="workspaces" t-as="each_ws">
+                        <li class="ws_menu gw_menu ws_id" t-att-data-val="each_ws.id"><span t-esc="each_ws.name"/></li>
+                      </t>
+                    </ul>
+                  </div>
+                  <!-- <select class="workspace" name="workspace">
+                    <option value="" selected="selected" hidden="hidden">Session</option>
+                    <option value="new">New</option>
+                    <t t-foreach="workspaces" t-as="each_ws">
+                      <option t-att-value="each_ws.id" t-esc="each_ws.name"/>
+                    </t>
+                  </select> -->
+                </div>
+              </div>
+              <div class="col-auto">
+                <div class="view-buttons">
+                  <div class="pro-view grid_view"><label class="i-grid-view" for="grid_view"><input id="grid_view" type="radio" name="pro_view" value="grid_view"/><span/></label></div>
+                  <div class="pro-view grid_view"><label class="i-mc-view" for="mc_view"><input id="mc_view" type="radio" name="pro_view" value="mc_view"/><span/></label></div>
+                  <div class="pro-view grid_view"><label class="i-hit-prob-view" for="hit_prob_view"><input id="hit_prob_view" type="radio" name="pro_view" value="hit_prob_view"/><span/></label></div>
+                  <div class="pro-view grid_view"><label class="i-hit-view" for="hit_view"><input id="hit_view" type="radio" name="pro_view" value="hit_view"/><span/></label></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="ws-right">
+            <div class="input-units">
+              <label>US</label><label class="pe-switch" for="input_unit"><input id="input_unit" class="t-switch" type="checkbox" name="input_unit"/><span/></label><label>SI</label>
+            </div>
+          </div>
+        </div>
+        <div class="profile-env-section">
+          <div class="pe-left col_sect">
+            <div class="col_sect-scroll">
+              <ul class="pe-side-nav pf_props">
+                <li class="pe-title">Firearm</li>
+                <li>Clymr</li>
+                <li data-prop="bullet_dia"><label class="theme-color">Bullet Dia</label><span class="value"/></li>
+                <li data-prop="zr_angle"><label>Zero Range</label> 
+                  <label class="pe-switch" for="zr_angle"><input id="zr_angle" class="t-switch value" name="zr_angle" type="checkbox"/><span/></label>
+                  <label>Angle</label>
+                </li>
+                <li data-prop="zero_range"><label>Zero Range</label><span class="value"/><span class="mu">in</span></li>
+                <li data-prop="zero_angle"><label class="theme-color">Zero Angle</label><span class="value"/><span class="mu">deg</span></li>
+                <li data-prop="scope_height"><label class="theme-color">Scope Height</label><span class="value"/><span class="mu">in</span></li>
+                <li data-prop="twist_rate"><label class="theme-color">Twist Rate</label><span class="value"/><span class="mu">in</span></li>
+                <li data-prop="twist_dir"><label class="theme-color">Twist Dir</label><span class="value"/></li>
+              </ul>
+              <ul class="pe-side-nav ammo">
+                <li class="pe-title">Gunwerks LR</li>
+                <li data-prop="muzzle_vel"><label class="theme-color">Muzzle Vel</label><span class="value"/><span class="mu">fps</span></li>
+                <li data-prop="bullet_weight"><label class="theme-color">Bullet Weight</label><span class="value"/><span class="mu">gr</span></li>
+                <li data-prop="bullet_length"><label class="theme-color">Bullet Length</label><span class="value"/><span class="mu">in</span></li>
+                <li data-prop="drag_function"><label class="theme-color">Drag Function</label><span class="value"/></li>
+                <li data-prop="bc"><label class="theme-color">BC</label><span class="value"/></li>
+              </ul>
+            </div>
+            <div class="btn_expand pr-more-btn">More</div>
+          </div>
+          <div class="pe-middle">
+            <div class="pf-mid-head">
+              <div class="pf-select">
+                <!-- <div class="dropdown btn-group dd_pf gw_dd">
+                  <a href="#" class="dropdown-toggle btn btn-default" data-toggle="dropdown">
+                    <span>Profile</span>
+                    <span class="caret"></span>
+                  </a>
+                  <ul class="dropdown-menu" role="menu">
+                    <li class="pf_menu gw_menu" data-val="new"><span>New</span></li>
+                    <li class="pf_menu gw_menu" data-val="new"><span>Duplicate</span></li>
+                  </ul>
+                </div> -->
+                <!-- <select class="profile" name="profile">
+                  <option value="" selected="selected" hidden="hidden">Profile</option>
+                  <option value="new">New</option>
+                  <option value="duplicate">Duplicate</option>
+                </select> -->
+              </div>
+              <!-- <div class="profile_section"> -->
+              <ul class="ws_profiles_tab nav nav-tabs">
+                <li class="pf_tab nav-item active def_pf_tab" data-pf_id="0">
+                  <!-- <a class="nav-link active" data-toggle="tab" href="#def_pf_tabpane">Profile</a> -->
+                  <div class="dropdown btn-group dd_pf gw_dd">
+                    <a href="#" class="dropdown-toggle bl-dropdown" data-toggle="dropdown">
+                      <span>Profile</span>
+                      <span class="caret"></span>
+                    </a>
+                    <ul class="dropdown-menu bl-dropdown-menu" role="menu">
+                      <li class="pf_menu gw_menu" data-val="new"><span>New</span></li>
+                      <li class="pf_menu gw_menu" data-val="new"><span>Duplicate</span></li>
+                    </ul>
+                  </div>
+                </li>
+              </ul>
+              <div class="add_profile bl-plus-btn"><span></span></div>
+              <div class="setting-options">
+                <div class="dropdown btn-group dd_wsp gw_dd">
+                  <a href="#" class="dropdown-toggle bl-dropdown" data-toggle="dropdown">
+                    <span>Settings</span>
+                    <span class="caret"></span>
+                  </a>
+                  <ul class="dropdown-menu bl-dropdown-menu" role="menu">
+                    <li class="st_menu gw_menu" data-val=""><span></span></li>
+                  </ul>
+                </div>
+              </div>
+              <!-- </div> -->
+            </div>
+            <div class="pf-mid-body ws_profiles_tabpane tab-content">
+              <div class="tab-pane active" id="pf_gridview" data-pf_id="0">
+                <t t-call="gunwerks_ballistics.profile_ballistic_table"/>
+              </div>
+              <!-- <div class="tab-pane container active def_pf_tabpane" id="pf_gridview" data-pf_id="0">
+                <t t-call="gunwerks_ballistics.profile_ballistic_table"/>
+              </div>
+              <div class="tab-pane container active def_pf_tabpane" id="pf_gridview" data-pf_id="0">
+                <t t-call="gunwerks_ballistics.profile_ballistic_table"/>
+              </div>
+              <div class="tab-pane container active def_pf_tabpane" id="pf_gridview" data-pf_id="0">
+                <t t-call="gunwerks_ballistics.profile_ballistic_table"/>
+              </div> -->
+            </div>
+          </div>
+          <div class="pe-right">
+            <div class="dropdown btn-group dd_pf_env gw_dd">
+              <a href="#" class="dropdown-toggle bl-dropdown" data-toggle="dropdown">
+                <!-- <div><span>Environment</span><span></span></div> -->
+                <span>Environment</span>
+                <span class="caret"></span>
+              </a>
+              <ul class="dropdown-menu bl-dropdown-menu" role="menu">
+                <li class="env_menu gw_menu" data-val="new"><span>New</span></li>
+                <li class="env_menu gw_menu" data-val="save"><span>Save</span></li>
+                <li class="env_menu gw_menu" data-val="dlt"><span>Delete</span></li>
+              </ul>
+            </div>
+            <div class="col_sect">
+              <div class="col_sect-scroll">
+                <ul class="env_props pe-side-nav">
+                  <li data-prop="density_altitude"><label>Density Altitude</label><span class="value"/></li>
+                  <li data-prop="elevation"><label>Elevation</label><span class="value"/><span class="mu">Ft</span></li>
+                  <li data-prop="temperature"><label>Temperature</label><span class="value"/><span class="mu">&amp;deg;F</span></li>
+                  <li data-prop="pressure"><label>Pressure</label><span class="value"/><span class="mu">inHg</span></li>
+                  <li data-prop="humidity"><label>Humidity</label><span class="value"/><span class="mu">%RH</span></li>
+                  <li data-prop="shot_direction"><label>Shot Direction</label><span class="value"/><span class="mu">deg</span></li>
+                  <li data-prop="shot_angle"><label>Shot Angle</label><span class="value"/><span class="mu">deg</span></li>
+                  <li data-prop="shot_cant"><label>Shot Cant</label><span class="value"/><span class="mu">deg</span></li>
+                  <li data-prop="latitude"><label>Latitude</label><span class="value"/><span class="mu">deg</span></li>
+                  <li data-prop="base_wind"><label>Base Wind</label><span class="value"/><span class="mu">mph</span></li>
+                  <li data-prop="base_wind_dir"><label>Base Wind Dir</label><span class="value"/></li>
+                </ul>
+              </div>
+              <div class="btn_expand pr-more-btn">More</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </t>
+  </template>
+
+  <template id="profiles_tabs">
+    
+  </template>
+
+  <!-- <template id="default_pf_tabpane">
+    <t t-set="b_head_data" t-value="request.env['ballistic.profiles'].ballistic_heads()"/>
+    <div class="tab-pane container">
+      <table class="table table-bordered">
+        <thead>
+          <tr>
+            <t t-foreach="b_head_data" t-as="each_hd">
+              <th scope="col" t-att-data-col_key="each_hd.get('col_key')"><span t-esc="each_hd.name"/><span t-esc="'(' + each_hd.mu + ')'"/></th>
+            </t>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </div>
+  </template> -->
+
+  <template id="profile_ballistic_table" name="Profile Ballistic Table">
+    <t t-set="ballistics_data" t-value="profile_id.run_ballistic_calc() if profile_id else None"/>
+    <t t-set="b_head_data" t-value="profile_id.ballistic_heads() if profile_id else request.env['ballistic.profiles'].sudo().ballistic_heads()"/>
+      <div class="table-responsive">
+        <table id="ballistics_table" class="table table-bordered">
+          <thead>
+            <tr>
+              <t t-foreach="b_head_data" t-as="each_hd">
+                <th scope="col" t-att-data-col_key="each_hd.get('col_key')"><span t-esc="each_hd.get('name')"/><br/><small t-esc="'(' + each_hd.get('mu') + ')'"/></th>
+              </t>
+            </tr>
+          </thead>
+          <tbody>
+            <t t-if="ballistics_data">
+              <t t-foreach="ballistics_data" t-as="each_bd">
+                <tr>
+                  <t t-foreach="b_head_data" t-as="each_hd">
+                    <t t-if="each_hd.get('col_key') == 'range'">
+                      <td t-esc="each_bd"/>
+                    </t>
+                    <t t-else="">
+                      <td t-esc="ballistics_data.get(each_bd).get(each_hd.get('col_key'), '')"/>
+                    </t>
+                  </t>
+                </tr>
+              </t>
+            </t>
+            <t t-else="">
+              <t t-foreach="range(0,15)" t-as="r">
+                <tr>
+                  <t t-foreach="b_head_data" t-as="each_hd">
+                    <td/>
+                  </t>
+                </tr>
+              </t>
+            </t>
+          </tbody>
+        </table>
+      </div>
+  </template>
 </odoo>
