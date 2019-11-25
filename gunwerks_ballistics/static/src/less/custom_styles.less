@@ -297,7 +297,8 @@
     }
     .col_sect.open {
     	.col_sect-scroll {
-    		overflow-y: auto;
+    		overflow: inherit;
+            height: auto;
     	}
     }
     /*more button*/
@@ -408,8 +409,6 @@
 
     /*table*/
     .table-responsive {
-	    overflow: auto;
-		max-height: 500px;
 		border: 1px solid #707070;
     	.table {
     		table-layout: auto !important;
