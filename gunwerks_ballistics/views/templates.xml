@@ -218,7 +218,9 @@
           </thead>
           <tbody>
             <t t-if="ballistics_data">
-              <t t-foreach="ballistics_data" t-as="each_bd">
+              <t t-set="bd_keys" t-value="list(ballistics_data.keys())"/>
+              <t t-set="bd_keys_sort" t-value="bd_keys.sort()"/>
+              <t t-foreach="bd_keys" t-as="each_bd">
                 <tr>
                   <t t-foreach="b_head_data" t-as="each_hd">
                     <t t-if="each_hd.get('col_key') == 'range'">

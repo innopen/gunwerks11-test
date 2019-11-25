@@ -50,7 +50,8 @@ odoo.define('gunwerks_ballistics.website_front', function(require){
                             // );
                         }
                         // debugger;
-                        $pf_tabs.find("li:not('.def_pf_tab'):eq(0)").trigger("click");
+                        $pf_tabs.find("li.pf_tab:not('.def_pf_tab'):eq(0) > a").tab("show");
+                        $pf_tabs.find("li.pf_tab:not('.def_pf_tab'):eq(0)").trigger("click");
                     }
                     else{
                         $pf_tabs.find("li.def_pf_tab").removeClass("hidden");
@@ -99,17 +100,19 @@ odoo.define('gunwerks_ballistics.website_front', function(require){
     var update_env_infos = function($el, data){
         var $ballistics_ele = $el.closest(".ballistics_layout");
         var $env_ele = $ballistics_ele.find(".env_props");
-        $env_ele.find("li[data-prop='density_altitude'] .value").text(data.env.density_altitude);
-        $env_ele.find("li[data-prop='elevation'] .value").text(data.env.elevation);
-        $env_ele.find("li[data-prop='temperature'] .value").text(data.env.temperature);
-        $env_ele.find("li[data-prop='pressure'] .value").text(data.env.pressure);
-        $env_ele.find("li[data-prop='humidity'] .value").text(data.env.humidity);
-        $env_ele.find("li[data-prop='shot_direction'] .value").text(data.env.shot_direction);
-        $env_ele.find("li[data-prop='shot_angle'] .value").text(data.env.shot_angle);
-        $env_ele.find("li[data-prop='shot_cant'] .value").text(data.env.shot_cant);
-        $env_ele.find("li[data-prop='latitude'] .value").text(data.env.latitude);
-        $env_ele.find("li[data-prop='base_wind'] .value").text(data.env.base_wind);
-        $env_ele.find("li[data-prop='base_wind_dir'] .value").text(data.env.base_wind_dir);
+        if(data.env){
+            $env_ele.find("li[data-prop='density_altitude'] .value").text(data.env.density_altitude);
+            $env_ele.find("li[data-prop='elevation'] .value").text(data.env.elevation);
+            $env_ele.find("li[data-prop='temperature'] .value").text(data.env.temperature);
+            $env_ele.find("li[data-prop='pressure'] .value").text(data.env.pressure);
+            $env_ele.find("li[data-prop='humidity'] .value").text(data.env.humidity);
+            $env_ele.find("li[data-prop='shot_direction'] .value").text(data.env.shot_direction);
+            $env_ele.find("li[data-prop='shot_angle'] .value").text(data.env.shot_angle);
+            $env_ele.find("li[data-prop='shot_cant'] .value").text(data.env.shot_cant);
+            $env_ele.find("li[data-prop='latitude'] .value").text(data.env.latitude);
+            $env_ele.find("li[data-prop='base_wind'] .value").text(data.env.base_wind);
+            $env_ele.find("li[data-prop='base_wind_dir'] .value").text(data.env.base_wind_dir);
+        }
     }
 
     $(document).on("click", ".ws_profiles_tab .pf_tab", function(e){
