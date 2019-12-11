@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <data noupdate="0">
+        <record id="default_avalara_api" model="avalara_salestax">
+			<field name="disable_tax_calculation">True</field>
+		</record>
+    </data>
+</odoo>
