@@ -39,10 +39,11 @@ This module has Following Features:
         "views/sale_order_view.xml",
         "views/account_tax_view.xml",
         "report/sale_order_templates.xml",
+        "data/avalara_salestax.xml"
         #"views/demo.xml",
     ],
     'demo': [
-
+        
     ],
     "test": [],
     'images': [
