@@ -2,11 +2,11 @@
 <odoo>
     <data noupdate="0">
         <record id="default_avalara_api" model="avalara_salestax">
-			<field name="disable_tax_calculation">True</field>
-            <field name="account_number">"Demo"</field>
-            <field name="license_key">"Demo"</field>
-            <field name="service_url">"Demo"</field>
-            <field name="company_code">"Demo"</field>
+			<field name="disable_tax_calculation">False</field>
+            <field name="account_number">"2000451549"</field>
+            <field name="license_key">"4B13786423FF93A6"</field>
+            <field name="service_url">"https://sandbox-rest.avatax.com/"</field>
+            <field name="company_code">"GUNWERKSTEST"</field>
             <field name="company_id">1</field>
 		</record>
     </data>
