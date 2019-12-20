@@ -8,7 +8,7 @@
             <field name="service_url">https://sandbox-rest.avatax.com/</field>
             <field name="company_code">GUNWERKSTEST</field>
             <field name="company_id">1</field>
-            <field name="address_validation">False</field>
+            <field name="address_validation">True</field>
 		</record>
     </data>
 </odoo>
